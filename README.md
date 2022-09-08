@@ -1,5 +1,5 @@
 # INF1085-201-22A-02
-INF1085-Administration Linux-22A-02
+INF1085-Administration Linux-22A-02  [INF1085-201-22A-02@collegeboreal.ca](INF1085-201-22A-02@collegeboreal.ca)
 
 ```
 Brice Robert is inviting you to a scheduled Zoom meeting.
