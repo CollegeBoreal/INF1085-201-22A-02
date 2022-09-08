@@ -66,12 +66,13 @@ Find your local number: https://collegeboreal.zoom.us/u/kcsZ6xD3Py
 |06|22-10-10|[3.ENV](3.ENV)                                  |                                         |                   |
 |07|22-10-17|[4.Linux](4.Linux)                              | Boot                                    | Chapitre 3, 4, 5  |
 |08|22-10-24| Autumn Break                                   |                                         |                   |
-|09|22-11-07|          |                                      | Chapitre 2        |
-|10|22-11-14|[5.Volume](5.Volume)                              |                                         |                   |
-|11|22-11-21|[8.Shell](8.Shell)                                                |                                         |                   |
-|12|22-12-19|[5.Virtualization](./5.Virtualization)          | AWS                                     |                   |
-|13|22-12-06|                                                |                                         |                   |
-|14|22-12-13| Fin des cours                                  |                                         |                   |
+|09|22-10-31|          |                                      | Chapitre 2        |
+|10|22-11-07|          |                                      | Chapitre 2        |
+|11|22-11-14|[5.Volume](5.Volume)                              |                                         |                   |
+|12|22-11-21|[8.Shell](8.Shell)                                                |                                         |                   |
+|13|22-11-28|[5.Virtualization](./5.Virtualization)          | AWS                                     |                   |
+|14|22-12-05|                                                |                                         |                   |
+|15|22-12-12| Fin des cours                                  |                                         |                   |
 
 # References
 
