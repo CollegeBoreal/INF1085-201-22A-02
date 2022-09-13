@@ -1,4 +1,4 @@
-# Participation au 13-09-2022 18:42
+# Participation au 13-09-2022 18:43
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -22,7 +22,7 @@
 | 3 | [300123679](300123679/README.md) - <image src='https://avatars0.githubusercontent.com/u/105458655?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 4 | [300124074](300124074/README.md) - <image src='https://avatars0.githubusercontent.com/u/97147101?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 5 | [300124734](300124734/README.md) - <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
-| 6 | [300124863](300124863/README.md) - <image src='https://avatars0.githubusercontent.com/u/97644305?s=460&v=4' width=20 height=20></image> | :x: |
+| 6 | [300124863](300124863/README.md) - <image src='https://avatars0.githubusercontent.com/u/97644305?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 7 | [300124876](300124876/README.md) - <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
 | 8 | [300125847](300125847/README.md) - <image src='https://avatars0.githubusercontent.com/u/97644650?s=460&v=4' width=20 height=20></image> | :x: |
 | 9 | [300126020](300126020/README.md) - <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
