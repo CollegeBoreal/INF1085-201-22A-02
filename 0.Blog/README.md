@@ -82,5 +82,5 @@ http://jodies.de/ipcalc?host=10.13.237.0&mask1=24
 
 # Grille de notation
 
-<img src="images/Rubrique-Linux.png" width=1097 height=762 > </img>
+
 
