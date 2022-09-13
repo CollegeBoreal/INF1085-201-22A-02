@@ -20,7 +20,12 @@ Astuces:
        Choisir une adresse dans la plage de réseau:
        
        - Externe: 10.13.237.0/24
-       
+
+* Demande Acces VPN
+
+https://services.collegeboreal.ca/
+
+> PAGE D'ACCUEIL > CENTRE D'APPUI TECHNIQUE > DEMANDE D'ACCÈS VPN
        
 ## Legende
 
