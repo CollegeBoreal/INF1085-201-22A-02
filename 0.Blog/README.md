@@ -48,20 +48,19 @@ https://services.collegeboreal.ca/
 | 5 | [300124734](../300124734/README.md) - <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
 | 6 | [300124863](../300124863/README.md) - <image src='https://avatars0.githubusercontent.com/u/97644305?s=460&v=4' width=20 height=20></image> | :x: |
 | 7 | [300124876](../300124876/README.md) - <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
-| 8 | [300125847](../300125847/README.md) - <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
+| 8 | [300125847](../300125847/README.md) - <image src='https://avatars0.githubusercontent.com/u/97644650?s=460&v=4' width=20 height=20></image> | :x: |
 | 9 | [300126020](../300126020/README.md) - <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
 | 10 | [300126215](../300126215/README.md) - <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
 | 11 | [300126268](../300126268/README.md) - <image src='https://avatars0.githubusercontent.com/u/97314948?s=460&v=4' width=20 height=20></image> | :x: |
-| 12 | [300126634](../300126634/README.md) - <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
+| 12 | [300126634](../300126634/README.md) - <image src='https://avatars0.githubusercontent.com/u/97324827?s=460&v=4' width=20 height=20></image> | :x: |
 | 13 | [300126800](../300126800/README.md) - <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
 | 14 | [300126966](../300126966/README.md) - <image src='https://avatars0.githubusercontent.com/u/94937166?s=460&v=4' width=20 height=20></image> | :x: |
 | 15 | [300127065](../300127065/README.md) - <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
-| 16 | [300127290](../300127290/README.md) - <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
+| 16 | [300127290](../300127290/README.md) - <image src='https://avatars0.githubusercontent.com/u/105463700?s=460&v=4' width=20 height=20></image> | :x: |
 | 17 | [300127868](../300127868/README.md) - <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
 | 18 | [300127921](../300127921/README.md) - <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
-| 19 | [300128276](../300128276/README.md) - <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
+| 19 | [300128276](../300128276/README.md) - <image src='https://avatars0.githubusercontent.com/u/113144317?s=460&v=4' width=20 height=20></image> | :x: |
 | 20 | [300128326](../300128326/README.md) - <image src='https://avatars0.githubusercontent.com/u/105472970?s=460&v=4' width=20 height=20></image> | :x: |
-
 
 #### Example
 | :id:      |   Blog (https://wordpress.com)                          |
