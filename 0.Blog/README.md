@@ -40,10 +40,10 @@ https://services.collegeboreal.ca/
 
 |:hash:| :id:      |   Blog (https://wordpress.com)                                                    | [VPN](https://github.com/CollegeBoreal/Tutoriels/tree/main/V.VPN)  | [Check](README.md#legende) | [Reseau Externe](README.md#one-reseau-interne)| Baie |
 |------|-----------|-----------------------------------------------------------------------------------|------|--------------------|---------------|----|
-| 0 | [100028762](../100028762/README.md) - <image src='https://avatars0.githubusercontent.com/u/96226008?s=460&v=4' width=20 height=20></image> | :x: |
-| 1 | [300119623](../300119623/README.md) - <image src='https://avatars0.githubusercontent.com/u/97314467?s=460&v=4' width=20 height=20></image> | :x: |
-| 2 | [300120726](../300120726/README.md) - <image src='https://avatars0.githubusercontent.com/u/105461057?s=460&v=4' width=20 height=20></image> | :x: |
-| 3 | [300123679](../300123679/README.md) - <image src='https://avatars0.githubusercontent.com/u/105458655?s=460&v=4' width=20 height=20></image> | :x: |
+| 0 | [100028762](./100028762/README.md) - <image src='https://avatars0.githubusercontent.com/u/96226008?s=460&v=4' width=20 height=20></image> | :x: |
+| 1 | [300119623](./300119623/README.md) - <image src='https://avatars0.githubusercontent.com/u/97314467?s=460&v=4' width=20 height=20></image> | :x: |
+| 2 | [300120726](./300120726/README.md) - <image src='https://avatars0.githubusercontent.com/u/105461057?s=460&v=4' width=20 height=20></image> | :x: |
+| 3 | [300123679](./300123679/README.md) - <image src='https://avatars0.githubusercontent.com/u/105458655?s=460&v=4' width=20 height=20></image> | :x: |
 | 4 | [300124074](../300124074/README.md) - <image src='https://avatars0.githubusercontent.com/u/97147101?s=460&v=4' width=20 height=20></image> | :x: |
 | 5 | [300124734](../300124734/README.md) - <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
 | 6 | [300124863](../300124863/README.md) - <image src='https://avatars0.githubusercontent.com/u/97644305?s=460&v=4' width=20 height=20></image> | :x: |
