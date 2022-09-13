@@ -33,18 +33,18 @@ koinaag
 octocat
 memedlebleu
 octocat
-octocat
+chakibmahi
 octocat
 octocat
 Sedric-g
-octocat
+Franklin18TEKAM
 octocat
 Bakmomo
 octocat
+300127
 octocat
 octocat
-octocat
-octocat
+Soumaila-7830
 Mamadou625
 )
 
@@ -57,18 +57,18 @@ AVATARS=(
 583231
 97644305
 583231
-583231
+97644650
 583231
 583231
 97314948
-583231
+97324827
 583231
 94937166
 583231
+105463700
 583231
 583231
-583231
-583231
+113144317
 105472970
 )
 
