@@ -38,8 +38,8 @@ https://services.collegeboreal.ca/
 
 ## Liste des blogs
 
-|:hash:| :id:      |   Blog (https://wordpress.com)                                                    | [VPN](https://github.com/CollegeBoreal/Tutoriels/tree/main/V.VPN)  | [Check](README.md#legende) | [Reseau Externe](README.md#one-reseau-interne)| Baie |
-|------|-----------|-----------------------------------------------------------------------------------|------|--------------------|---------------|----|
+|:hash:| :id:      | :scroll: |  Blog (https://wordpress.com)                                                    | [VPN](https://github.com/CollegeBoreal/Tutoriels/tree/main/V.VPN)  | [Check](README.md#legende) | [Reseau Externe](README.md#one-reseau-interne)| Baie |
+|------|-----------|----------|-----------------------------------------------------------------------------------|------|--------------------|---------------|----|
 | 0 | [100028762](100028762/README.md) - <image src='https://avatars0.githubusercontent.com/u/96226008?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 1 | [300119623](300119623/README.md) - <image src='https://avatars0.githubusercontent.com/u/97314467?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 2 | [300120726](300120726/README.md) - <image src='https://avatars0.githubusercontent.com/u/105461057?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
