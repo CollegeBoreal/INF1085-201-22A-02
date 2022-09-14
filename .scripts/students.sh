@@ -40,7 +40,7 @@ Sedric-g
 Franklin18TEKAM
 octocat
 Bakmomo
-octocat
+Maminata
 300127
 MellonAss
 octocat
@@ -64,7 +64,7 @@ AVATARS=(
 97324827
 583231
 94937166
-583231
+97314712
 105463700
 113466237
 583231
