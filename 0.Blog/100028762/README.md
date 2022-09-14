@@ -2,4 +2,4 @@
 
 ## mon blog
 
-:congo_kinshasa: Mariode
+:whale: Mariode
