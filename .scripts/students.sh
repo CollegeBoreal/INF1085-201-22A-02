@@ -35,7 +35,7 @@ memedlebleu
 octocat
 chakibmahi
 hakimdrai
-octocat
+zackL125
 Sedric-g
 Franklin18TEKAM
 octocat
@@ -59,7 +59,7 @@ AVATARS=(
 583231
 97644650
 97989532
-583231
+97623907
 97314948
 97324827
 583231
