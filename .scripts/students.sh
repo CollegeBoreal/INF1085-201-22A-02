@@ -30,11 +30,11 @@ Mario15student
 Qadash-243
 hponnan
 koinaag
-octocat
+ch9aw9aw
 memedlebleu
 octocat
 chakibmahi
-octocat
+hakimdrai
 octocat
 Sedric-g
 Franklin18TEKAM
@@ -54,11 +54,11 @@ AVATARS=(
 105461057
 105458655
 97147101
-583231
+94937145
 97644305
 583231
 97644650
-583231
+97989532
 583231
 97314948
 97324827
