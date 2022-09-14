@@ -2,5 +2,5 @@
 
 ## Blog
 
-:cote d'ivoire:
+:cote_divoire:
 
