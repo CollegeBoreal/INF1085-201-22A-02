@@ -41,7 +41,7 @@ https://services.collegeboreal.ca/
 |:hash:| :id:      | :scroll: |  Blog (https://wordpress.com)                                                    | [VPN](https://github.com/CollegeBoreal/Tutoriels/tree/main/V.VPN)  | [Check](README.md#legende) | [Reseau Interne](README.md#one-reseau-interne)| Baie |
 |------|-----------|----------|-----------------------------------------------------------------------------------|------|--------------------|---------------|----|
 | 0 | [100027015](100027015/README.md) - <image src='https://avatars0.githubusercontent.com/u/97314874?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
-| 1 | [100028762](100028762/README.md) - <image src='https://avatars0.githubusercontent.com/u/96226008?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://webmuca.wordpress.com
+| 1 | [100028762](100028762/README.md) - <image src='https://avatars0.githubusercontent.com/u/96226008?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://webmuca.wordpress.com | :x: | :x: | 10.13.237.29 | :two::nine: |
 | 2 | [300119623](300119623/README.md) - <image src='https://avatars0.githubusercontent.com/u/97314467?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://wordpress.com/post/mariode559827663.wordpress.com 
 | 3 | [300120726](300120726/README.md) - <image src='https://avatars0.githubusercontent.com/u/105461057?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://wordpress.com/post/nnet496373957.wordpress.com
 | 4 | [300123679](300123679/README.md) - <image src='https://avatars0.githubusercontent.com/u/105458655?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
