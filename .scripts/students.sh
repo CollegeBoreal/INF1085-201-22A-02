@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ETUDIANTS=(
+100027015
 100028762
 300119623
 300120726
@@ -22,9 +23,12 @@ ETUDIANTS=(
 300127921
 300128276
 300128326
+300128566
+300128694
 )
 
 IDS=(
+octocat
 Studiopolaris
 Mario15student
 Qadash-243
@@ -32,7 +36,7 @@ hponnan
 koinaag
 ch9aw9aw
 memedlebleu
-octocat
+hafsa08
 chakibmahi
 hakimdrai
 zackL125
@@ -43,12 +47,15 @@ Bakmomo
 Maminata
 300127
 MellonAss
-octocat
+tazere96
 Soumaila-7830
 Mamadou625
+octocat
+octocat
 )
 
 AVATARS=(
+583231
 96226008
 97314467
 105461057
@@ -56,7 +63,7 @@ AVATARS=(
 97147101
 94937145
 97644305
-583231
+98238582
 97644650
 97989532
 97623907
@@ -67,9 +74,11 @@ AVATARS=(
 97314712
 105463700
 113466237
-583231
+106841177
 113144317
 105472970
+583231
+583231
 )
 
 SERVERS=(
