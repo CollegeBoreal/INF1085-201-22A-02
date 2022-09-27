@@ -1,6 +1,6 @@
 # 2 Keys
 
-:one: Authoriser l'acces à sa machine au professeur
+## :one: Authoriser l'acces à sa machine au professeur
 
 * Connectez vous à votre machine avec `git bash` ou `putty`
 
@@ -26,7 +26,9 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD2pLhMqFGKffSdYvNCMAyM7598oBY+m/3q5AMXmb7I
 
 ##  [:two: Participation](.scripts/Participation.md)
 
-:three: Installer Docker Engine sur sa machine Linux
+:tada:
+
+## :three: Installer Docker Engine sur sa machine Linux
 
 - [ ] Suivre le tutoriel suivant
 
