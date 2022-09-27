@@ -47,11 +47,11 @@ https://services.collegeboreal.ca/
 | 4 | [300123679](300123679/README.md) - <image src='https://avatars0.githubusercontent.com/u/105458655?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://hponnan04.wixsite.com/installation-linux  | :x: | :x: | hugopo1@10.13.237.30 | :three::zero: |
 | 5 | [300124074](300124074/README.md) - <image src='https://avatars0.githubusercontent.com/u/97147101?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 6 | [300124734](300124734/README.md) - <image src='https://avatars0.githubusercontent.com/u/94937145?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://macpro855.wixsite.com/cherkaoui-inc | :x: | :x: | Superzaf@10.13.237.45 | :four::five: |
-| 7 | [300124863](300124863/README.md) - <image src='https://avatars0.githubusercontent.com/u/97644305?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://ahmedlebleu1.wixsite.com/lazrek 
+| 7 | [300124863](300124863/README.md) - <image src='https://avatars0.githubusercontent.com/u/97644305?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://ahmedlebleu1.wixsite.com/lazrek :x: | :x: | ahmedserver@10.13.237.26 | :two::six: |
 | 8 | [300124876](300124876/README.md) - <image src='https://avatars0.githubusercontent.com/u/98238582?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://nnet396619086.wordpress.com
 | 9 | [300125847](300125847/README.md) - <image src='https://avatars0.githubusercontent.com/u/97644650?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://300125847.wixsite.com/chakib | :x: | :x: | chaks@10.13.237.37 | :three::seven: |
 | 10 | [300126020](300126020/README.md) - <image src='https://avatars0.githubusercontent.com/u/97989532?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://newcompte1998.wixsite.com/hakimdrai
-| 11 | [300126215](300126215/README.md) - <image src='https://avatars0.githubusercontent.com/u/97623907?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://300126215.wixsite.com/zack-com
+| 11 | [300126215](300126215/README.md) - <image src='https://avatars0.githubusercontent.com/u/97623907?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://300126215.wixsite.com/zack-com | :x: | :x: | zack@10.13.237.39 | :three::nine: |
 | 12 | [300126268](300126268/README.md) - <image src='https://avatars0.githubusercontent.com/u/97314948?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 13 | [300126634](300126634/README.md) - <image src='https://avatars0.githubusercontent.com/u/97324827?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://derricktekamd.wixsite.com/franklin | :x: | :x: | ubuntu@10.13.237.34 | :three::four: |
 | 14 | [300126800](300126800/README.md) - <image src='https://avatars0.githubusercontent.com/u/105135304?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | | :x: | :x: | rafik950@10.13.237.40 | :four::zero: |
@@ -62,7 +62,7 @@ https://services.collegeboreal.ca/
 | 19 | [300127921](300127921/README.md) - <image src='https://avatars0.githubusercontent.com/u/106841177?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 20 | [300128276](300128276/README.md) - <image src='https://avatars0.githubusercontent.com/u/113144317?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 21 | [300128326](300128326/README.md) - <image src='https://avatars0.githubusercontent.com/u/105472970?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |[ 
-
+https://mdian3998.wixsite.com/monbloglunixserver |:x:| :x:| mamadou@10.13.237.2 | 0️⃣::two: |
 | 22 | [300128566](300128566/README.md) - <image src='https://avatars0.githubusercontent.com/u/101542761?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 23 | [300128694](300128694/README.md) - <image src='https://avatars0.githubusercontent.com/u/105947276?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |  https://falahcen200.wixsite.com/walid
 
