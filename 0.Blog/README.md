@@ -57,14 +57,14 @@ https://services.collegeboreal.ca/
 | 14 | [300126800](300126800/README.md) - <image src='https://avatars0.githubusercontent.com/u/105135304?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | | :x: | :x: | rafik950@10.13.237.40 | :four::zero: |
 | 15 | [300126966](300126966/README.md) - <image src='https://avatars0.githubusercontent.com/u/94937166?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://mbteck.wordpress.com | :heavy_check_mark: | :x: | bakmomo@10.13.237.31 | :three::one: |
 | 16 | [300127065](300127065/README.md) - <image src='https://avatars0.githubusercontent.com/u/97314712?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://salima792349951.wordpress.com
-| 17 | [300127290](300127290/README.md) - <image src='https://avatars0.githubusercontent.com/u/105463700?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://altayasara.wordpress.com | :heavy_check_mark: | :x: | sara@10.13.237.35 | :three::five |
+| 17 | [300127290](300127290/README.md) - <image src='https://avatars0.githubusercontent.com/u/105463700?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://altayasara.wordpress.com/
 | 18 | [300127868](300127868/README.md) - <image src='https://avatars0.githubusercontent.com/u/113466237?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 19 | [300127921](300127921/README.md) - <image src='https://avatars0.githubusercontent.com/u/106841177?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 20 | [300128276](300128276/README.md) - <image src='https://avatars0.githubusercontent.com/u/113144317?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 21 | [300128326](300128326/README.md) - <image src='https://avatars0.githubusercontent.com/u/105472970?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://mdian3998.wixsite.com/monbloglunixserver | :x: | :x: | mamadou@10.13.237.2 | :zero::two: |
 
 | 22 | [300128566](300128566/README.md) - <image src='https://avatars0.githubusercontent.com/u/101542761?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
-| 23 | [300128694](300128694/README.md) - <image src='https://avatars0.githubusercontent.com/u/105947276?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |  https://falahcen200.wixsite.com/walid
+| 23 | [300128694](300128694/README.md) - <image src='https://avatars0.githubusercontent.com/u/105947276?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |  https://falahcen200.wixsite.com/walid | :x: | :x: | mamadou@10.13.237.27 | :two::seven: |
 
 #### Example
 | :id:      |   Blog (https://wordpress.com)                          |
