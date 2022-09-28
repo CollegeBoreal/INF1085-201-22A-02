@@ -42,7 +42,7 @@ https://services.collegeboreal.ca/
 |------|-----------|----------|-----------------------------------------------------------------------------------|------|--------------------|---------------|----|
 | 0 | [100027015](100027015/README.md) - <image src='https://avatars0.githubusercontent.com/u/97314874?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://uh126887258.wordpress.com/  | :heavy_check_mark: | :x: | steeve@10.13.237.42 | :three::four: |
 | 1 | [100028762](100028762/README.md) - <image src='https://avatars0.githubusercontent.com/u/96226008?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://webmuca.wordpress.com | :heavy_check_mark: | :x: | madmax@10.13.237.29 | :two::nine: |
-| 2 | [300119623](300119623/README.md) - <image src='https://avatars0.githubusercontent.com/u/97314467?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://mariode559827663.wordpress.com :heavy_check_mark: | :x: | mariodeg@10.13.237.13 | :one::three: |
+| 2 | [300119623](300119623/README.md) - <image src='https://avatars0.githubusercontent.com/u/97314467?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://mariode559827663.wordpress.com | :heavy_check_mark: | :x: | mariodeg@10.13.237.13 | :one::three: |
 | 3 | [300120726](300120726/README.md) - <image src='https://avatars0.githubusercontent.com/u/105461057?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://nnet496373957.wordpress.com
 | 4 | [300123679](300123679/README.md) - <image src='https://avatars0.githubusercontent.com/u/105458655?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://hponnan04.wixsite.com/installation-linux  | :x: | :x: | hugopo1@10.13.237.30 | :three::zero: |
 | 5 | [300124074](300124074/README.md) - <image src='https://avatars0.githubusercontent.com/u/97147101?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
@@ -62,7 +62,6 @@ https://services.collegeboreal.ca/
 | 19 | [300127921](300127921/README.md) - <image src='https://avatars0.githubusercontent.com/u/106841177?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 20 | [300128276](300128276/README.md) - <image src='https://avatars0.githubusercontent.com/u/113144317?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 21 | [300128326](300128326/README.md) - <image src='https://avatars0.githubusercontent.com/u/105472970?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://mdian3998.wixsite.com/monbloglunixserver | :heavy_check_mark: | :x: | mamadou@10.13.237.2 | :zero::two: |
-
 | 22 | [300128566](300128566/README.md) - <image src='https://avatars0.githubusercontent.com/u/101542761?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 23 | [300128694](300128694/README.md) - <image src='https://avatars0.githubusercontent.com/u/105947276?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |  https://falahcen200.wixsite.com/walid | :x: | :x: |walidserver@10.13.237.27 | :two::seven: |
 
