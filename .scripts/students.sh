@@ -82,20 +82,20 @@ AVATARS=(
 )
 
 SERVERS=(
-ubuntu@10.13.237.00
+steeve@10.13.237.42
 madmax@10.13.237.29
+mariodeg@10.13.237.13
+ubuntu@10.13.237.00
+hugogo1@10.13.237.30
+ubuntu@10.13.237.00
+superzaf@10.13.237.45
+memedlebleu@10.13.237.26
+ubuntu@10.13.237.00
+chaks@10.13.237.37
 ubuntu@10.13.237.00
 ubuntu@10.13.237.00
-ubuntu@10.13.237.00
-ubuntu@10.13.237.00
-Superzaf@10.13.237.45
-ubuntu@10.13.237.00
-ubuntu@10.13.237.00
-ubuntu@10.13.237.00
-ubuntu@10.13.237.00
-ubuntu@10.13.237.00
-ubuntu@10.13.237.00
-ubuntu@10.13.237.00
+sedric_g@10.13.237.36
+frank_uranus@10.13.237.34
 rafik950@10.13.237.40
 bakmomo@10.13.237.31
 ubuntu@10.13.237.00
@@ -103,9 +103,9 @@ ubuntu@10.13.237.00
 ubuntu@10.13.237.00
 ubuntu@10.13.237.00
 ubuntu@10.13.237.00
+mamadou@10.13.237.2
 ubuntu@10.13.237.00
-ubuntu@10.13.237.00
-ubuntu@10.13.237.00
+walidserver@10.13.237.27
 )
 
 IPS=(
