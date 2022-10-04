@@ -1,6 +1,8 @@
+# 2
+
 ## User and Group Account Management
-*User Accounts
-*Management
+* User Accounts
+* Management
 *Passwords
 *Restricted Shells and Accounts
 *The root Account
