@@ -63,8 +63,8 @@ Find your local number: https://collegeboreal.zoom.us/u/kcsZ6xD3Py
 |03|22-09-19|[1.Metal](./1.Metal)                            | Metal                                   |                   |
 |04|22-09-26|                                                |                                         |                   |
 |05|22-10-03|[2.keys](./2.keys)                              |                                         |                   |
-|06|22-10-10|[3.ENV](3.ENV)                                  |                                         |                   |
-|07|22-10-17|[4.Linux](4.Linux)                              | Boot                                    | Chapitre 3, 4, 5  |
+|06|22-10-10|[3.Linux](3.Linux)                              | Boot                                    | Chapitre 3, 4, 5  |
+|07|22-10-17|                                                |                                         |                   |
 |08|22-10-24| Autumn Break                                   |                                         |                   |
 |09|22-10-31|          |                                      | Chapitre 2        |
 |10|22-11-07|          |                                      | Chapitre 2        |
