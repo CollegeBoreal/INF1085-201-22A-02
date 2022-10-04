@@ -90,7 +90,7 @@ madmax@10.13.237.29
 mariodeg@10.13.237.13
 pasmibalayi@10.13.237.17
 hugopo1@10.13.237.30
-ubuntu@10.13.237.00
+koinaag@10.13.237.32
 superzaf@10.13.237.45
 memedlebleu@10.13.237.26
 hafsa6@10.13.237.28
@@ -108,7 +108,7 @@ ubuntu@10.13.237.00
 ubuntu@10.13.237.00
 soumaila78@10.13.237.41
 mamadou@10.13.237.2
-diarrabandiougou@10.13.237.42
+diarra1@10.13.237.42
 walid@10.13.237.27
 )
 
