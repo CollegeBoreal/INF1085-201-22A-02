@@ -116,12 +116,12 @@
 *Package Installers  
 *yum  
 *zypper  
-APT  
+*APT  
 *Labs  
 
 ## User and Group Account Management
-```
-*User Accounts
+
+:round_pushpin: User Accounts
 *Management
 *Passwords
 *Restricted Shells and Accounts
@@ -134,7 +134,8 @@ APT
 *File Permissions and Ownership
 *SSH
 *Labs
-*Backup and Recovery Methods
+
+:round_pushpin: Backup and Recovery Methods
 *Backup Basics
 *cpio
 *tar
@@ -145,7 +146,8 @@ APT
 *mt **
 *Backup Programs
 *Labs
-*Networking
+
+:round_pushpin: Networking
 *IP Addresses
 *Hostnames
 *Network Devices
@@ -156,7 +158,9 @@ APT
 *DNS and Hostname Resolution
 *Network Diagnostics
 *Labs
-*Firewalls
+
+:round_pushpin: Firewalls
+
 *Firewalls
 *Interfaces
 *firewalld
@@ -164,7 +168,9 @@ APT
 *Source Management
 *Service and Port Management
 *Labs
-*Local System Security
+
+:round_pushpin: Local System Security
+
 *Local System Security
 *Creating a Security Policy
 *Updates and Security
@@ -172,7 +178,9 @@ APT
 *Filesystem Security
 *Linux Security Modules
 *Labs
-*Basic Troubleshooting and System Rescue
+
+:round_pushpin: Basic Troubleshooting and System Rescue
+
 *Troubleshooting Overview
 *Things to Check: Networking
 *Boot Process Failures
@@ -181,4 +189,3 @@ APT
 *Rescue Media and Troubleshooting
 *System Rescue and Recovery
 *Labs
-```
