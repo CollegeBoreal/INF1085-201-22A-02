@@ -109,7 +109,7 @@ ubuntu@10.13.237.00
 soumaila78@10.13.237.41
 mamadou@10.13.237.2
 diarrabandiougou@10.13.237.42
-walidserver@10.13.237.27
+walid@10.13.237.27
 )
 
 IPS=(

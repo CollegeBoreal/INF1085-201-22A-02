@@ -1,4 +1,4 @@
-# Participation au 03-10-2022 09:24
+# Participation au 04-10-2022 13:27
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -40,4 +40,4 @@
 | 21 | 300128276 - <image src='https://avatars.githubusercontent.com/u/113144317?s=460&v=4' width=20 height=20></image> | `ssh soumaila78@10.13.237.41` | :x: | :x: |
 | 22 | 300128326 - <image src='https://avatars.githubusercontent.com/u/105472970?s=460&v=4' width=20 height=20></image> | `ssh mamadou@10.13.237.2` | :heavy_check_mark: | :x: |
 | 23 | 300128566 - <image src='https://avatars.githubusercontent.com/u/101542761?s=460&v=4' width=20 height=20></image> | `ssh diarrabandiougou@10.13.237.42` | :x: | :x: |
-| 24 | 300128694 - <image src='https://avatars.githubusercontent.com/u/105947276?s=460&v=4' width=20 height=20></image> | `ssh walidserver@10.13.237.27` | :x: | :x: |
+| 24 | 300128694 - <image src='https://avatars.githubusercontent.com/u/105947276?s=460&v=4' width=20 height=20></image> | `ssh walid@10.13.237.27` | :x: | :x: |
