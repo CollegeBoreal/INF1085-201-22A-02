@@ -120,8 +120,7 @@
 *Labs  
 
 ## User and Group Account Management
-
-:round_pushpin: User Accounts
+*User Accounts
 *Management
 *Passwords
 *Restricted Shells and Accounts
@@ -135,7 +134,7 @@
 *SSH
 *Labs
 
-:round_pushpin: Backup and Recovery Methods
+## Backup and Recovery Methods
 *Backup Basics
 *cpio
 *tar
@@ -147,7 +146,7 @@
 *Backup Programs
 *Labs
 
-:round_pushpin: Networking
+## Networking
 *IP Addresses
 *Hostnames
 *Network Devices
@@ -159,8 +158,7 @@
 *Network Diagnostics
 *Labs
 
-:round_pushpin: Firewalls
-
+## Firewalls
 *Firewalls
 *Interfaces
 *firewalld
@@ -169,8 +167,7 @@
 *Service and Port Management
 *Labs
 
-:round_pushpin: Local System Security
-
+## Local System Security
 *Local System Security
 *Creating a Security Policy
 *Updates and Security
@@ -179,8 +176,7 @@
 *Linux Security Modules
 *Labs
 
-:round_pushpin: Basic Troubleshooting and System Rescue
-
+## Basic Troubleshooting and System Rescue
 *Troubleshooting Overview
 *Things to Check: Networking
 *Boot Process Failures
