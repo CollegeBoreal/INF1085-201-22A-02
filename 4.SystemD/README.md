@@ -8,12 +8,6 @@
 
 - [ ] Vérifier que `Docker Engine` est installé sur sa machine
 
-sur votre PC (Mac)
-
-## :two: Installer le client docker
-
-[Installation de Docker Client](https://github.com/CollegeBoreal/Tutoriels/tree/main/2.MicroServices/1.Containers/2.Docker/0.Client)
-
 :m: en lançant la commande `docker container`
 
 ```
@@ -49,3 +43,8 @@ Oct 08 17:23:47 300098957 systemd[1]: Started Docker Application Container Engin
 
 [:tada: Participation](.scripts/Participation.md)
 
+sur votre PC (Mac)
+
+## :three: Installer le client docker
+
+[Installation de Docker Client](https://github.com/CollegeBoreal/Tutoriels/tree/main/2.MicroServices/1.Containers/2.Docker/0.Client)
