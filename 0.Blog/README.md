@@ -1,4 +1,4 @@
-       # :zero: Blog
+# :zero: Blog
 
 #### [:tada: Participation](.scripts/Participation.md)
 
