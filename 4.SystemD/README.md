@@ -8,6 +8,12 @@
 
 - [ ] Vérifier que `Docker Engine` est installé sur sa machine
 
+sur votre PC (Mac)
+
+## :two: Installer le client docker
+
+[Installation de Docker Client](https://github.com/CollegeBoreal/Tutoriels/tree/main/2.MicroServices/1.Containers/2.Docker/0.Client)
+
 :m: en lançant la commande `docker container`
 
 ```
