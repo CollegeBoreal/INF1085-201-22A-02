@@ -59,11 +59,11 @@ Find your local number: https://collegeboreal.zoom.us/u/kcsZ6xD3Py
 |01|22-09-05|                                                | Rentrée des classes                     |                   |
 |02|22-10-04| [0.Blog](./0.Blog) | Démontrer l'installation de Linux par un blog  | Blog (i.e. http://wordpress.com) |
 |  |        | [1.Metal](./1.Metal) | Installer Ubuntu 22.04LTS         | Utiliser ce chapitre pour l'installation |
-|  |        | [2.keys](./2.keys/.scripts/Participation.md) | Installer la clé publique | Démontrer l'installation d'une clé publique |
+|  |        | [2.keys](./2.keys) | Installer la clé publique | Démontrer l'installation d'une clé publique |
 |03|22-10-10| [3.Linux](./3.Linux) | Cours sur Linux  | |
-|  |        | [4.SystemD](./4.SystemD/.scripts/Participation.md) | Les Services sous Linux | Démontrer l'installation d'un service |
+|  |        | [4.SystemD](./4.SystemD) | Les Services sous Linux | Démontrer l'installation d'un service |
 |  |        |  | Docker   | Appel d'une machine docker |
-|  |        | [5.ENV](./5.ENV/.scripts/Participation.md) | Variables d'environnement | Démontrer les variables d'environmments |
+|  |        | [5.ENV](./5.ENV) | Variables d'environnement | Démontrer les variables d'environmments |
 |08|22-10-24| Autumn Break                                   |                                         |                   |
 |09|22-10-31|          |                                      | Chapitre 2        |
 |10|22-11-07|          |                                      | Chapitre 2        |
