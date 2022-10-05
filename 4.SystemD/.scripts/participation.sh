@@ -30,8 +30,8 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | Interne            | Running | Docker Engine |"
-echo "|------|----------------------------|--------------------|---------|---------------|"
+echo "|:hash:| Boréal :id:                | Interne            | Docker Engine |"
+echo "|------|----------------------------|--------------------|---------------|"
 
 i=0
 
@@ -41,8 +41,8 @@ do
         -o StrictHostKeyChecking=no \
         -o PasswordAuthentication=no \
         -o ConnectTimeout=5 ${SERVERS[${i}]} systemctl status docker 2>/dev/null`
-   OK="| ${i} | ${id} - <image src='https://avatars.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :heavy_check_mark: | :x: | "
-   KO="| ${i} | ${id} - <image src='https://avatars.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :x: | :x: | "
+   OK="| ${i} | ${id} - <image src='https://avatars.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :heavy_check_mark: "
+   KO="| ${i} | ${id} - <image src='https://avatars.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :x: |"
    if [[ $DOCKER == *"(running)"* ]]; then
       echo ${OK}
    else
