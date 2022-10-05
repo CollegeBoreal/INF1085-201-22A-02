@@ -1,4 +1,4 @@
-# Participation au 05-10-2022 17:50
+# Participation au 05-10-2022 17:52
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -16,6 +16,5 @@
 
 |:hash:| Boréal :id:                | Interne            | Running | Docker Engine |
 |------|----------------------------|--------------------|---------|---------------|
-.scripts/participation.sh: line 46: syntax error in conditional expression
-.scripts/participation.sh: line 46: syntax error near `then'
-.scripts/participation.sh: line 46: `   if [[ $DOCKER == *"(running)"* then'
+.scripts/participation.sh: line 46: syntax error near unexpected token `then'
+.scripts/participation.sh: line 46: `   if [[ $DOCKER == *"(running)"* ]] then'
