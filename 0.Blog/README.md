@@ -1,4 +1,4 @@
-# :zero: Blog
+       # :zero: Blog
 
 #### [:tada: Participation](.scripts/Participation.md)
 
@@ -59,8 +59,8 @@ https://services.collegeboreal.ca/
 | 16 | [300126966](300126966/README.md) - <image src='https://avatars0.githubusercontent.com/u/94937166?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://mbteck.wordpress.com | :heavy_check_mark: | :x: | bakmomo@10.13.237.31 | :three::one: |
 | 17 | [300127065](300127065/README.md) - <image src='https://avatars0.githubusercontent.com/u/97314712?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://300127065.wixsite.com/my-sslimanta | :heavy_check_mark: | :x: | salimata1@10.13.237.10 | :one::zero: |
 | 18 | [300127290](300127290/README.md) - <image src='https://avatars0.githubusercontent.com/u/105463700?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://kitiosoumelesara.wixsite.com/my-site/blog| :heavy_check_mark: | :x: | sara@10.13.237.35 | :three::five: |
-| 19 | [300127868](300127868/README.md) - <image src='https://avatars0.githubusercontent.com/u/113466237?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | | :x: | mellon1@10.13.237.8 | :eighth::zero: |
-| 20 | [300127921](300127921/README.md) - <image src='https://avatars0.githubusercontent.com/u/106841177?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
+| 19 | [300127868](300127868/README.md) - <image src='https://avatars0.githubusercontent.com/u/113466237?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
+| 20 | [300127921](300127921/README.md) - <image src='https://avatars0.githubusercontent.com/u/106841177?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |  https://sturgeon-bear-872c.squarespace.com/config/ | :heavy_check_mark: | :x: | tazere96@10.13.237.6 | :zero::six: |
 | 21 | [300128276](300128276/README.md) - <image src='https://avatars0.githubusercontent.com/u/113144317?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | | :x: | :x: | soumaila78@10.13.237.41 | :four::zero: | 
 | 22 | [300128326](300128326/README.md) - <image src='https://avatars0.githubusercontent.com/u/105472970?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://mdian3998.wixsite.com/monbloglunixserver | :heavy_check_mark: | :x: | mamadou@10.13.237.2 | :zero::two: |
 | 23 | [300128566](300128566/README.md) - <image src='https://avatars0.githubusercontent.com/u/101542761?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | | :x: | :x: | diarra1@10.13.237.42 | :four::two: |
