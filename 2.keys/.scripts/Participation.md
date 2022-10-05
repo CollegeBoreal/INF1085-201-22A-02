@@ -1,4 +1,4 @@
-# Participation au 05-10-2022 09:26
+# Participation au 05-10-2022 18:14
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -16,7 +16,7 @@
 
 |:hash:| Boréal :id:                | Interne            | ssh | Version |
 |------|----------------------------|--------------------|-----|---------|
-| 0 | 100027015 - <image src='https://avatars.githubusercontent.com/u/97314874?s=460&v=4' width=20 height=20></image> | `ssh steeve@10.13.237.42` | :x: | :x: |
+| 0 | 100027015 - <image src='https://avatars.githubusercontent.com/u/97314874?s=460&v=4' width=20 height=20></image> | `ssh steeve@10.13.237.42` | :heavy_check_mark: | Distributor ID: Ubuntu Description: Ubuntu 22.04.1 LTS Release: 22.04 Codename: jammy |
 | 1 | 100028762 - <image src='https://avatars.githubusercontent.com/u/96226008?s=460&v=4' width=20 height=20></image> | `ssh madmax@10.13.237.29` | :heavy_check_mark: | Distributor ID: Ubuntu Description: Ubuntu 22.04.1 LTS Release: 22.04 Codename: jammy |
 | 2 | 300119623 - <image src='https://avatars.githubusercontent.com/u/97314467?s=460&v=4' width=20 height=20></image> | `ssh mariodeg@10.13.237.13` | :heavy_check_mark: | Distributor ID: Ubuntu Description: Ubuntu 22.04.1 LTS Release: 22.04 Codename: jammy |
 | 3 | 300120726 - <image src='https://avatars.githubusercontent.com/u/105461057?s=460&v=4' width=20 height=20></image> | `ssh pasmibalayi@10.13.237.17` | :heavy_check_mark: | Distributor ID: Ubuntu Description: Ubuntu 22.04.1 LTS Release: 22.04 Codename: jammy |
@@ -30,7 +30,7 @@
 | 11 | 300126020 - <image src='https://avatars.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | `ssh hakimdrai@10.13.237.33` | :heavy_check_mark: | Distributor ID: Ubuntu Description: Ubuntu 22.04.1 LTS Release: 22.04 Codename: jammy |
 | 12 | 300126215 - <image src='https://avatars.githubusercontent.com/u/97623907?s=460&v=4' width=20 height=20></image> | `ssh zack@10.13.237.39` | :x: | :x: |
 | 13 | 300126268 - <image src='https://avatars.githubusercontent.com/u/97314948?s=460&v=4' width=20 height=20></image> | `ssh sedric_g@10.13.237.36` | :heavy_check_mark: | Distributor ID: Ubuntu Description: Ubuntu 22.04.1 LTS Release: 22.04 Codename: jammy |
-| 14 | 300126634 - <image src='https://avatars.githubusercontent.com/u/97324827?s=460&v=4' width=20 height=20></image> | `ssh frank_uranus@10.13.237.34` | :heavy_check_mark: | Distributor ID: Ubuntu Description: Ubuntu 22.04.1 LTS Release: 22.04 Codename: jammy |
+| 14 | 300126634 - <image src='https://avatars.githubusercontent.com/u/97324827?s=460&v=4' width=20 height=20></image> | `ssh frank_uranus@10.13.237.34` | :x: | :x: |
 | 15 | 300126800 - <image src='https://avatars.githubusercontent.com/u/105135304?s=460&v=4' width=20 height=20></image> | `ssh rafik952@10.13.237.40` | :heavy_check_mark: | Distributor ID: Ubuntu Description: Ubuntu 22.04.1 LTS Release: 22.04 Codename: jammy |
 | 16 | 300126966 - <image src='https://avatars.githubusercontent.com/u/94937166?s=460&v=4' width=20 height=20></image> | `ssh bakmomo@10.13.237.31` | :heavy_check_mark: | Distributor ID: Ubuntu Description: Ubuntu 22.04.1 LTS Release: 22.04 Codename: jammy |
 | 17 | 300127065 - <image src='https://avatars.githubusercontent.com/u/97314712?s=460&v=4' width=20 height=20></image> | `ssh salimata1@10.13.237.10` | :heavy_check_mark: | Distributor ID: Ubuntu Description: Ubuntu 22.04.1 LTS Release: 22.04 Codename: jammy |
