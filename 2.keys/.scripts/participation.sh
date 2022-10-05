@@ -30,8 +30,8 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | Interne            | ssh |
-echo "|------|----------------------------|--------------------|-----|
+echo "|:hash:| Boréal :id:                | Interne            | ssh | Version |"
+echo "|------|----------------------------|--------------------|-----|---------|"
 
 i=0
 
@@ -45,8 +45,8 @@ do
     #    -o StrictHostKeyChecking=no \
     #    -o PasswordAuthentication=no \
     #    -o ConnectTimeout=5 ${SERVERS[${i}]} lsb_release -a 2>/dev/null"
-    echo $VERSION
-   OK="| ${i} | ${id} - <image src='https://avatars.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :heavy_check_mark: | :x: | "
+    # echo $VERSION
+   OK="| ${i} | ${id} - <image src='https://avatars.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :heavy_check_mark: | ${VERSION} | "
    KO="| ${i} | ${id} - <image src='https://avatars.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :x: | :x: | "
    if [[ $VERSION == *"Ubuntu"* ]]; then
        echo ${OK}
