@@ -86,3 +86,4 @@ ssh-copy-id -i ~/.ssh/b300098957 prof@10.13.237.253
 ssh -i ~/.ssh/b300098957 prof@10.13.237.253
 ```
 
+- [ ] [LinkedIn Learning - apprehender la commande Docker](https://www.linkedin.com/learning/decouvrir-docker/apprehender-la-commande-docker)
