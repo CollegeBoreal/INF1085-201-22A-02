@@ -11,13 +11,16 @@
 :m: en lançant la commande `docker container`
 
 ```
-$ docker container ls
+docker container ls
 ```
 
 :m: en vérifiant que le service `docker engine` tourne
 
 ```
-$ systemctl status docker
+systemctl status docker
+```
+> Affiche :
+```
 ● docker.service - Docker Application Container Engine
    Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
    Active: active (running) since Tue 2019-10-08 17:23:47 UTC; 1 day 23h ago
