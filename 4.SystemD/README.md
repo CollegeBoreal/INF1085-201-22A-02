@@ -55,3 +55,26 @@ sur votre PC (Mac)
 # Références
 
 - [ ] [Docker Context](https://docs.docker.com/engine/reference/commandline/context)
+
+- [ ] [keygen](https://www.ssh.com/academy/ssh/keygen)
+
+```
+ssh-keygen -t rsa -b 4096
+```
+
+* Renommer Clé privé
+
+```
+mv ~/.ssh/id_rsa ~/.ssh/b300098957
+```
+
+* Renommer Clé Publique
+
+```
+mv ~/.ssh/id_rsa.pub ~/.ssh/b300098957.pub
+```
+
+
+```
+ssh-copy-id -i ~/.ssh/b300098957 prof@10.13.237.253
+```
