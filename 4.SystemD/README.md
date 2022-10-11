@@ -74,7 +74,15 @@ mv ~/.ssh/id_rsa ~/.ssh/b300098957
 mv ~/.ssh/id_rsa.pub ~/.ssh/b300098957.pub
 ```
 
+* Copier sa clé publique vers le serveur
 
 ```
 ssh-copy-id -i ~/.ssh/b300098957 prof@10.13.237.253
 ```
+
+* Accéder à la machine
+
+```
+ssh -i ~/.ssh/b300098957 prof@10.13.237.253
+```
+
