@@ -58,23 +58,27 @@ sur votre PC (Mac)
 
 - [ ] [keygen](https://www.ssh.com/academy/ssh/keygen)
 
+* Générer la clé publique et privée
+
 ```
 ssh-keygen -t rsa -b 4096
 ```
 
-* Renommer Clé privé
+* Renommer la clé privé pour la sauvegarder (par défaut le fichier de la clé privée se nomme `~/.ssh/id_rsa`)
+
+:bulb: Remplacer b300098957 par votre propre :id: Boréal i.e. b000000000 (vos 9 chiffres)
 
 ```
 mv ~/.ssh/id_rsa ~/.ssh/b300098957
 ```
 
-* Renommer Clé Publique
+* Renommer la clé publique (par défaut le fichier de la clé publique se nomme `~/.ssh/id_rsa.pub`)
 
 ```
 mv ~/.ssh/id_rsa.pub ~/.ssh/b300098957.pub
 ```
 
-* Copier sa clé publique vers le serveur
+* Copier sa clé publique vers le serveur (remplacer 
 
 ```
 ssh-copy-id -i ~/.ssh/b300098957 prof@10.13.237.253
