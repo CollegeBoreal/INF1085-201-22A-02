@@ -3,7 +3,7 @@
 * Créer le conteneur
 
 ```
-docker container run --name some-mysql --env MYSQL_ROOT_PASSWORD=password --publish 33066:3306 --detach mysql:latest
+docker container run --name some-mysql --env MYSQL_ROOT_PASSWORD=password --publish 3306:3306 --detach mysql:latest
 ```
 
 * Accéder au conteneur
