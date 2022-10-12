@@ -78,7 +78,9 @@ mv ~/.ssh/id_rsa ~/.ssh/b300098957
 mv ~/.ssh/id_rsa.pub ~/.ssh/b300098957.pub
 ```
 
-* Copier sa clé publique vers le serveur (remplacer 
+* Copier sa clé publique vers le serveur
+
+avec ssh-`copy-id`
 
 :bulb: Remplacer b300098957 par votre propre :id: Boréal i.e. b000000000 (vos 9 chiffres) et `prof@10.13.237.253` par vos propres informations
 
