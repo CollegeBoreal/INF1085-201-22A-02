@@ -80,11 +80,14 @@ mv ~/.ssh/id_rsa.pub ~/.ssh/b300098957.pub
 
 * Copier sa clé publique vers le serveur (remplacer 
 
+:bulb: Remplacer b300098957 par votre propre :id: Boréal i.e. b000000000 (vos 9 chiffres) et `prof@10.13.237.253` par vos propres informations
+
+
 ```
 ssh-copy-id -i ~/.ssh/b300098957 prof@10.13.237.253
 ```
 
-* Accéder à la machine
+- [ ] Accéder à la machine
 
 ```
 ssh -i ~/.ssh/b300098957 prof@10.13.237.253
