@@ -56,9 +56,9 @@ sur votre PC (Mac)
 
 - [ ] [Docker Context](https://docs.docker.com/engine/reference/commandline/context)
 
-- [ ] [keygen](https://www.ssh.com/academy/ssh/keygen)
+- [ ] [keygen](https://www.ssh.com/academy/ssh/keygen) Générer la clé publique et privée
 
-* Générer la clé publique et privée
+avec ssh-`keygen`
 
 ```
 ssh-keygen -t rsa -b 4096
