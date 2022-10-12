@@ -91,8 +91,16 @@ ssh-copy-id -i ~/.ssh/b300098957 prof@10.13.237.253
 
 - [ ] Accéder à la machine
 
+avec ssh `-i`
+
 ```
 ssh -i ~/.ssh/b300098957 prof@10.13.237.253
+```
+
+:warning: sous `git-bash` uniquement, avec l'agent ssh `ssh-agent`
+
+```
+eval $(ssh-agent)
 ```
 
 - [ ] [LinkedIn Learning - apprehender la commande Docker](https://www.linkedin.com/learning/decouvrir-docker/apprehender-la-commande-docker)
