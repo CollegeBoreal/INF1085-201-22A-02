@@ -87,3 +87,7 @@ ssh-add ~/.ssh/b300098957
 ```
 ssh-add -l
 ```
+
+# References
+
+- [ ] [What is PKI and How Does it Work?](https://www.keyfactor.com/resources/what-is-pki/)
