@@ -121,7 +121,7 @@ Use Docker to streamline MongoDB database deployment across multiple servers and
 
 # References
 
-- [x] [Using MongoDB with Docker](https://earthly.dev/blog/mongodb-docker)
+- [x] [Using MongoDB with Docker](https://phoenixnap.com/kb/docker-mongodb)
 
 
 
