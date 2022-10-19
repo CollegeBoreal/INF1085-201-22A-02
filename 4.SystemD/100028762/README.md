@@ -119,7 +119,9 @@ You now know how to install MongoDB on a Docker container, and you have learned 
 
 Use Docker to streamline MongoDB database deployment across multiple servers and scale your operations quickly and efficiently.
 
+# References
 
+- [ ] [Using MongoDB with Docker](https://earthly.dev/blog/mongodb-docker)
 
 
 
