@@ -4,7 +4,7 @@
 
 -------------------------------------------------------------------------------------------
 
-docker container run --name some-nginx --env NGINX_ROOT_PASSWORD=password --publish 8000:80 --detach nginx:latest
+![image](docker container run --name some-nginx --env NGINX_ROOT_PASSWORD=password --publish 8000:80 --detach nginx:latest)
 
 ------------------------------------------------------------------------------------------------
 # docker run permet de démarrer un conteneur
