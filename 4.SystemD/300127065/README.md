@@ -9,6 +9,17 @@ docker container run --name some-nginx --env NGINX_ROOT_PASSWORD=password --publ
 ```
 
 ------------------------------------------------------------------------------------------------
+
+# docker ps -a	permet d’avoir la liste des conteneurs même ceux qui ne sont pas en cours d’exécution
+
+```
+docker ps -a
+```
+
+![image](https://user-images.githubusercontent.com/97314712/198861831-43d1b93d-28d5-4469-b224-7bcd9e6b9452.png)
+
+
+
 # docker run permet de démarrer un conteneur
 
 ```
@@ -24,17 +35,6 @@ docker ps
 ```
 
 ![image](https://user-images.githubusercontent.com/97314712/198861934-d5dcb842-6ed1-47cd-9180-cb64d603791c.png)
-
-
-------------------------------------------------------------------------------------------------
-
-# docker ps -a	permet d’avoir la liste des conteneurs même ceux qui ne sont pas en cours d’exécution
-
-```
-docker ps -a
-```
-
-![image](https://user-images.githubusercontent.com/97314712/198861831-43d1b93d-28d5-4469-b224-7bcd9e6b9452.png)
 
 
 ------------------------------------------------------------------------------------------------
