@@ -40,7 +40,7 @@ docker rm conteneur_id
 * Accéder au conteneur
 
 ```
-docker container exec --interactive --tty some-mysql bash
+docker container exec --interactive --tty some-nginx bash
 ```
 ------------------------------------------------------------------------------------------------
 # References
