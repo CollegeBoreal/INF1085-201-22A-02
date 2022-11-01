@@ -63,13 +63,13 @@ Find your local number: https://collegeboreal.zoom.us/u/kcsZ6xD3Py
 |03|22-10-10| [3.Linux](./3.Linux) | Cours sur Linux  | |
 |  |        | [4.SystemD](./4.SystemD) | Les Services sous Linux | Démontrer l'installation d'un service |
 |  |        |  | Docker   | Appel d'une machine docker |
-|  |        | [5.ENV](./5.ENV) | Variables d'environnement | Démontrer les variables d'environmments |
+|  |        |   | Variables d'environnement | Démontrer les variables d'environmments |
 |08|22-10-24| Autumn Break                                   |                                         |                   |
-|09|22-10-31|          |                                      | Chapitre 2        |
+|09|22-10-31| [5.Volume](5.Volume)                              |                                         |
 |10|22-11-07|          |                                      | Chapitre 2        |
-|11|22-11-14|[5.Volume](5.Volume)                              |                                         |                   |
-|12|22-11-21|[8.Shell](8.Shell)                                                |                                         |                   |
-|13|22-11-28|[5.Virtualization](./5.Virtualization)          | AWS                                     |                   |
+|11|22-11-14|                             |                                         |                   |
+|12|22-11-21|                                               |                                         |                   |
+|13|22-11-28|         |                                       |                   |
 |14|22-12-05|                                                |                                         |                   |
 |15|22-12-12| Fin des cours                                  |                                         |                   |
 
