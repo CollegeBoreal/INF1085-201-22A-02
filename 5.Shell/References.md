@@ -88,7 +88,7 @@
 | :-1: Configure a database server                                    |                                               |
 | :-1: Restrict access to a web page                                  |                                               |
 | Manage and configure containers                                     | `docker container`                            |
-| Manage and configure Virtual Machines                               | `docker-machine`                              |
+| Manage and configure Virtual Machines                               |                                                |
 
 #### Storage Management – 13%
 
