@@ -67,7 +67,7 @@ Find your local number: https://collegeboreal.zoom.us/u/kcsZ6xD3Py
 |  |        |   | Variables d'environnement | Démontrer les variables d'environmments |
 |08|22-10-24| Autumn Break                                   |                                         |                   |
 |09|22-10-31| [5.Volume](5.Volume)                              |                                         |
-|10|22-11-07|          |                                      |         |
+|10|22-11-07| [6.Projects](6.Projects)         |                                      |         |
 |11|22-11-14|                             |                                         |                   |
 |12|22-11-21|                                               |                                         |                   |
 |13|22-11-28|         |                                       |                   |
