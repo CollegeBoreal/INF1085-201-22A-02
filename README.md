@@ -75,9 +75,10 @@ Find your local number: https://collegeboreal.zoom.us/u/kcsZ6xD3Py
 
 # References
 
-| Livre          | Lien                                          |
+| Livre          | Liens                                          |
 |----------------|-----------------------------------------------|
 | Linux in Action| https://www.manning.com/books/linux-in-action |
+|                | https://www.oreilly.com/library/view/linux-in-action/9781617294938/ |
 
 
 # Activités
