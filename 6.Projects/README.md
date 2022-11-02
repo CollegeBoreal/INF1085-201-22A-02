@@ -22,7 +22,7 @@
 | 6 | 300124734 - <image src='https://avatars.githubusercontent.com/u/94937145?s=460&v=4' width=20 height=20></image> | [:parking: VPN](README.md#parking-chapter-10--securing-network-connections-vpn) | :x: |
 | 7 | 300124863 - <image src='https://avatars.githubusercontent.com/u/97644305?s=460&v=4' width=20 height=20></image> | [:parking: VPN](README.md#parking-chapter-10--securing-network-connections-vpn) | :x: |
 | 8 | 300124876 - <image src='https://avatars.githubusercontent.com/u/98238582?s=460&v=4' width=20 height=20></image> | :question: | :x: |
-| 9 | 300125847 - <image src='https://avatars.githubusercontent.com/u/97644650?s=460&v=4' width=20 height=20></image> | :question: | :x: |
+| 9 | 300125847 - <image src='https://avatars.githubusercontent.com/u/97644650?s=460&v=4' width=20 height=20></image> | [:parking: NextCloud](README.md#parking-chapter-10--securing-network-connections-vpn) | :x: |
 | 10 | 300125877 - <image src='https://avatars.githubusercontent.com/u/97989532?s=460&v=4' width=20 height=20></image> | :question: | :x: |
 | 11 | 300126020 - <image src='https://avatars.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :question: | :x: |
 | 12 | 300126215 - <image src='https://avatars.githubusercontent.com/u/97623907?s=460&v=4' width=20 height=20></image> | [:parking: VPN](README.md#parking-chapter-10--securing-network-connections-vpn) | :x: |
