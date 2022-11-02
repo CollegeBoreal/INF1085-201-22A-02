@@ -39,6 +39,7 @@ Find your local number: https://collegeboreal.zoom.us/u/kcsZ6xD3Py
 |01|22-10-04| [0.Blog](./0.Blog) | Démontrer l'installation de Linux par un blog  | Blog (i.e. http://wordpress.com) |
 |  |        | [2.keys](./2.keys/.scripts/Participation.md) | Installer la clé publique | Démontrer l'installation d'une clé publique |
 |03|22-10-14| [4.SystemD](./4.SystemD/.scripts/Participation.md) | Les Services sous Linux | Démontrer l'installation d'un service |
+|04|22-11-11| [6.Projects](./6.Projects/.scripts/Participation.md) | Un project à installer | Démontrer l'installation d'un service |
 
 
 ## Resultats d'Apprentissage du Cours
