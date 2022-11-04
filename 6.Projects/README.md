@@ -65,3 +65,7 @@
 ####  :video_camera: Projet Caméra en Streaming sur Pi 4
 
 :pushpin: `Camera` Se référer aux dossiers d'étudiants
+
+# References
+
+- [ ] [opensourcealternative.to](https://www.opensourcealternative.to)
