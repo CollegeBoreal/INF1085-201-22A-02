@@ -4,7 +4,7 @@
 
 ## :a: Installer les `packages` pour le VPN
 
-- [ ] ajouter le package openvn (server)
+- [ ] ajouter le package openvpn (server)
 
 ```
 apt-get install openvpn
