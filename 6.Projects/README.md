@@ -2,6 +2,8 @@
 
 ## :six: Projects
 
+#### [:tada: Participation](.scripts/Participation.md)
+
 ## :a: Creer un repertoire avec votre :id:
 
 - [ ] Ajouter un ficher `README.md`
