@@ -23,7 +23,7 @@ D: Configuration de MediaWiki
 E: Installation et Configuration de Apache web serveur sur CentOS
 
                         
-                                                                          PRET A LANCER
+                                                           PRET A LANCER
                                     
                                   
 ## A: Vesifiez que le systeme est a jour en excécutant la commade suivante:  
@@ -50,6 +50,23 @@ sudo apt install lamp-server^
 ```
 
 [![Pa3](https://user-images.githubusercontent.com/97314712/201719126-c9253cf1-80ef-4e3e-94e3-a795aac28ea5.png)]
+
+
+## Creer un dossier:
+
+```
+ sudo wget http://releases.wikimedia.org/mediawiki/1.22/mediawiki-1.22.6.tar.gz
+ ```
+ 
+
+![Pa7](https://user-images.githubusercontent.com/97314712/201721336-c97e0b57-4328-411c-bfdf-190d6ac56ef0.png)
+
+
+![Pa8](https://user-images.githubusercontent.com/97314712/201721413-96fa55c8-3f48-46d3-a864-1e26ae1905e8.png)
+
+
+
+
 
 
 ## C: La  commande qui permet d'installer la Base de Données: MYSQL
