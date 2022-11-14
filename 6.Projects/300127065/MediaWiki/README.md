@@ -1,10 +1,10 @@
 ###                                                           300127065
 
 ##                                                          !!! Bonjour !!!
-[![image](https://user-images.githubusercontent.com/97314712/201716590-aa8ba5b3-f11f-4693-a8b8-4ea710aff4bf.png)]
+                              [![image](https://user-images.githubusercontent.com/97314712/201716590-aa8ba5b3-f11f-4693-a8b8-4ea710aff4bf.png)]
 
 
-##          Bienvenue Dans mon Premier Projet sur MediaWiki.
+##                                                  Bienvenue Dans mon Premier Projet sur MediaWiki.
 
 
 ## Pour cette etape, je vais vous monter comment créer une page sur MediaWiki avec UBUNTU 22.04. LTS. Pour mieux comprendre MediaWiki on definit Mediawiki comme étant une platforme de collaboration et de documentation conçue pour vous par une communauté dynamique.
@@ -23,7 +23,7 @@ D: Configuration de MediaWiki
 E: Installation et Configuration de Apache web serveur sur CentOS
 
                         
-                                    PRET A LANCER
+                                   ##                                      PRET A LANCER
                                     
                                   
 ## A: Vesifiez que le systeme est a jour en excécutant la commade suivante:  
