@@ -1,12 +1,13 @@
-## 300127065
+###                                                           300127065
 
-##                            !!! Bonjour !!!
+##                                                          !!! Bonjour !!!
+[![image](https://user-images.githubusercontent.com/97314712/201716590-aa8ba5b3-f11f-4693-a8b8-4ea710aff4bf.png)]
 
 
 ##          Bienvenue Dans mon Premier Projet sur MediaWiki.
 
 
-## Pour ce cette etape, je vais vous monter comment créer une page sur MediaWiki avec UBUNTU 22.04. LTS. Pour mieux comprendre MediaWiki on definit Mediawiki comme étant une platforme de collaboration et de documentation conçue pour vous par une communauté dynamique.
+## Pour cette etape, je vais vous monter comment créer une page sur MediaWiki avec UBUNTU 22.04. LTS. Pour mieux comprendre MediaWiki on definit Mediawiki comme étant une platforme de collaboration et de documentation conçue pour vous par une communauté dynamique.
 
 
 ## Plan de la création d'une page sur Mediawiki en linux 
@@ -24,23 +25,34 @@ E: Installation et Configuration de Apache web serveur sur CentOS
                         
                                     PRET A LANCER
                                     
-                                   
-
-
-A: Vesifiez que le systeme est a jour en excécutant la commade suivante:  
+                                  
+## A: Vesifiez que le systeme est a jour en excécutant la commade suivante:  
 
 ```
 sudo apt update
 sudo apt upgrade
 ```
 
-B: La commande qui permet d'installer le serveur LAMP:
+[![Pa6](https://user-images.githubusercontent.com/97314712/201717261-b05323aa-4e76-47db-b73b-d9ab4d506f62.png)]
+
+[![Pa2](https://user-images.githubusercontent.com/97314712/201718358-2584555c-86ee-4920-9f16-80aba47cc4f5.png)]
+
+
+## B: La commande qui permet d'installer le serveur LAMP:
 
 ``` 
 sudo apt-get install apache2 lamp-server
 ```
+## Ou vous pouvez lancer cette commande
 
-C: La  commande qui permet d'installer la Base de Données: MYSQL
+```
+sudo apt install lamp-server^
+```
+
+[![Pa3](https://user-images.githubusercontent.com/97314712/201719126-c9253cf1-80ef-4e3e-94e3-a795aac28ea5.png)]
+
+
+## C: La  commande qui permet d'installer la Base de Données: MYSQL
 
 Mais avant de procéder à l'installation initiale de MediaWiki, vous devez d'abord effectuer certaines étapes !
 
@@ -91,7 +103,6 @@ References:
 (https://www.mediawiki.org/wiki/Manual:Running_MediaWiki_on_Debian_or_Ubuntu/fr)
 
 (https://ia904501.us.archive.org/6/items/pdfbackup_18_aout-2014/ManualInstallation_guide-fr_-_MediaWiki.pdf)
-
 
 
 
