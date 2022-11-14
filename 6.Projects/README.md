@@ -26,7 +26,7 @@
 | 8 | 300124876 - <image src='https://avatars.githubusercontent.com/u/98238582?s=460&v=4' width=20 height=20></image> | :question: | :x: |
 | 9 | 300125847 - <image src='https://avatars.githubusercontent.com/u/97644650?s=460&v=4' width=20 height=20></image> | [:parking: NextCloud](README.md#parking-chapter-10--securing-network-connections-vpn) | :x: |
 | 10 | 300125877 - <image src='https://avatars.githubusercontent.com/u/97989532?s=460&v=4' width=20 height=20></image> | [:parking: VPN](README.md#parking-chapter-10--securing-network-connections-vpn) | :x: |
-| 11 | 300126020 - <image src='https://avatars.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :question: | :x: |
+| 11 | 300126020 - <image src='https://avatars.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> |  [:parking: NextCloud] | :x: |
 | 12 | 300126215 - <image src='https://avatars.githubusercontent.com/u/97623907?s=460&v=4' width=20 height=20></image> | [:parking: VPN](README.md#parking-chapter-10--securing-network-connections-vpn) | :x: |
 | 13 | 300126268 - <image src='https://avatars.githubusercontent.com/u/97314948?s=460&v=4' width=20 height=20></image> | [:parking: MediaWiki](README.md#parking-chapter-10--securing-network-connections-vpn) | :x: |
 | 14 | 300126634 - <image src='https://avatars.githubusercontent.com/u/97324827?s=460&v=4' width=20 height=20></image> | [:parking: NextCloud](README.md#parking-chapter-8--building-a-nextcloud-file-sharing-server) | :x: |
