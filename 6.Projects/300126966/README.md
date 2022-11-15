@@ -12,3 +12,6 @@ https://www.raspberrypi.com/software/operating-systems/
 ### Avec Raspberry Pi Imager installer votre systeme sur la carte micro SD
 
 ![raspberry imager-](https://user-images.githubusercontent.com/94937166/201798922-fcd07dc3-8e36-4488-bf0f-b6a7610868c4.jpg)
+
+### Apres le demarrage et l'installation redemarrer votre raspberry Pi
+![20221113_170601](https://user-images.githubusercontent.com/94937166/201800605-1b71da08-59c0-4b0c-8b96-835b406cf625.jpg)
