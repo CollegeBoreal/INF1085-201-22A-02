@@ -24,6 +24,8 @@ Linux In Action: Chapitre 4
 
 <img src=images/Whiteboard[1]-01.png width='' heigth='' > </img>
 
+:o: Permissions
+
 <img src=images/Whiteboard[3]-01.png width='' heigth='' > </img>
 
 # References
