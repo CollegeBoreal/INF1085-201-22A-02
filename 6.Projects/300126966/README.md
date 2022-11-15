@@ -3,11 +3,11 @@
 
 # Telecharger Raspberry Pi Imager au lien suivant:
 ```
-(https://www.raspberrypi.com/software/)
+https://www.raspberrypi.com/software/
 ```
 # Ensuite telecharger la version du OS voulu sur ce lien:
 ```
-(https://www.raspberrypi.com/software/operating-systems/)
+https://www.raspberrypi.com/software/operating-systems/
 ```
 # Avec Raspberry Pi Imager installer votre systeme sur la carte micro SD
 
