@@ -15,12 +15,15 @@ https://www.raspberrypi.com/software/operating-systems/
 
 ### Apres le demarrage et l'installation redemarrer votre raspberry Pi
 ![20221113_170601](https://user-images.githubusercontent.com/94937166/201800605-1b71da08-59c0-4b0c-8b96-835b406cf625.jpg)
-
+### verifier que le peripherique usb est bien installé avec la commande suivante:
+```
+lsusb
+```
 ### Lancer le terminal pour l'installation de FSWEBCAM avec la commande suivante:
 
 ![20221113_175024](https://user-images.githubusercontent.com/94937166/201801252-dcf56b0b-b594-44c4-bd70-36b3553eae4a.jpg)
 
-### On va lancer une commande pour tester la camera avec la commande suivante:
+### On va tester la camera avec la commande suivante:
 ```
 fswebcam -r 1280*720 --no-banner /home/mb/Desktop/img2.jpg
 ```
