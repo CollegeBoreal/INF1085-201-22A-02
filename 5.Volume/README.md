@@ -21,6 +21,11 @@ Linux In Action: Chapitre 4
 
 * [`Udev`](udev.cmd) crée ou enlève des noeuds de fichiers périphériques au démarrage en fonction du répertoire `/dev` pour tous types de périphériques
 
+
+<img src=images/Whiteboard[1]-01.png width='' heigth='' > </img>
+
+<img src=images/Whiteboard[3]-01.png width='' heigth='' > </img>
+
 # References
 
 - [ ] [Permissions](https://www.tutorialspoint.com/unix/unix-file-permission.htm)
