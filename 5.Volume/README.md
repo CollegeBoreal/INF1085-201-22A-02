@@ -19,7 +19,7 @@ Linux In Action: Chapitre 4
 
 * Exercice creer son propre [`LVM`](lvm.md)
 
-* [`Udev`](udev.cmd) crée ou enlève des noeuds de fichiers périphériques au démarrage en fonction du répertoire `/dev` pour tous types de périphériques
+* [`Udev`](udev.md) crée ou enlève des noeuds de fichiers périphériques au démarrage en fonction du répertoire `/dev` pour tous types de périphériques
 
 
 <img src=images/Whiteboard[1]-01.png width='' heigth='' > </img>
