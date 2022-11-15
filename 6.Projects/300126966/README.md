@@ -51,7 +51,24 @@ chmod +x img.sh
 ./img.sh
 ```
 ### 2️⃣ On va créer des programmes Python pour utiliser la camera
-#### :two. :one Afficher la camera avec le programme capture.py
+#### Avant tout il faut installer opencv et numpy et des modules necessaires avec les commandes:
+```
+sudo apt-get install python3-opencv
+```
+```
+sudo apt-get install python3-dev python3-numpy
+```
+```
+sudo apt-get install libgtk-3-dev
+```
+```
+sudo apt-get install libpng-dev
+sudo apt-get install libjpeg-dev
+sudo apt-get install libopenexr-dev
+sudo apt-get install libtiff-dev
+sudo apt-get install libwebp-dev
+```
+#### 2️⃣.1️⃣ Afficher la camera avec le programme capture.py
 ```
 import cv2
 
@@ -72,4 +89,38 @@ while(True):
 
 capture.release()
 cv2.destroyAllWindows()
+```
+#### 2️⃣.2️⃣ Enregistrer une image avec le programme save_img.py
+```
+import cv2
+cap = cv2.VideoCapture(0)
+while True:
+    ret, frame = cap.read()
+    cv2.imshow('frame', frame)
+    key = cv2.waitKey(1) & 0xFF
+    if key == ord('q'):
+        break
+    elif key == ord('c'):
+        cv2.imwrite('/home/mb/usb_camera/image.jpg', frame)
+cv2.destroyAllWindows()
+cap.release()
+```
+#### 2️⃣.3️⃣ Enregistrer une video avec le programme save_video.py
+```
+import cv2
+cap = cv2.VideoCapture(0)
+fourcc = cv2.VideoWriter_fourcc('m', 'p', '4', 'v')
+fps = cap.get(cv2.CAP_PROP_FPS)
+size = (int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)),int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)))
+video = cv2.VideoWriter('/home/mb/usb_camera/video.mp4', fourcc, fps, size)
+while True:
+    ret, frame = cap.read()
+    video.write(frame)
+    cv2.imshow('frame', frame)
+    key = cv2.waitKey(1) & 0xFF
+    if key == ord('q'):
+        break
+cv2.destroyAllWindows()
+video.release()
+cap.release()
 ```
