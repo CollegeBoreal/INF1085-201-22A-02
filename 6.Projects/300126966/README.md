@@ -19,3 +19,9 @@ https://www.raspberrypi.com/software/operating-systems/
 ### Lancer le terminal pour l'installation de FSWEBCAM avec la commande suivante:
 
 ![20221113_175024](https://user-images.githubusercontent.com/94937166/201801252-dcf56b0b-b594-44c4-bd70-36b3553eae4a.jpg)
+
+### On va lancer une commande pour tester la camera avec la commande suivante:
+```
+fswebcam -r 1280*720 --no-banner /home/mb/Desktop/img2.jpg
+```
+![img2](https://user-images.githubusercontent.com/94937166/201802182-568cf39e-1808-4237-83b9-253cb7de0e13.jpg)
