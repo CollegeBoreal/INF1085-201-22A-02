@@ -5,7 +5,7 @@
 ```
 https://www.raspberrypi.com/software/
 ```
-### Ensuite telecharger la version du OS voulu sur ce lien:
+### Ensuite télécharger la version du OS voulu sur ce lien:
 ```
 https://www.raspberrypi.com/software/operating-systems/
 ```
@@ -13,9 +13,9 @@ https://www.raspberrypi.com/software/operating-systems/
 
 ![raspberry imager-](https://user-images.githubusercontent.com/94937166/201798922-fcd07dc3-8e36-4488-bf0f-b6a7610868c4.jpg)
 
-### Apres le demarrage et l'installation redemarrer votre raspberry Pi
+### Après le demarrage et l'installation redemarrer votre raspberry Pi
 ![20221113_170601](https://user-images.githubusercontent.com/94937166/201800605-1b71da08-59c0-4b0c-8b96-835b406cf625.jpg)
-### verifier que la cxamera usb est bien installé avec la commande suivante:
+### verifier que la camera usb est bien installée avec la commande suivante:
 ```
 lsusb
 ```
@@ -29,7 +29,7 @@ fswebcam -r 1280*720 --no-banner /home/mb/Desktop/img2.jpg
 ```
 #### Resultat:
 ![img2](https://user-images.githubusercontent.com/94937166/201802182-568cf39e-1808-4237-83b9-253cb7de0e13.jpg)
-### On va maintenant creer un script Bash. Mais avant on va creer un dossier usb_camera.
+### :one On va maintenant créer un script Bash. Mais avant on va créer un dossier usb_camera
 ```
 mkdir usb_camera
 ```
@@ -41,12 +41,35 @@ DATE=$(date +"%Y-%m-%d_%H%M%S")
 
 fswebcam -r 1280x720 --no-banner /home/mb/usb_camera/$DATE.jpg
 ```
-#### Avec ce script on aura une image datée. Enregistrer le script cam.sh 
+#### Avec ce script on aura une image datée. Enregistrer le script img.sh 
 #### Pour rendre le scrip executable faire la commande suivante:
 ```
-chmod +x cam.sh
+chmod +x img.sh
 ```
 ### Executer le code avec la commande suivante:
 ```
-./cam.sh
+./img.sh
+```
+### :two On va créer des programmes Python pour utiliser la camera
+#### :two. :one Afficher la camera avec le programme capture.py
+```
+import cv2
+
+capture = cv2.VideoCapture(0)
+if capture.isOpened() is False:
+  raise IOError
+
+while(True):
+  try:
+    ret, frame = capture.read()
+    if ret is False:
+      raise IOError
+    cv2.imshow('frame',frame)
+    cv2.waitKey(1)
+  except KeyboardInterrupt:
+    # Pour quitter  CTRL+C
+    break
+
+capture.release()
+cv2.destroyAllWindows()
 ```
