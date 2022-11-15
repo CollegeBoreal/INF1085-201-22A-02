@@ -1,5 +1,5 @@
 #Raspberry Pi 3
-![raspberry-pi](https://user-images.githubusercontent.com/94937166/201796227-da1e0dc4-33d1-423d-8672-cee9377c6a3b.jpg =100*100)
+![raspberry-pi](https://user-images.githubusercontent.com/94937166/201796227-da1e0dc4-33d1-423d-8672-cee9377c6a3b.jpg){ width=50%}
 
 ## Telecharger Raspberry Pi Imager au lien suivant:
 ```
