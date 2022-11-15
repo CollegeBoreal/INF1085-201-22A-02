@@ -15,7 +15,7 @@ https://www.raspberrypi.com/software/operating-systems/
 
 ### Apres le demarrage et l'installation redemarrer votre raspberry Pi
 ![20221113_170601](https://user-images.githubusercontent.com/94937166/201800605-1b71da08-59c0-4b0c-8b96-835b406cf625.jpg)
-### verifier que le peripherique usb est bien installé avec la commande suivante:
+### verifier que la cxamera usb est bien installé avec la commande suivante:
 ```
 lsusb
 ```
@@ -27,4 +27,26 @@ lsusb
 ```
 fswebcam -r 1280*720 --no-banner /home/mb/Desktop/img2.jpg
 ```
+#### Resultat:
 ![img2](https://user-images.githubusercontent.com/94937166/201802182-568cf39e-1808-4237-83b9-253cb7de0e13.jpg)
+### On va maintenant creer un script Bash. Mais avant on va creer un dossier usb_camera.
+```
+mkdir usb_camera
+```
+### pour creer le script , il faut ouvrir un editeur de text et entrer le code suivant:
+```
+#!/bin/bash
+
+DATE=$(date +"%Y-%m-%d_%H%M%S")
+
+fswebcam -r 1280x720 --no-banner /home/mb/usb_camera/$DATE.jpg
+```
+#### Avec ce script on aura une image datée. Enregistrer le script cam.sh 
+#### Pour rendre le scrip executable faire la commande suivante:
+```
+chmod +x cam.sh
+```
+### Executer le code avec la commande suivante:
+```
+./cam.sh
+```
