@@ -13,7 +13,7 @@ https://www.raspberrypi.com/software/operating-systems/
 
 ![raspberry imager-](https://user-images.githubusercontent.com/94937166/201798922-fcd07dc3-8e36-4488-bf0f-b6a7610868c4.jpg)
 
-### Après le démarrage et l'installation redemarrer votre raspberry Pi
+### Après le démarrage et l'installation redemarrer votre Raspberry Pi
 ![20221113_170601](https://user-images.githubusercontent.com/94937166/201800605-1b71da08-59c0-4b0c-8b96-835b406cf625.jpg)
 ### verifier que la camera usb est bien installée avec la commande suivante:
 ```
