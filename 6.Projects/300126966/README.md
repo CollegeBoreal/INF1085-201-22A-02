@@ -29,7 +29,7 @@ fswebcam -r 1280*720 --no-banner /home/mb/Desktop/img2.jpg
 ```
 #### Resultat:
 ![img2](https://user-images.githubusercontent.com/94937166/201802182-568cf39e-1808-4237-83b9-253cb7de0e13.jpg)
-### :one On va maintenant créer un script Bash. Mais avant on va créer un dossier usb_camera
+### 1️⃣ On va maintenant créer un script Bash. Mais avant on va créer un dossier usb_camera
 ```
 mkdir usb_camera
 ```
@@ -50,7 +50,7 @@ chmod +x img.sh
 ```
 ./img.sh
 ```
-### :two On va créer des programmes Python pour utiliser la camera
+### 2️⃣ On va créer des programmes Python pour utiliser la camera
 #### :two. :one Afficher la camera avec le programme capture.py
 ```
 import cv2
