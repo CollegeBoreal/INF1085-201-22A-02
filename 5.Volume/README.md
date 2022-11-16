@@ -7,7 +7,9 @@
 
 Linux In Action: Chapitre 4
 
-* Trouver un groupe de fichier (i.e. .sql) en utilisant l'utilitaire `find`
+* Trouver un groupe de fichier commencant par (apropos) dans le repertoire `/usr/share/man/fr/man1` en utilisant l'utilitaire `find`
+
+find  -name "apropos*"
 
 * en créer un fichier compressé avec l'utilitaire `tar` 
 
