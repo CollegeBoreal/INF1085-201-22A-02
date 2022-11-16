@@ -30,7 +30,7 @@ sudo visudo
 
 ```
 # User privilege specification
-monnomdutilisateur    ALL=(ALL) ALL
+monnomdutilisateur    ALL=(ALL) NOPASSWD:ALL
 ```
 
 - [ ] [sudo-nopasswd](https://www.linuxfordevices.com/tutorials/linux/sudo-nopasswd)
