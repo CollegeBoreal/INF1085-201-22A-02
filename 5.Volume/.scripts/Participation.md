@@ -1,4 +1,4 @@
-# Participation au 16-11-2022 17:43
+# Participation au 16-11-2022 17:53
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -29,7 +29,7 @@
 | 10 | 300125877 - <image src='https://avatars.githubusercontent.com/u/97989532?s=460&v=4' width=20 height=20></image> | `ssh ubuntu@10.13.237.00` | :x: |
 | 11 | 300126020 - <image src='https://avatars.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | `ssh hakimdrai@10.13.237.33` | :x: |
 | 12 | 300126215 - <image src='https://avatars.githubusercontent.com/u/97623907?s=460&v=4' width=20 height=20></image> | `ssh ziko@10.13.237.39` | :x: |
-| 13 | 300126268 - <image src='https://avatars.githubusercontent.com/u/97314948?s=460&v=4' width=20 height=20></image> | `ssh sedric_g@10.13.237.36` | :x: |
+| 13 | 300126268 - <image src='https://avatars.githubusercontent.com/u/97314948?s=460&v=4' width=20 height=20></image> | `ssh sedric_g@10.13.237.36` | :tada: |
 | 14 | 300126634 - <image src='https://avatars.githubusercontent.com/u/97324827?s=460&v=4' width=20 height=20></image> | `ssh frank_uranus@10.13.237.34` | :x: |
 | 15 | 300126800 - <image src='https://avatars.githubusercontent.com/u/105135304?s=460&v=4' width=20 height=20></image> | `ssh rafik952@10.13.237.40` | :x: |
 | 16 | 300126966 - <image src='https://avatars.githubusercontent.com/u/94937166?s=460&v=4' width=20 height=20></image> | `ssh bakmomo@10.13.237.31` | :tada: |
