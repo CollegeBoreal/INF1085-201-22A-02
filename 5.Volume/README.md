@@ -28,7 +28,7 @@ sudo visudo
 
 ```
 # User privilege specification
-(user)    ALL=(ALL) ALL
+monnomdutilisateur    ALL=(ALL) ALL
 ```
 
 - [ ] [sudo-nopasswd](https://www.linuxfordevices.com/tutorials/linux/sudo-nopasswd)
