@@ -15,6 +15,9 @@ Linux In Action: Chapitre 4
 
 * décompresser le fichier sur le serveur linux
 
+
+## sudo
+
 ```
 sudo visudo
 ```
