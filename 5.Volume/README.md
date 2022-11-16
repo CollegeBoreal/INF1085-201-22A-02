@@ -26,6 +26,8 @@ sudo visudo
 
 - [ ] Dans `nano` ou `vi` ajouter ce block a la fin du texte
 
+:warning: remplacer `monnomdutilisateur` par votre utilisateur
+
 ```
 # User privilege specification
 monnomdutilisateur    ALL=(ALL) ALL
