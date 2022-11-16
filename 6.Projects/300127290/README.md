@@ -11,6 +11,7 @@ La première chose que vous devez faire est d'installer la pile LAMP sur Ubuntu 
 Pour installer Apache, PHP et ses modules requis, et MariaDB, vous devrez exécuter cette commande :
 
 sudo apt install apache2 libapache2-mod-php php-cli php-fpm php-json php-intl php-imagick php-pdo php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath mariadb-server
+
 Lorsque tout le processus est terminé, assurez-vous que dans le pare-feu, vous avez des ports ouverts 80et 443.
 
 sudo ufw allow 80
@@ -18,6 +19,7 @@ sudo ufw allow 443
 Vous devez maintenant configurer MariaDB, en définissant un mot de passe root. Pour y parvenir, courez.
 
 sudo mysql_secure_installation
+
 Dès que vous le démarrez, vous serez invité à vous connecter en appuyant sur Entrée. Ensuite, vous pourrez changer le mot de passe root et enfin, répondre aux questions de configuration suivantes.
 
 Remove anonymous users [Y/n]
@@ -65,3 +67,60 @@ quit;
 Définissez les autorisations appropriées sur la nouvelle base de données pour l'utilisateur.
 
 GRANT ALL PRIVILEGES ON nextclouddb.* TO 'nextcloud'@'localhost'; 
+
+Ensuite installez les packages unzipet wgetpour pouvoir télécharger et décompresser Nextcloud.
+sudo apt install wget unzip
+Maintenant, effectuez le téléchargement :
+
+cd /tmp/
+wget https://download.nextcloud.com/server/releases/latest.zip
+Décompressez maintenant le fichier que vous avez téléchargé :
+
+unzip latest.zip
+Déplacez-le vers un emplacement à l'intérieur du /var/www/html/dossier, qui est le chemin par défaut d'Apache DocumentRoot.
+
+sudo mv nextcloud/ /var/www/html/`.
+Faites de l'utilisateur www:datale propriétaire du dossier et définissez les autorisations appropriées.
+
+sudo chown -R www-data:www-data /var/www/html/nextcloud
+sudo chmod -R 755 /var/www/html/nextcloud
+Créez un nouveau VirtualHost pour la configuration Nextlcoud.
+
+sudo nano /etc/apache2/conf-enabled/nextcloud.conf
+Et ajoutez le contenu suivant 
+
+<VirtualHost *:80>
+     ServerAdmin admin@example.com
+     DocumentRoot /var/www/html/nextcloud
+     ServerName example.com
+     ServerAlias www.example.com
+     ErrorLog /var/log/apache2/nextcloud-error.log
+     CustomLog /var/log/apache2/nextcloud-access.log combined
+
+    <Directory /var/www/html/nextcloud/>
+    Options +FollowSymlinks
+    AllowOverride All
+        Require all granted
+     SetEnv HOME /var/www/html/nextcloud
+     SetEnv HTTP_HOME /var/www/html/nextcloud
+     <IfModule mod_dav.c>
+        Dav off
+        </IfModule>
+    </Directory>
+</VirtualHost>
+
+Enregistrez les modifications, fermez l'éditeur et appliquez les modifications en activant les modules Apache et en les redémarrant.
+
+sudo a2enmod rewrite dir mime env headers
+sudo systemctl restart apache2
+
+Vous pouvez maintenant ouvrir un navigateur Web et vous connecter via http://your-domainet vous verrez cet écran.
+
+
+Merci
+
+Fait par l'etudiante sara
+
+
+
+
