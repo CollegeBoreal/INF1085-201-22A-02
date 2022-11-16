@@ -18,15 +18,21 @@ Linux In Action: Chapitre 4
 
 ## sudo
 
+- [ ] permettre l'acces sans mot de passe a SUDO  
+
 ```
 sudo visudo
 ```
 
+- [ ] Dans `nano` ou `vi` ajouter ce block a la fin du texte
 
 ```
 # User privilege specification
 (user)    ALL=(ALL) ALL
 ```
+
+- [ ] [sudo-nopasswd](https://www.linuxfordevices.com/tutorials/linux/sudo-nopasswd)
+
 ## Volume Group et LVM
 
 * Exercice creer son propre [`LVM`](lvm.md)
