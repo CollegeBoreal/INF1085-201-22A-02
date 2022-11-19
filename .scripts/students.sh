@@ -39,7 +39,7 @@ ch9aw9aw
 memedlebleu
 hafsa08
 chakibmahi
-octocat
+Adminmkk
 hakimdrai
 zackL125
 Sedric-g
@@ -67,8 +67,8 @@ AVATARS=(
 97644305
 98238582
 97644650
+115741457
 97989532
-583231
 97623907
 97314948
 97324827
