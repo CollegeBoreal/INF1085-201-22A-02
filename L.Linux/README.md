@@ -90,7 +90,7 @@
 | Configure a database server                                         | `Projet`                                      |
 | Restrict access to a web page                                       |                                               |
 | Manage and configure containers                                     | `docker container`                            |
-| Manage and configure Virtual Machines                               | `docker-machine`                              |
+| Manage and configure Virtual Machines                               | `docker context`                              |
 
 #### Storage Management – 13%
 
