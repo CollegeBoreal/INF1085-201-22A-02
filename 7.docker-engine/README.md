@@ -10,16 +10,6 @@ https://github.com/CollegeBoreal/Tutoriels/tree/main/2.MicroServices/1.Container
 <img src="images/docker-engine.png" width=462 height=281 > </img>
 
 
-- [ ] Lister les contextes 
-
-```
-docker context ls
-```
-> Retour
-```
-NAME      ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER      ERRORS
-ma-machine   -     generic      Running   tcp://10.13.237.25:2376             v20.10.3  
-```
 
 - [ ] Creer un contexte
 
@@ -31,7 +21,7 @@ docker context create MA_MACHINE --docker "host=ssh://utilisateur@localhost.mond
 docker context use MA_MACHINE
 ```
 
-- [ ] Visualiser les machines actives
+- [ ] Lister les contextes 
 
 * toutes les machines Note: :star:
 
