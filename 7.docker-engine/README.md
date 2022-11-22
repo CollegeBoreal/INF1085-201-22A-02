@@ -7,7 +7,7 @@
 https://github.com/CollegeBoreal/Tutoriels/tree/main/2.MicroServices/2.VM/1.Docker-Machine/
 
 
-<img src="images/docker-machine.png.png" width=462 height=281 > </img>
+<img src="images/docker-engine.png" width=462 height=281 > </img>
 
 
 - [ ] Lister les machines 
