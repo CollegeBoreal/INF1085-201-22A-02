@@ -65,7 +65,7 @@ In this final step we should fill the forms with our information.
 ![This is an image]([https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/CollegeBoreal/INF1085-201-22A-02/blob/d220436dc3bf6a0a277249527e899b0bb40baf11/6.Projects/300126020/Capture.PNG)
 
 
-The LINK for my next cloud : http://10.13.237.33/index.php
+The LINK for my next cloud : http://10.13.237.33/nextcloud/index.php/login
 
 
 Thank you.
