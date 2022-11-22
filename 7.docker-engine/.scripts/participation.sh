@@ -30,7 +30,7 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | Interne            | Docker Machine |"
+echo "|:hash:| Boréal :id:                | Interne            | Docker Engine |"
 echo "|------|----------------------------|--------------------|----------------|"
 
 i=0
