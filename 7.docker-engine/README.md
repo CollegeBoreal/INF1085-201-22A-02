@@ -10,10 +10,10 @@ https://github.com/CollegeBoreal/Tutoriels/tree/main/2.MicroServices/1.Container
 <img src="images/docker-engine.png" width=462 height=281 > </img>
 
 
-- [ ] Lister les machines 
+- [ ] Lister les contextes 
 
 ```
-docker-machine ls
+docker context ls
 ```
 > Retour
 ```
@@ -21,10 +21,14 @@ NAME      ACTIVE   DRIVER       STATE     URL                         SWARM   DO
 ma-machine   -     generic      Running   tcp://10.13.237.25:2376             v20.10.3  
 ```
 
-- [ ] Activer une machine
+- [ ] Creer un contexte
 
 ```
-eval $(docker-machine env ma-machine)
+docker context create MA_MACHINE --docker "host=ssh://utilisateur@localhost.mondomaine.games"
+```
+
+```
+docker context use MA_MACHINE
 ```
 
 - [ ] Visualiser les machines actives
@@ -36,25 +40,11 @@ docker-machine ls
 ```
 > Retour
 ```
-NAME      ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER      ERRORS
-ma-machine   *     generic      Running   tcp://10.13.237.25:2376             v20.10.3  
+NAME                           TYPE                DESCRIPTION                               DOCKER ENDPOINT                                KUBERNETES ENDPOINT                 ORCHESTRATOR
+default                        moby                Current DOCKER_HOST based configuration   unix:///var/run/docker.sock                    https://127.0.0.1:55853 (default)   swarm
+desktop-linux                  moby                                                          unix:///Users/valiha/.docker/run/docker.sock                   MA_MACHINE                 *   moby                                                          ssh://utilisateur@localhost.mondomaine.games                                         
 ```
 
-* la machine active
-
-```
-docker-machine active
-```
-> Retour
-```
-ma-machine
-```
-
-- [ ] Annuler les machines actives
-
-```
-eval $(docker-machine env --unset)
-```
 
 ## :b: Installer un conteneur
 
