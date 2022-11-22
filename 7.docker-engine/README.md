@@ -26,7 +26,7 @@ docker context use MA_MACHINE
 * toutes les machines Note: :star:
 
 ```
-docker-machine ls
+docker context ls
 ```
 > Retour
 ```
