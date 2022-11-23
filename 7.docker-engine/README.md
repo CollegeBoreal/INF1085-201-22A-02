@@ -14,11 +14,11 @@ https://github.com/CollegeBoreal/Tutoriels/tree/main/2.MicroServices/1.Container
 - [ ] Creer un contexte
 
 ```
-docker context create MA_MACHINE --docker "host=ssh://utilisateur@localhost.mondomaine.games"
+docker context create rigel --docker "host=ssh://ubuntu@rigel.orion.gasy.africa"
 ```
 
 ```
-docker context use MA_MACHINE
+docker context use rigel
 ```
 
 - [ ] Lister les contextes 
@@ -30,9 +30,10 @@ docker context ls
 ```
 > Retour
 ```
-NAME                           TYPE                DESCRIPTION                               DOCKER ENDPOINT                                KUBERNETES ENDPOINT                 ORCHESTRATOR
-default                        moby                Current DOCKER_HOST based configuration   unix:///var/run/docker.sock                    https://127.0.0.1:55853 (default)   swarm
-desktop-linux                  moby                                                          unix:///Users/valiha/.docker/run/docker.sock                   MA_MACHINE                 *   moby                                                          ssh://utilisateur@localhost.mondomaine.games                                         
+NAME        DESCRIPTION                               DOCKER ENDPOINT                        KUBERNETES ENDPOINT                                   ORCHESTRATOR
+default     Current DOCKER_HOST based configuration   npipe:////./pipe/docker_engine         https://betelgeuse.orion.gasy.africa:6443 (default)   swarm
+rigel   *                                             ssh://ubuntu@rigel.orion.gasy.africa             
+saiph                                                 ssh://ubuntu@saiph.orion.gasy.africa                              
 ```
 
 
