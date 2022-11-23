@@ -15,7 +15,7 @@
 
 |:hash:| Boréal :id:                | Sujet	   | DNS |
 |------|----------------------------|----------|-----|
-| 0 | 100027015 - <image src='https://avatars.githubusercontent.com/u/97314874?s=460&v=4' width=20 height=20></image> | [:parking: NextCloud](README.md#parking-chapter-8--building-a-nextcloud-file-sharing-server) | http://local.steeve-the-best.tech | :x: |
+| 0 | 100027015 - <image src='https://avatars.githubusercontent.com/u/97314874?s=460&v=4' width=20 height=20></image> | [:parking: NextCloud](README.md#parking-chapter-8--building-a-nextcloud-file-sharing-server) | localhost.techstudentguide.software | :x: |
 | 1 | 100028762 - <image src='https://avatars.githubusercontent.com/u/96226008?s=460&v=4' width=20 height=20></image> | [:parking: RPI :movie_camera:](README.md#parking-chapter-10--securing-network-connections-vpn) | localhost.studiopolaris.games |
 | 2 | 300119623 - <image src='https://avatars.githubusercontent.com/u/97314467?s=460&v=4' width=20 height=20></image> | [:parking: NextCloud](README.md#parking-chapter-10--securing-network-connections-vpn) | :x: |
 | 3 | 300120726 - <image src='https://avatars.githubusercontent.com/u/105461057?s=460&v=4' width=20 height=20></image> | [:parking: WikiMedia](README.md#parking-chapter-10--securing-network-connections-vpn) | localhost.pasmibalayi.tech |
@@ -33,7 +33,7 @@
 | 15 | 300126800 - <image src='https://avatars.githubusercontent.com/u/105135304?s=460&v=4' width=20 height=20></image> | :question: | :x: |
 | 16 | 300126966 - <image src='https://avatars.githubusercontent.com/u/94937166?s=460&v=4' width=20 height=20></image> | [:parking: RPI :movie_camera:](README.md#parking-chapter-10--securing-network-connections-vpn) | localhost.mbtechno.tech |
 | 17 | 300127065 - <image src='https://avatars.githubusercontent.com/u/97314712?s=460&v=4' width=20 height=20></image> | [:parking: MediaWiki](README.md#parking-chapter-10--securing-network-connections-vpn) | localhost.salimatap.live |
-| 18 | 300127290 - <image src='https://avatars.githubusercontent.com/u/105463700?s=460&v=4' width=20 height=20></image> | [:parking: NextCloud](README.md#parking-chapter-10--securing-network-connections-vpn) | :x: |
+| 18 | 300127290 - <image src='https://avatars.githubusercontent.com/u/105463700?s=460&v=4' width=20 height=20></image> | [:parking: NextCloud](README.md#parking-chapter-10--securing-network-connections-vpn) | localhost.altayasara.tech |
 | 19 | 300127868 - <image src='https://avatars.githubusercontent.com/u/113466237?s=460&v=4' width=20 height=20></image> | [:parking: NextCloud](README.md#parking-chapter-10--securing-network-connections-vpn) | :x: |
 | 20 | 300127921 - <image src='https://avatars.githubusercontent.com/u/106841177?s=460&v=4' width=20 height=20></image> | :question: | :x: |
 | 21 | 300128276 - <image src='https://avatars.githubusercontent.com/u/113144317?s=460&v=4' width=20 height=20></image> | [:parking: WikiMedia](README.md#parking-chapter-10--securing-network-connections-vpn) | :x: |
