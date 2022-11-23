@@ -39,4 +39,10 @@ saiph                                                 ssh://ubuntu@saiph.orion.g
 
 ## :b: Installer un conteneur
 
-[Docker MySQL :point_left: ](Docker.md)
+- [ ] [Docker MySQL :point_left: ](Docker.md)
+
+- [ ] nginx
+
+```
+docker container run --name some-nginx --publish 80:80 --detach nginx
+```
