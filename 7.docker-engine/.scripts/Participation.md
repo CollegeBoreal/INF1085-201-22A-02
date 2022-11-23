@@ -1,4 +1,4 @@
-# Participation au 23-11-2022 15:15
+# Participation au 23-11-2022 15:36
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -41,5 +41,3 @@
 | 22 | 300128326 - <image src='https://avatars.githubusercontent.com/u/105472970?s=460&v=4' width=20 height=20></image> | `ssh mamadou@10.13.237.2` | :x: |
 | 23 | 300128566 - <image src='https://avatars.githubusercontent.com/u/101542761?s=460&v=4' width=20 height=20></image> | `ssh diarra1@10.13.237.43` | :x: |
 | 24 | 300128694 - <image src='https://avatars.githubusercontent.com/u/105947276?s=460&v=4' width=20 height=20></image> | `ssh walid@10.13.237.27` | :x: |
-default
-Current context is now "default"
