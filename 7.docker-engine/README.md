@@ -44,5 +44,5 @@ saiph                                                 ssh://ubuntu@saiph.orion.g
 - [ ] nginx
 
 ```
-docker container run --name some-nginx --publish 80:80 --detach nginx
+docker container run --name some-nginx --publish 8080:80 --detach nginx
 ```
