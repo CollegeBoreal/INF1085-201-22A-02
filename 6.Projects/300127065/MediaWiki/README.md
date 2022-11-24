@@ -65,6 +65,10 @@ sudo apt install lamp-server^
 ![Pa8](https://user-images.githubusercontent.com/97314712/201721413-96fa55c8-3f48-46d3-a864-1e26ae1905e8.png)
 
 
+![image](https://user-images.githubusercontent.com/97314712/203699984-224d27e1-c508-4853-9797-4ab24bd39cdc.png)
+
+
+
 
 
 
