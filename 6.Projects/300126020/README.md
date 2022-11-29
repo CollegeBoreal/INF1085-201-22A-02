@@ -67,9 +67,9 @@ In this final step we should fill the forms with our information.
 
 The LINK for my next cloud : http://localhost.hakimdrai.tech/nextcloud/
 
-Teacher Access: 
-Username: m.robert
-password: 0123456789
+Teacher Access: \
+Username: m.robert\
+password: 0123456789\
 
 
 Thank you.
