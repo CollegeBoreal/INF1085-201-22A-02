@@ -64,7 +64,7 @@ https://services.collegeboreal.ca/
 | 21 | [300128276](300128276/README.md) - <image src='https://avatars0.githubusercontent.com/u/113144317?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |  https://bsoumaila2000.wixsite.com/installation-de-linu/blog | ✔️  |  :heavy_check_mark: | ballo78@10.13.237.41 | :four::zero: | 
 | 22 | [300128326](300128326/README.md) - <image src='https://avatars0.githubusercontent.com/u/105472970?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | https://mdian3998.wixsite.com/monbloglunixserver | :heavy_check_mark: | :heavy_check_mark: | mamadou@10.13.237.2 | :zero::two: |
 | 23 | [300128566](300128566/README.md) - <image src='https://avatars0.githubusercontent.com/u/101542761?s=460&v=4' width=20 height=20></image> |:heavy_check_mark:| https://300128566.wixsite.com/umbutu-configuration | :x: | :heavy_check_mark: | diarra1@10.13.237.43 | :four::two: |
-| 24 | [300128694](300128694/README.md) - <image src='https://avatars0.githubusercontent.com/u/105947276?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |  https://falahcen200.wixsite.com/walid | :x: | :x: |walid@10.13.237.27 | :two::seven: |
+| 24 | [300128694](300128694/README.md) - <image src='https://avatars0.githubusercontent.com/u/105947276?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |  https://falahcen200.wixsite.com/walid | :heavy_check_mark: | :heavy_check_mark: |walid@10.13.237.27 | :two::seven: |
 
 #### Example
 | :id:      |   Blog (https://wordpress.com)                          |
