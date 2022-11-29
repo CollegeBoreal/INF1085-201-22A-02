@@ -321,6 +321,8 @@ raspivid -o testvideo.h264 -t 10000
 
 ```
 
+- [] Also take note to retrieve both files ( testvideo.h264 for video and test1.jpeg for photos, just browse the Raspberry screen, click on left top on folder, this will route you directly to both folders
+
 
 ![20221114_021815](https://user-images.githubusercontent.com/96226008/201878869-adbfab70-5fc9-4194-a587-6dbb8587cd75.jpg)
 
