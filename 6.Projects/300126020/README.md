@@ -69,7 +69,7 @@ The LINK for my next cloud : http://localhost.hakimdrai.tech/nextcloud/
 
 Teacher Access: \
 Username: m.robert\
-password: 0123456789\
+password: 0123456789
 
 
 Thank you.
