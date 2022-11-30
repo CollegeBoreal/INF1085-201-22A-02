@@ -87,6 +87,7 @@ sudo apt-get upgrade
 [https://angryip.org/]
 
 ### THANK YOU FOR YOUR ENTENTION
+
 ![image](https://user-images.githubusercontent.com/97314712/204909336-37cb9940-fb42-42e4-af17-8f8d0f78ba17.png)
 
 
