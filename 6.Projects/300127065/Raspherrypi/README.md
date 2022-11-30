@@ -1,5 +1,4 @@
 ###                                     ............. BIENVENUE ENCORE DANS CETTE NOUVELLE PAGE RASPHERRYPI............     !!!!  WHAOU  !!!!!
-![image](https://user-images.githubusercontent.com/97314712/202913072-4eeb774f-9405-434f-bb7a-2aba7e631f6e.png)
 
 ![image](https://user-images.githubusercontent.com/97314712/204909611-6b9e1294-64f5-407a-87bc-f5aa684c081f.png)
 
