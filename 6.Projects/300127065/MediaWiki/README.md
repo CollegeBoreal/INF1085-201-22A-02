@@ -96,26 +96,25 @@ mysql> CREATE USER 'new_mysql_user'@'localhost' IDENTIFIED BY
 mysql> quit
 
 
-créer une NOUVELLE base de données mysql my_wiki :
+créer une NOUVELLE base de données mysql:
 
 ```
 sudo mysql -u root -p
 ```
 
-mysql> CREATE DATABASE my_wiki;
-mysql> use my_wiki
-Database changed
-
-DONNEZ au NOUVEAU accès utilisateur mysql à la NOUVELLE base de données mysql créée my_wiki:
+![image](https://user-images.githubusercontent.com/97314712/204884981-d7f9c91a-cffa-4fa8-9861-cb327addfe53.png)
 
 
-D: Installation et Configuration de MediaWiki
+mysql> CREATE DATABASE MyWikiTable;
 
+![image](https://user-images.githubusercontent.com/97314712/204885404-4b5dd311-18e9-4f1e-91af-cc0a6618b634.png)
 
-E: Installation et Configuration de Apache web serveur sur CentOS
+mysql> use MyWikiTable
 
+![image](https://user-images.githubusercontent.com/97314712/204885613-e63bd171-61c4-47c0-93da-d2182a3d1f48.png)
 
-
+DONNEZ au NOUVEAU accès utilisateur mysql à la NOUVELLE base de données mysql créée MyWikiTable:
+![image](https://user-images.githubusercontent.com/97314712/204886004-6b48454f-ddee-487a-b8a1-cc6cefbc41c1.png)
 
 
 
