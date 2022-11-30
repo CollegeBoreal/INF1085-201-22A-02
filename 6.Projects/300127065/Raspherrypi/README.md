@@ -1,6 +1,9 @@
 ###                                     ............. BIENVENUE ENCORE DANS CETTE NOUVELLE PAGE RASPHERRYPI............     !!!!  WHAOU  !!!!!
 ![image](https://user-images.githubusercontent.com/97314712/202913072-4eeb774f-9405-434f-bb7a-2aba7e631f6e.png)
 
+![image](https://user-images.githubusercontent.com/97314712/204909611-6b9e1294-64f5-407a-87bc-f5aa684c081f.png)
+
+
 ##                                                                C'EST QUOI RASPHERRYPI?
 
 Le Raspberry Pi est ce qu’on appelle un nano-ordinateur. De la taille d’une carte de crédit, il est équipé du strict nécessaire : Un microprocesseur ARM, De la mémoire RAM, Une carte vidéo, Une carte ethernet, Le Wi-fi et Le Bluetooth.
