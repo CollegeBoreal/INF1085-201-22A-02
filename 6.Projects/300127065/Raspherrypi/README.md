@@ -74,6 +74,9 @@ sudo apt-get upgrade
 
 ![image](https://user-images.githubusercontent.com/97314712/202974562-f078af32-da9c-4d90-8fd1-1c136ef63f40.png)
 
+![image](https://user-images.githubusercontent.com/97314712/204908945-c05767d5-e8ff-4864-ac9c-0bd9e137417a.png)
+
+
 
 ## REFFERNCE
 
@@ -82,4 +85,8 @@ sudo apt-get upgrade
 [https://www.raspberrypi.com/software/]
 
 [https://angryip.org/]
+
+### THANK YOU FOR YOUR ENTENTION
+![image](https://user-images.githubusercontent.com/97314712/204909336-37cb9940-fb42-42e4-af17-8f8d0f78ba17.png)
+
 
