@@ -1,4 +1,4 @@
-# Participation au 30-11-2022 17:43
+# Participation au 30-11-2022 17:57
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -16,7 +16,7 @@
 
 |:hash:| Boréal :id:                | Interne            | :dvd: LVM |
 |------|----------------------------|--------------------|-----------|
-| 0 | 100027015 - <image src='https://avatars.githubusercontent.com/u/97314874?s=460&v=4' width=20 height=20></image> | `ssh steeve@10.13.237.42` | :x: |
+| 0 | 100027015 - <image src='https://avatars.githubusercontent.com/u/97314874?s=460&v=4' width=20 height=20></image> | `ssh steeve@10.13.237.42` | :tada: |
 | 1 | 100028762 - <image src='https://avatars.githubusercontent.com/u/96226008?s=460&v=4' width=20 height=20></image> | `ssh madmax@10.13.237.29` | :tada: |
 | 2 | 300119623 - <image src='https://avatars.githubusercontent.com/u/97314467?s=460&v=4' width=20 height=20></image> | `ssh mariodeg@10.13.237.13` | :x: |
 | 3 | 300120726 - <image src='https://avatars.githubusercontent.com/u/105461057?s=460&v=4' width=20 height=20></image> | `ssh pasmibalayi@10.13.237.17` | :tada: |
