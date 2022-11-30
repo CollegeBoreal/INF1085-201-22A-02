@@ -116,6 +116,7 @@ mysql> use MyWikiTable
 DONNEZ au NOUVEAU accès utilisateur mysql à la NOUVELLE base de données mysql créée MyWikiTable:
 ![image](https://user-images.githubusercontent.com/97314712/204886004-6b48454f-ddee-487a-b8a1-cc6cefbc41c1.png)
 
+![image](https://user-images.githubusercontent.com/97314712/204886255-ed779f8c-a4a3-40ad-ae74-77047692082f.png)
 
 
 References:
