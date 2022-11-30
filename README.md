@@ -41,6 +41,7 @@ Find your local number: https://collegeboreal.zoom.us/u/kcsZ6xD3Py
 |03|22-10-14| [4.SystemD](./4.SystemD/.scripts/Participation.md) | Les Services sous Linux | Démontrer l'installation d'un service |
 |04|22-11-11| [5.Volume](./5.Volume/.scripts/Participation.md) | Ajouter un volume | Démontrer l'installation d'un volume |
 |05|22-11-11| [6.Projects](./6.Projects/.scripts/Participation.md) | Un project à installer | Démontrer l'installation d'un service |
+|06|22-11-11| [7.docker-engine](./7.docker-engine/.scripts/Participation.md) | Un conteneur à installer | Démontrer l'installation d'un conteneur |
 
 
 ## Resultats d'Apprentissage du Cours
