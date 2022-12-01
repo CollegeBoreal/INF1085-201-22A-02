@@ -22,3 +22,48 @@ sudo systemctl enable apache2 && sudo systemctl start apache2
 sudo systemctl status apache2
 ```
 ![unnamed](https://user-images.githubusercontent.com/97314467/205069016-3debce39-ed74-4dc2-822d-93f4fc6802f4.jpg)
+## Step three. Install PHP8.1 with dependencies
+To install the PHP8.1 along with extensions execute the following command:
+```
+sudo apt-get install php8.1 php8.1-cli php8.1-common php8.1-imap php8.1-redis php8.1-snmp php8.1-xml php8.1-zip php8.1-mbstring php8.1-curl php8.1-gd php8.1-mysql
+```
+![IMG-6240](https://user-images.githubusercontent.com/97314467/205071164-4c153ae2-4071-4b9a-aa8b-82d62d0a214c.jpg)
+![IMG-6242](https://user-images.githubusercontent.com/97314467/205071262-bb9c4fda-d8c7-45ad-bb32-9353dcfca7b9.jpg)
+## Step four. Install MariaDB database server
+To install the MariaDB database server, execute the command below.
+```
+sudo apt install mariadb-server
+```
+![IMG-6243](https://user-images.githubusercontent.com/97314467/205072266-fbc68c0a-af07-4d62-93ba-07131628abcb.jpg)
+![IMG-6246](https://user-images.githubusercontent.com/97314467/205072300-6f91cda0-560c-43fb-9e59-a831e9bfe4a0.jpg)
+Start and enable the mariadb.service with the following commands:
+```
+sudo systemctl start mariadb && sudo systemctl enable mariadb
+```
+![unnamed](https://user-images.githubusercontent.com/97314467/205072874-f7b36de5-47c5-48b6-ba62-55be8d568bca.jpg)
+Check the status of the mariadb.service
+```
+sudo systemctl status mariadb
+```
+You should receive the following output:
+![unnamed (1)](https://user-images.githubusercontent.com/97314467/205074126-b9fe3df5-3797-4d51-9ce6-e75cd2ffeaa4.jpg)
+To check the installed MariaDB database version you can execute the following command:
+```
+mysql -V
+```
+You should receive the following output:
+![unnamed](https://user-images.githubusercontent.com/97314467/205074949-5460d0dd-35b6-40b3-85cd-9c6da8af609b.jpg)
+## Step five. Create Database and Database User
+We need to create a database, and database user before we install the NextCloud.
+```
+CREATE DATABASE nextcloud;
+GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextcloud'@'localhost' IDENTIFIED BY 'YourStrongPasswordHere';
+FLUSH PRIVILEGES;
+exit;
+## Step six. Create Database and Database User
+The latest stable version of NextCloud is NextCloud 24.0.1 go into the Apache document root and download the latest version:</p
+```
+cd /var/www/html
+
+wget https://download.nextcloud.com/server/releases/nextcloud-24.0.1.zip
+```
