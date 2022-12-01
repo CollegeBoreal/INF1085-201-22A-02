@@ -82,3 +82,28 @@ First, create the configuration file with the following command:
 ```
 touch /etc/apache2/sites-available/nextcloud.conf
 ```
+Open the file, and paste the following lines of code:
+```
+<VirtualHost *:80>
+ServerName yourdomain.com
+DocumentRoot /var/www/html/nextcloud
+
+<Directory /var/www/html/nextcloud/>
+ Require all granted
+ Options FollowSymlinks MultiViews
+ AllowOverride All
+ <IfModule mod_dav.c>
+ Dav off
+ </IfModule>
+</Directory>
+
+ErrorLog /var/log/apache2/yourdomain.com.error_log
+CustomLog /var/log/apache2/yourdomain.com.access_log common
+</VirtualHost>
+```
+Enable the Apache2 confguration file and other modules:
+```
+sudo a2ensite nextcloud.conf
+
+sudo a2enmod rewrite
+```
