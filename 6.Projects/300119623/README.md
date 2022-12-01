@@ -60,10 +60,25 @@ CREATE DATABASE nextcloud;
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextcloud'@'localhost' IDENTIFIED BY 'YourStrongPasswordHere';
 FLUSH PRIVILEGES;
 exit;
-## Step six. Create Database and Database User
+## Step Six. Install Nextcloud
 The latest stable version of NextCloud is NextCloud 24.0.1 go into the Apache document root and download the latest version:</p
 ```
-cd /var/www/html
+cd /var/www/html wget https://download.nextcloud.com/server/releases/nextcloud-24.0.1.zip
+```
+![unnamed (1)](https://user-images.githubusercontent.com/97314467/205077114-29c3a667-0bc6-46a3-ad5a-db1d07807e58.jpg)
+Once the installation is downloaded, extract it with the following command.
+```
+unzip nextcloud-24.0.1.zip
+```
+![unnamed](https://user-images.githubusercontent.com/97314467/205085181-6d503bbf-1f66-494c-aef4-6dde22f99f2a.jpg)
+After extracting, we need to set up the right permissions:
+```
+chown -R www-data:www-data /var/www/html/nextcloud
+```
+## Step seven. Create Apache Virtual Host File
+In order can access NextCloud via domain name we need to create Apache Virtual Host file.
 
-wget https://download.nextcloud.com/server/releases/nextcloud-24.0.1.zip
+First, create the configuration file with the following command:
+```
+touch /etc/apache2/sites-available/nextcloud.conf
 ```
