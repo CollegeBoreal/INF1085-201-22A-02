@@ -37,6 +37,68 @@ Maintenant nous pouvous commencer avec l'untilisation de notre Webcam.
 
 Dans un premier temps vous connectez votre Webcam ou votre Camera RaspberryPi dans ce projet j'utilise une Webcam. 
 
+Vous pouvez utiliser l'outil FSWEBCAM qui est un outil asser leger a utiliser.
+![20221203_150827](https://user-images.githubusercontent.com/105458655/205460271-71b2c3ae-99e0-43d7-ae28-ac3f9d2fc66e.jpg)
+
+Cette etape n'est pas necessaire mais pour sassurer que le user Pi est access a la webcam on ajoute le suer pi au video group grave a cette commande ci-dessous
+Il y a aussi une autre commande sur la photo ci-dessous qui vous permet de voir les differentes resolution et la qualite d'image de la webcam vou pouvez egalement utiliser la commande suivante.
+![20221127_224936](https://user-images.githubusercontent.com/105458655/205460537-ccd502da-24ca-41a7-aa28-36b8360605f3.jpg)
+
+Maintenant pour s'assurer que la webcam est reconnu vous pouvez utiliser la commande "Lsusb"
+![20221127_232034](https://user-images.githubusercontent.com/105458655/205460716-1402f9d8-437d-41a0-9346-da75d880220d.jpg)
+
+Maintenant nous allons tester un prenant une photo en utilisant la commande suivante: fswebcam -r 1920x1080 test.jpg
+![20221127_225635](https://user-images.githubusercontent.com/105458655/205460829-fa9371f9-5672-47d9-b22d-073949d81fd6.jpg)
+Desole je n'etait pas pres pour la photo
+![20221203_153419](https://user-images.githubusercontent.com/105458655/205460950-a417e3aa-9e18-4484-8a99-c1580c29c124.jpg)
+
+Maintenant pour rendre cela plus interessant j'ai cree un docier webcampics pour stocker les photos
+![20221127_230158](https://user-images.githubusercontent.com/105458655/205461023-6218738e-b429-432e-b26b-63deb054b153.jpg)
+
+Je cree un fichier bash dans lequel je vais mettre le code suivant et par la suite je n'aurai qu'a executer le fichier bash pour que la photo soit prise en fonction des configuration du code et ils seront placer dans on docier webcampics.
+
+![20221127_230800](https://user-images.githubusercontent.com/105458655/205461308-2c3b37eb-c3be-4b33-91a4-aa0811e2d611.jpg)
+
+le code
+![20221127_230649](https://user-images.githubusercontent.com/105458655/205461333-953a505d-d74b-476a-8c6a-cd8808459981.jpg)
+
+La photo se ranche dans le docier avec la date et l'heure a laquelle elle a ete prise:
+![20221203_155050](https://user-images.githubusercontent.com/105458655/205461640-10c0c790-3bd9-43b0-9e2c-95f6c238ed3f.jpg)
+![20221203_155059](https://user-images.githubusercontent.com/105458655/205461648-b986a79d-9856-41bb-8ad9-4e5a862d6ee4.jpg)
+La j'etais pret:
+![20221203_155138](https://user-images.githubusercontent.com/105458655/205461695-eb498080-cba6-4caa-a218-64449a5f27d3.jpg)
+
+Voila sa c'etait pour les photos!
+
+Maintenant j'ai egalement fait un live motion.
+
+Je commence par installer l'outil motion entranmt la commande : " sudo apt-get install motion
+![20221127_231936](https://user-images.githubusercontent.com/105458655/205462993-9ff3cae9-494e-4472-b05f-6c46d0efad44.jpg)
+
+Maintenant pour acceder aux configurations de l'outil motion je rentre la commande:  sudo nano /etc/motion/motion.conf  cela me menera a la page suivante:
+
+![20221127_232730](https://user-images.githubusercontent.com/105458655/205463178-df445180-685b-4528-971b-c5b80378cadd.jpg)
+
+Sur cette page vous aurez certaine configuration a faire mais pour plus d'infoamtion vous pouvez cliquez sur le lien si-dessous et elle vous amenera a une video avec toute les etapes a suivre: https://www.youtube.com/watch?v=BeyBu-Mzeq4&t=305s 
+
+Tres important comme mis sur la photo ci-dessus de mettre le port 8080 qui est le port http pour la connexion a la camera sur internet. 
+
+![20221203_151348](https://user-images.githubusercontent.com/105458655/205463264-adb99b5d-8944-4ded-ac25-6338d71f463e.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
