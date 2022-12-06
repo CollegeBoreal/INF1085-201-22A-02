@@ -27,6 +27,8 @@ Nous allons maintenant arrêter le service (s'il était précédemment activé),
 #### sudo systemctl redémarrer mariadb.service && sudo systemctl activer mariadb.service
 Une fois MariaDB installée, nous sécuriserons notre installation
 #### sudo mysql_secure_installation
+
+<pre>
 Vous serez invité à répondre aux questions suivantes. Assurez-vous de définir les options suivantes comme indiqué ci-dessous.
 Entrez le mot de passe actuel pour root (entrez pour aucun): Appuyez sur Entrée
 Définir le mot de passe root ? [O/n] : O
@@ -36,6 +38,7 @@ Supprimer les utilisateurs anonymes ? [O/n] : O
 Interdire la connexion root à distance ? [O/n] : O
 Supprimer la base de données de test et y accéder ? [O/n] : O
 Recharger les tables de privilèges maintenant ? [O/n] : O
+</pre>
 
 Une fois terminé, redémarrez MariaDB.
 
