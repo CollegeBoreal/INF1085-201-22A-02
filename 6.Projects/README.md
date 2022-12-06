@@ -11,9 +11,9 @@
 
 ## Presente
 
-- [ ]  Zakaria
-- [ ] Hugo
-- [ ] Mamadou
+- [ ]  Zakaria - VPN
+- [ ] Hugo - Pi
+- [ ] Mamadou - MediaWIki
 
 ## :ab: Projets
 
