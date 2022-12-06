@@ -78,6 +78,9 @@ GRANT ALL ON mediawiki.* TO 'madmin'@'localhost' IDENTIFIED BY 'YourPassword' WI
 Maintenant, enregistrez vos modifications et quittez.
 ```
 FLUSH PRIVILEGES;
+```
+
+```
 EXIT;
 ```
 
