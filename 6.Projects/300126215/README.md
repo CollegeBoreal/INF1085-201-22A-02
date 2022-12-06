@@ -29,6 +29,12 @@ chmod +x openvpn-install.sh
 
 ![Capture 8](https://user-images.githubusercontent.com/97623907/205794563-9b7bf68f-f908-4ee7-9484-4a5e9aa38709.PNG)
 
+Generating encryption keys
+
+# cp -r /usr/share/easy-rsa/ /etc/openvpn
+$ cd /etc/openvpn/easy-rsa
+
+
  When everything is done. You should see a file that ends with .ovpn. This is a configuration file you will need to configure the client computer. 
 ![10](https://user-images.githubusercontent.com/97623907/205794706-3b8f03f1-5104-4100-bfd6-97b1b6c3f7dc.PNG)
 
