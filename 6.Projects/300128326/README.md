@@ -66,7 +66,9 @@ Une fois toutes les étapes précédentes terminées, vous pouvez maintenant cr�
 sudo mysql -u root -p
 ```
 
+```
 CRÉER UNE BASE DE DONNÉES mediawiki ;
+```
 
 #### CREATE DATABASE mediawiki;
 Créez un utilisateur de base de données appelé madmin avec un nouveau mot de passe.
