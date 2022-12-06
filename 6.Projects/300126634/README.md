@@ -38,11 +38,12 @@
           If everything goes well the command will output “Nextcloud was successfully installed”.
 
 6. nextcloud allowed access only from localhost, it could through error “Access through untrusted domain”. we need to allow accessing nextcloud by using our ip or domain name.
+
 # vi /var/www/html/config/config.php
 
-<?php
-$CONFIG = array (
-  'passwordsalt' => 'VAXFa5LsahAWHK/CMPHC3QkTsnqK80',
+# <?php
+ $CONFIG = array (
+   'passwordsalt' => 'VAXFa5LsahAWHK/CMPHC3QkTsnqK80',
   'secret' => 'ZWTuZMLpKVizET85i/NkcwYCPUQyjB/6ZjEYGdVgJeDhNXzR',
   'trusted_domains' =>
   array (
@@ -57,6 +58,11 @@ $CONFIG = array (
 
 Now save the file and restart apache2
 
-# systemctl restart apache2
-![WhatsApp Image 2022-11-30 at 16 27 56](https://user-images.githubusercontent.com/97324827/206022920-573096c4-e733-41ed-9e74-21a53baf4aed.jpg)
-![WhatsApp Image 2022-11-30 at 16 27 59](https://user-images.githubusercontent.com/97324827/206022923-42209a4e-53e6-4640-abeb-0fbb7623f44f.jpg)
+ systemctl restart apache2
+
+
+
+![WhatsApp Image 2022-11-30 at 16 27 56](https://user-images.githubusercontent.com/97324827/206024177-97654b6a-5b02-4eab-bac0-9b0f57628173.jpg)
+![WhatsApp Image 2022-11-30 at 16 27 59](https://user-images.githubusercontent.com/97324827/206024510-4a24415a-28f7-43a1-b387-06268f3f559e.jpg)
+
+
