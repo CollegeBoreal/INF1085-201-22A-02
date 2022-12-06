@@ -30,6 +30,7 @@ Supprimer les utilisateurs anonymes ? [O/n] : O
 Interdire la connexion root à distance ? [O/n] : O
 Supprimer la base de données de test et y accéder ? [O/n] : O
 Recharger les tables de privilèges maintenant ? [O/n] : O
+
 Une fois terminé, redémarrez MariaDB.
 
 ####sudo systemctl redémarrer mariadb.service
@@ -74,7 +75,8 @@ Redémarrez Apache2 pour recharger tous les paramètres et configurations.
 #### sudo systemctl restart apache2.service
 Visitez votre nom d'hôte ou votre adresse IP pour démarrer la configuration de MediaWiki, et appuyez sur "configurer le wiki" pour commencer.
 
-                                ![image](https://user-images.githubusercontent.com/105472970/206013057-da5109e7-f58f-4a85-bb13-be421bb55dd0.png
+![image](https://user-images.githubusercontent.com/105472970/206013057-da5109e7-f58f-4a85-bb13-be421bb55dd0.png
+
 À partir de là il faut remplir les informations necessaire pour  finir la configuration.
 
 
