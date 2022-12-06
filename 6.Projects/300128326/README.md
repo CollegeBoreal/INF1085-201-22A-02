@@ -75,7 +75,8 @@ Redémarrez Apache2 pour recharger tous les paramètres et configurations.
 #### sudo systemctl restart apache2.service
 Visitez votre nom d'hôte ou votre adresse IP pour démarrer la configuration de MediaWiki, et appuyez sur "configurer le wiki" pour commencer.
 
-                           ![Capture d’écran 2022-12-06 152305](https://user-images.githubusercontent.com/105472970/206016267-176753fa-0ef0-47ce-ad72-a4cb50685ee1.jpg)
+![image](https://user-images.githubusercontent.com/105472970/206017544-8a337553-e5e6-4c1a-a5bc-6905394a6d4d.png)
+
 
 
 
