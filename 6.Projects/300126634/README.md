@@ -22,31 +22,34 @@ a2enmod rewrite dir mime env headers
 
 5. Téléchargez et installez Nextcloud
 ```
-cd /var/www/html
-wget https://download.nextcloud.com/server/releases/latest.zip
-unzip latest.zip
-``
-![5](https://user-images.githubusercontent.com/97324827/206021862-9de6f152-c1c1-4fac-b837-045f2a60b02f.jpg)
-6. MTransférez tout le contenu NextCloud dans le dossier racine Web (/var/www/html)
+# cd /var/www/html
+# wget https://download.nextcloud.com/server/releases/latest.zip
+# unzip latest.zip
 ```
-cd /var/www/html/nextcloud
-mv * .* ../
+![5](https://user-images.githubusercontent.com/97324827/206021862-9de6f152-c1c1-4fac-b837-045f2a60b02f.jpg)
+
+6. Transférez tout le contenu NextCloud dans le dossier racine Web (/var/www/html)
+
+```
+# cd /var/www/html/nextcloud
+# mv * .* ../
 ```
 ![6](https://user-images.githubusercontent.com/97324827/206022066-46db1610-8869-4a60-ab0e-e829428dd71c.jpg)
 7. Supprimer le répertoire nextcloud vide
 ```
-rmdir /var/www/html/nextcloud
+# rmdir /var/www/html/nextcloud
 ```
 8. Remplacez la propriété du répertoire de contenu nextcloud par l’utilisateur HTTP.
-9. ```
-chown -R www-data:www-data /var/www/html
+
+```
+# chown -R www-data:www-data /var/www/html
 ```
 ![9](https://user-images.githubusercontent.com/97324827/206022455-026ddaa8-a6db-4fab-b63a-63510ec5b8dd.jpg)
 ![WhatsApp Image 2022-11-30 at 16 27 53](https://user-images.githubusercontent.com/97324827/206022457-8d371842-95b2-44e8-8b08-c2e96ec38f73.jpg)
 11. Exécutez les commandes de l’interface de ligne de commande d’installation nextcloud.
 ```
-cd /var/www/html
-sudo -u www-data php occ  maintenance:install --database \
+# cd /var/www/html
+# sudo -u www-data php occ  maintenance:install --database \
 "mysql" --database-name "nextcloud"  --database-user "nextcloud" --database-pass \
 "passw@rd" --admin-user "admin" --admin-pass "admin123"
 ```
@@ -58,11 +61,11 @@ sudo -u www-data php occ  maintenance:install --database \
 6. nextcloud n’autorisait l’accès qu’à partir de localhost, il pourrait par erreur « Accès via un domaine non approuvé ». Nous devons autoriser l’accès à NextCloud en utilisant notre adresse IP ou notre nom de domaine.
 
 ```
-vi /var/www/html/config/config.php
+# vi /var/www/html/config/config.php
 
- <?php
- $CONFIG = array (
-   'passwordsalt' => 'VAXFa5LsahAWHK/CMPHC3QkTsnqK80',
+<?php
+$CONFIG = array (
+  'passwordsalt' => 'VAXFa5LsahAWHK/CMPHC3QkTsnqK80',
   'secret' => 'ZWTuZMLpKVizET85i/NkcwYCPUQyjB/6ZjEYGdVgJeDhNXzR',
   'trusted_domains' =>
   array (
@@ -77,7 +80,7 @@ vi /var/www/html/config/config.php
 
 Now save the file and restart apache2
 
- systemctl restart apache2
+# systemctl restart apache2
 ```
 
 
