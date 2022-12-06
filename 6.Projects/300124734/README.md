@@ -5,6 +5,7 @@
 sudo bash
 apt update
 ```
+![sudobash aptupdate](https://user-images.githubusercontent.com/94937145/205809580-566aa8d9-9f68-4619-8028-e70d1bec9a8e.png)
 
 ## Step 2.  Install [Apache, PHP] Web Server AND MariaDB SQL Server
 
