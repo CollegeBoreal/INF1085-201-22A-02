@@ -29,7 +29,7 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | README.md   | :wheel_of_dharma: Conf |"
+echo "|:hash:| Boréal :id:                | README.md   | :wheel_of_dharma: DNS |"
 echo "|------|----------------------------|-------------|------------------------|"
 
 i=0
@@ -48,7 +48,7 @@ do
         -o PasswordAuthentication=no \
         -o ConnectTimeout=5 ${DNS[${i}]} lsb_release -a 2>/dev/null`
    if [[ $F_DATA == *"Ubuntu"* ]]; then
-         OK_DATA=":tada: ${DNS[${i}]}"
+         OK_DATA=":tada: - ssh ${DNS[${i}]}"
    else
        OK_DATA=":x: ${DNS[${i}]}"
    fi
