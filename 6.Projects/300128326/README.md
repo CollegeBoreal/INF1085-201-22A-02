@@ -64,8 +64,10 @@ sudo apt install php php-common php-mbstring php-xmlrpc php-soap php-gd php-xml 
 Une fois toutes les étapes précédentes terminées, vous pouvez maintenant créer votre base de données MediaWiki. Suivez les étapes ci-dessous pour créer votre base de données MediaWiki.
 ```
 sudo mysql -u root -p
-CRÉER UNE BASE DE DONNÉES mediawiki ;
 ```
+
+CRÉER UNE BASE DE DONNÉES mediawiki ;
+
 #### CREATE DATABASE mediawiki;
 Créez un utilisateur de base de données appelé madmin avec un nouveau mot de passe.
 ```
