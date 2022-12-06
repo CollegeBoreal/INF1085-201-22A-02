@@ -64,6 +64,8 @@ Last but not least open your browser and type your localhost server i.e (http://
 once in the localhost server page you should have something like this;
 ![Screenshot 2022-12-05 235249](https://user-images.githubusercontent.com/94937145/205819081-8c627e5a-2bf5-4a80-b2b9-b9b6fffb8924.png)
 
+enter the informations needed and press install.
+
 Robert Brice Account: 
 Username=Robertb
 psswd=cherkaoui300124734
