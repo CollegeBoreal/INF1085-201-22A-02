@@ -41,7 +41,7 @@ do
    if [ -f "$F_SCHEMA" ]; then
        OK_SCHEMA="[:heavy_check_mark:](../${F_SCHEMA})"
    else
-       OK_SCHEMA="[:x:]"
+       OK_SCHEMA=":x:"
    fi
    F_DATA=`ssh -i ~/.ssh/b300098957@ramena.pk \
         -o StrictHostKeyChecking=no \
@@ -50,7 +50,7 @@ do
    if [[ $F_DATA == *"Ubuntu"* ]]; then
          OK_DATA=":tada: - ssh ${DNS[${i}]}"
    else
-       OK_DATA=":x: ${DNS[${i}]}"
+       OK_DATA=":x: - ssh ${DNS[${i}]}"
    fi
    OK="| ${i} | [${id}](../${id}) - ${U_AVATAR} | ${OK_SCHEMA} | ${OK_DATA} |"
    echo ${OK}
