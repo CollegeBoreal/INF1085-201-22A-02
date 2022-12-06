@@ -10,20 +10,19 @@ Pour installer mediawiki suivez les étapes suivantes:
 ## 7 Activer et configurer mediawiki
 
 Tout d'abord mettons à jour la base des donnes des paquets en executant la commande suivante:
-Sudo apt update en executant la commande suivante:
 ####Sudo apt update
-## 1 Installer Apache2 
+## 1 Installer Apache2 en executant la commnade suivante:
 #### sudo apt -y installer apache2
-### Nous allons maintenant arrêter le service (s'il était précédemment activé), le démarrer et l'activer pour qu'il démarre après un redémarrage du système
+Nous allons maintenant arrêter le service (s'il était précédemment activé), le démarrer et l'activer pour qu'il démarre après un redémarrage du système
 #### sudo systemctl redémarrer apache2.service && sudo systemctl activer apache2.service
+
 ## 2 Installer mariaDB en executeant la commande suivante:
 ####sudo apt installer mariadb-server mariadb-client
-### Nous allons maintenant arrêter le service (s'il était précédemment activé), le démarrer et l'activer pour qu'il démarre après un redémarrage du système
+Nous allons maintenant arrêter le service (s'il était précédemment activé), le démarrer et l'activer pour qu'il démarre après un redémarrage du système
 #### sudo systemctl redémarrer mariadb.service && sudo systemctl activer mariadb.service
-### Une fois MariaDB installée, nous sécuriserons notre installation.
+Une fois MariaDB installée, nous sécuriserons notre installation
 #### sudo mysql_secure_installation
 Vous serez invité à répondre aux questions suivantes. Assurez-vous de définir les options suivantes comme indiqué ci-dessous.
-
 Entrez le mot de passe actuel pour root (entrez pour aucun): Appuyez sur Entrée
 Définir le mot de passe root ? [O/n] : O
 Nouveau mot de passe : Entrez le mot de passe
