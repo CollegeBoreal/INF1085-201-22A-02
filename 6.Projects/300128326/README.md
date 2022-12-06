@@ -1,1 +1,1 @@
-Mamadou Dian Diallo
+# Installer mediawiki sur un serveur ubuntu
