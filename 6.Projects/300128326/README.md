@@ -25,15 +25,15 @@ sudo systemctl restart apache2.service && sudo systemctl activer apache2.service
 ## 2 Installer mariaDB en executeant la commande suivante:
 ```
 sudo apt installer mariadb-server mariadb-client
-````
+```
 Nous allons maintenant arrêter le service (s'il était précédemment activé), le démarrer et l'activer pour qu'il démarre après un redémarrage du système
-````
+```
 sudo systemctl restart mariadb.service && sudo systemctl activer mariadb.service
-
+```
 Une fois MariaDB installée, nous sécuriserons notre installation
 
 sudo mysql_secure_installation
-```
+
 Vous serez invité à répondre aux questions suivantes. Assurez-vous de définir les options suivantes comme indiqué ci-dessous.
 
 <pre>
