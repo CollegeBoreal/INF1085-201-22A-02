@@ -1,1 +1,1 @@
-# Installer mediawiki sur un serveur ubuntu
+# Comment Installer mediawiki sur un serveur ubuntu?
