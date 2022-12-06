@@ -1,6 +1,6 @@
 # Comment Installer mediawiki sur un serveur ubuntu?
 
-##Pour installer mediawiki suivez les étapes suivantes:
+###Pour installer mediawiki suivez les étapes suivantes:
 ## 1 Installer Apache2
 ## 2 Installer mariaDB
 ## 3 Installer PHP et ces dependances
@@ -8,3 +8,7 @@
 ## 5 Telecharger et installer mediawiki
 ## 6 Configurer les fichiers de configuration Apache2 et mediawiki
 ## 7 Activer et configurer mediawiki
+
+### Tout d'abord mettons à jour la base des donnes des paquets:
+####Sudo apt update
+
