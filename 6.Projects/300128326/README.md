@@ -34,3 +34,46 @@ Recharger les tables de privilèges maintenant ? [O/n] : O
 Une fois terminé, redémarrez MariaDB.
 
 ####sudo systemctl redémarrer mariadb.service
+
+## 3 Installer PHP et ses dépendances
+Utilisez les commandes suivantes pour installer PHP et les dépendances requises pour MediaWiki.
+
+####sudo apt install php php-common php-mbstring php-xmlrpc php-soap php-gd php-xml php-intl php-mysql php-cli php-ldap php-zip php-curl
+
+## 4 Creer une base des donnees Mediawiki
+Une fois toutes les étapes précédentes terminées, vous pouvez maintenant créer votre base de données MediaWiki. Suivez les étapes ci-dessous pour créer votre base de données MediaWiki.
+
+#### sudo mysql -u root -p
+CRÉER UNE BASE DE DONNÉES mediawiki ;
+
+#### CREATE DATABASE mediawiki;
+Créez un utilisateur de base de données appelé mwadmin avec un nouveau mot de passe.
+
+#### CREATE USER 'mwadmin'@'localhost' IDENTIFIED BY 'enterYourPassword';
+Accordez à mwadmin un accès complet à la base de données.
+#### GRANT ALL ON mediawiki.* TO 'mwadmin'@'localhost' IDENTIFIED BY 'YourPassword' WITH GRANT OPTION;
+Maintenant, enregistrez vos modifications et quittez.
+#### FLUSH PRIVILEGES;
+EXIT;
+
+## 5 Telecharger et installer mediawiki
+Visitez https://releases.wikimedia.org/mediawiki/ pour trouver la dernière itération de MediaWiki à télécharger. Suivez ensuite les commandes ci-dessous pour télécharger et installer.
+Changez de répertoire pour /tmp et téléchargez la dernière version.
+#### cd /tmp && wget https://releases.wikimedia.org/mediawiki/1.38/mediawiki-core-1.38.4.tar.gz
+Créez un répertoire et extrayez les fichiers dans le nouveau répertoire.
+
+#### sudo mkdir -p /var/www/html/mediawiki
+#### sudo tar -zxvf mediawiki*.tar.gz
+#### sudo mv mediawiki-1.38.4/* /var/www/html/mediawiki
+Modifiez la propriété et les autorisations des répertoires.
+
+#### sudo chown -R www-data:www-data /var/www/html/mediawiki/ && sudo chmod -R 777 /var/www/html/mediawiki/
+
+Redémarrez Apache2 pour recharger tous les paramètres et configurations.
+
+#### sudo systemctl restart apache2.service
+Visitez votre nom d'hôte ou votre adresse IP pour démarrer la configuration de MediaWiki, et appuyez sur "configurer le wiki" pour commencer.
+
+![image](https://user-images.githubusercontent.com/105472970/206013057-da5109e7-f58f-4a85-bb13-be421bb55dd0.png)
+
+
