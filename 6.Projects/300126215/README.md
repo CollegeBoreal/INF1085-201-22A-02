@@ -11,7 +11,7 @@ sudo apt install openvpn curl
 
 ![Capture6](https://user-images.githubusercontent.com/97623907/205793636-72fcde06-3eab-42fc-ba40-50ef21c49a76.PNG)
 
- cURL is needed to download the VPN installation script openvpn-install.sh. This script makes the installation very easy and error save. You can, of course, install everything manually, and there are good instructions on how to do that on Debian Wiki or Arch Linux Wiki. But I believe most of my readers prefer the simplest ways. This VPN installation script is a result of the work of 36 contributors, you can check what it does, and I personally trust it.
+ cURL is needed to download the VPN installation script openvpn-install.sh. This script makes the installation very easy and error save. You can, of course, install everything manually, and there are good instructions on how to do that on Debian Wiki or Arch Linux Wiki. 
 
 So, you need to download the script and make it executable:
 
