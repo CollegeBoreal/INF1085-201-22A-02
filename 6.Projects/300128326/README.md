@@ -47,11 +47,11 @@ Une fois toutes les étapes précédentes terminées, vous pouvez maintenant cr�
 CRÉER UNE BASE DE DONNÉES mediawiki ;
 
 #### CREATE DATABASE mediawiki;
-Créez un utilisateur de base de données appelé mwadmin avec un nouveau mot de passe.
+Créez un utilisateur de base de données appelé madmin avec un nouveau mot de passe.
 
 #### CREATE USER 'mwadmin'@'localhost' IDENTIFIED BY 'enterYourPassword';
 Accordez à mwadmin un accès complet à la base de données.
-#### GRANT ALL ON mediawiki.* TO 'mwadmin'@'localhost' IDENTIFIED BY 'YourPassword' WITH GRANT OPTION;
+#### GRANT ALL ON mediawiki.* TO 'madmin'@'localhost' IDENTIFIED BY 'YourPassword' WITH GRANT OPTION;
 Maintenant, enregistrez vos modifications et quittez.
 #### FLUSH PRIVILEGES;
 EXIT;
