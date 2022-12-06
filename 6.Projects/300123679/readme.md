@@ -31,7 +31,11 @@ Biensur vous remplacez l'adresse IP par celle qui s'affichera pour vous.
 Voila! Bravo! vous etes connecter a votre RaspberryPi, Miantenant vous rentrer la commande suivante pour mettre a jour les packages pour completer l'installation.
 ![20221127_193252](https://user-images.githubusercontent.com/105458655/204635040-89668dfe-8b96-4b43-ac36-1b0f745ba54f.jpg)
 
-Apres que la ai ete executer vous taperez une autre commande cette fois ci vous metterez la commande "sudo apt upgrade" pour upgrade les packages qui doivent l'etre.
+Apres que la ai ete executer vous taperez une autre commande cette fois ci vous metterez la commande 
+```
+sudo apt upgrade
+```
+pour upgrade les packages qui doivent l'etre.
 
 Maintenant nous pouvous commencer avec l'untilisation de notre Webcam. 
 
@@ -44,10 +48,16 @@ Cette etape n'est pas necessaire mais pour sassurer que le user Pi est access a 
 Il y a aussi une autre commande sur la photo ci-dessous qui vous permet de voir les differentes resolution et la qualite d'image de la webcam vou pouvez egalement utiliser la commande suivante.
 ![20221127_224936](https://user-images.githubusercontent.com/105458655/205460537-ccd502da-24ca-41a7-aa28-36b8360605f3.jpg)
 
-Maintenant pour s'assurer que la webcam est reconnu vous pouvez utiliser la commande "Lsusb"
+Maintenant pour s'assurer que la webcam est reconnu vous pouvez utiliser la commande 
+```
+Lsusb
+```
 ![20221127_232034](https://user-images.githubusercontent.com/105458655/205460716-1402f9d8-437d-41a0-9346-da75d880220d.jpg)
 
-Maintenant nous allons tester un prenant une photo en utilisant la commande suivante: fswebcam -r 1920x1080 test.jpg
+Maintenant nous allons tester un prenant une photo en utilisant la commande suivante: 
+```
+fswebcam -r 1920x1080 test.jpg
+```
 ![20221127_225635](https://user-images.githubusercontent.com/105458655/205460829-fa9371f9-5672-47d9-b22d-073949d81fd6.jpg)
 Desole je n'etait pas pres pour la photo
 ![20221203_153419](https://user-images.githubusercontent.com/105458655/205460950-a417e3aa-9e18-4484-8a99-c1580c29c124.jpg)
@@ -72,11 +82,16 @@ Voila sa c'etait pour les photos!
 
 Maintenant j'ai egalement fait un live motion.
 
-Je commence par installer l'outil motion entranmt la commande : " sudo apt-get install motion
+Je commence par installer l'outil motion entranmt la commande : 
+```
+sudo apt-get install motion
+```
 ![20221127_231936](https://user-images.githubusercontent.com/105458655/205462993-9ff3cae9-494e-4472-b05f-6c46d0efad44.jpg)
 
-Maintenant pour acceder aux configurations de l'outil motion je rentre la commande:  sudo nano /etc/motion/motion.conf  cela me menera a la page suivante:
-
+Maintenant pour acceder aux configurations de l'outil motion je rentre la commande:  
+```
+sudo nano /etc/motion/motion.conf  cela me menera a la page suivante:
+```
 ![20221127_232730](https://user-images.githubusercontent.com/105458655/205463178-df445180-685b-4528-971b-c5b80378cadd.jpg)
 
 Sur cette page vous aurez certaine configuration a faire mais pour plus d'infoamtion vous pouvez cliquez sur le lien si-dessous et elle vous amenera a une video avec toute les etapes a suivre: https://www.youtube.com/watch?v=BeyBu-Mzeq4&t=305s 
