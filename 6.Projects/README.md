@@ -13,7 +13,8 @@
 
 - [ ]  Zakaria - VPN
 - [ ] Hugo - Pi
-- [ ] Mamadou - MediaWIki
+- [ ] Mamadou - MediaWiki
+- [ ] Mohammed Cherkaoui - NextCloud
 
 ## :ab: Projets
 
