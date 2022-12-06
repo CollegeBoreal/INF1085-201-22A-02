@@ -31,7 +31,7 @@ chmod +x openvpn-install.sh
 
 Generating encryption keys
 
-# cp -r /usr/share/easy-rsa/ /etc/openvpn
+ cp -r /usr/share/easy-rsa/ /etc/openvpn
 $ cd /etc/openvpn/easy-rsa
 
 
