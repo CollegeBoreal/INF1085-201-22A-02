@@ -31,9 +31,11 @@ Nous allons maintenant arrêter le service (s'il était précédemment activé),
 sudo systemctl restart mariadb.service && sudo systemctl activer mariadb.service
 ```
 Une fois MariaDB installée, nous sécuriserons notre installation
+
 ```
 sudo mysql_secure_installation
 ```
+
 Vous serez invité à répondre aux questions suivantes. Assurez-vous de définir les options suivantes comme indiqué ci-dessous.
 
 <pre>
