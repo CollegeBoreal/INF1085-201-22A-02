@@ -30,11 +30,12 @@ sudo apt installer mariadb-server mariadb-client
 Nous allons maintenant arrêter le service (s'il était précédemment activé), le démarrer et l'activer pour qu'il démarre après un redémarrage du système
 ````
 sudo systemctl restart mariadb.service && sudo systemctl activer mariadb.service
-```
+
 Une fois MariaDB installée, nous sécuriserons notre installation
-```
+
 sudo mysql_secure_installation
 ```
+
 <pre>
 Vous serez invité à répondre aux questions suivantes. Assurez-vous de définir les options suivantes comme indiqué ci-dessous.
 Entrez le mot de passe actuel pour root (entrez pour aucun): Appuyez sur Entrée
