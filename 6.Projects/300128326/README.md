@@ -6,8 +6,7 @@ Pour installer mediawiki suivez les étapes suivantes:
 ## 3 Installer PHP et ces dependances
 ## 4 Creer une base des donnees Mediawiki
 ## 5 Telecharger et installer mediawiki
-## 6 Configurer les fichiers de configuration Apache2 et mediawiki
-## 7 Activer et configurer mediawiki
+## 6 Activer et configurer mediawiki
 
 Tout d'abord mettons à jour la base des donnes des paquets en executant la commande suivante:
 ####Sudo apt update
@@ -68,12 +67,14 @@ Créez un répertoire et extrayez les fichiers dans le nouveau répertoire.
 Modifiez la propriété et les autorisations des répertoires.
 
 #### sudo chown -R www-data:www-data /var/www/html/mediawiki/ && sudo chmod -R 777 /var/www/html/mediawiki/
+## 6 Activer et configurer mediawiki
 
 Redémarrez Apache2 pour recharger tous les paramètres et configurations.
 
 #### sudo systemctl restart apache2.service
 Visitez votre nom d'hôte ou votre adresse IP pour démarrer la configuration de MediaWiki, et appuyez sur "configurer le wiki" pour commencer.
 
-![image](https://user-images.githubusercontent.com/105472970/206013057-da5109e7-f58f-4a85-bb13-be421bb55dd0.png)
+                                ![image](https://user-images.githubusercontent.com/105472970/206013057-da5109e7-f58f-4a85-bb13-be421bb55dd0.png
+À partir de là il faut remplir les informations necessaire pour  finir la configuration.
 
 
