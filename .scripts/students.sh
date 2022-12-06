@@ -137,5 +137,5 @@ tazere96@localhost.nil
 ballo78@localhost.nil
 mamadou@localhost.mamadou.tech
 diarra1@localhost.nil
-walid@localhost.nil
+walid@localhost.walidue.tech
 )
