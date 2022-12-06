@@ -1,5 +1,7 @@
 1. Update and Upgrade the Ubuntu Packages
- # apt update && apt upgrade
+ ''' 
+ apt update && apt upgrade
+ '''
 2.  install Apache and MySQL Server
  # apt install apache2 mariadb-server 
 ![1](https://user-images.githubusercontent.com/97324827/206020941-2a5013bd-b857-4134-8e5d-ff4da05165f2.jpg)
