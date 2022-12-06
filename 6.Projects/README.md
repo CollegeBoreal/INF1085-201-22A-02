@@ -9,6 +9,12 @@
 - [ ] Ajouter un ficher `README.md`
 - [ ] Expliquer votre projet
 
+## Presente
+
+- [ ]  Zakaria
+- [ ] Hugo
+- [ ] Mamadou
+
 ## :ab: Projets
 
 
