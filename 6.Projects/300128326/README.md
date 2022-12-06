@@ -12,11 +12,13 @@ Tout d'abord mettons à jour la base des donnes des paquets en executant la comm
 ####Sudo apt update
 ## 1 Installer Apache2 en executant la commnade suivante:
 #### sudo apt -y installer apache2
+
 Nous allons maintenant arrêter le service (s'il était précédemment activé), le démarrer et l'activer pour qu'il démarre après un redémarrage du système
 #### sudo systemctl redémarrer apache2.service && sudo systemctl activer apache2.service
 
 ## 2 Installer mariaDB en executeant la commande suivante:
 ####sudo apt installer mariadb-server mariadb-client
+
 Nous allons maintenant arrêter le service (s'il était précédemment activé), le démarrer et l'activer pour qu'il démarre après un redémarrage du système
 #### sudo systemctl redémarrer mariadb.service && sudo systemctl activer mariadb.service
 Une fois MariaDB installée, nous sécuriserons notre installation
