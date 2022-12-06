@@ -26,7 +26,6 @@ sudo systemctl restart apache2.service && sudo systemctl activer apache2.service
 ```
 sudo apt installer mariadb-server mariadb-client
 ````
-
 Nous allons maintenant arrêter le service (s'il était précédemment activé), le démarrer et l'activer pour qu'il démarre après un redémarrage du système
 ````
 sudo systemctl restart mariadb.service && sudo systemctl activer mariadb.service
