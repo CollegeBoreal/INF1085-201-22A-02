@@ -38,6 +38,8 @@ chmod +x openvpn-install.sh
  Next, download the VPN configuration file from your server:
 scp zack@10.13.237.39:/home/zack/zack.ovpn ~/Downloads/
 
+![Capture 8](https://user-images.githubusercontent.com/97623907/205804955-0c33a596-2688-4e53-8183-d309e1ece3ab.PNG)
+
 Connect to a VPN
 
 sudo cp Downloads/*.ovpn /etc/openvpn/client/client.conf
