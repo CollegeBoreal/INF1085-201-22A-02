@@ -90,11 +90,26 @@ sudo apt-get install motion
 
 Maintenant pour acceder aux configurations de l'outil motion je rentre la commande:  
 ```
-sudo nano /etc/motion/motion.conf  cela me menera a la page suivante:
+sudo nano /etc/motion/motion.conf  
 ```
+
+cela me menera a la page suivante
 ![20221127_232730](https://user-images.githubusercontent.com/105458655/205463178-df445180-685b-4528-971b-c5b80378cadd.jpg)
 
 Sur cette page vous aurez certaine configuration a faire mais pour plus d'infoamtion vous pouvez cliquez sur le lien si-dessous et elle vous amenera a une video avec toute les etapes a suivre: https://www.youtube.com/watch?v=BeyBu-Mzeq4&t=305s 
+
+Je rentre ensuite la commande:
+```
+sudo service motion restart
+```
+Pour redemarrer l'outil 
+
+Par la suite la commande:
+```
+sudo start motion
+```
+Pour lancer la camera 
+
 
 Tres important comme mis sur la photo ci-dessus de mettre le port 8080 qui est le port http pour la connexion a la camera sur internet. 
 
