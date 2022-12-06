@@ -16,6 +16,7 @@
 - [ ] Mamadou - MediaWiki
 - [ ] Mohammed Cherkaoui - NextCloud
 - [ ] Ahmed - Nextcloud
+- [ ] Salimata - MediaWiki
 
 ## :ab: Projets
 
@@ -29,7 +30,7 @@
 | 3 | 300120726 - <image src='https://avatars.githubusercontent.com/u/105461057?s=460&v=4' width=20 height=20></image> | [:parking: WikiMedia](README.md#parking-chapter-10--securing-network-connections-vpn) | localhost.pasmibalayi.tech |
 | 4 | 300123679 - <image src='https://avatars.githubusercontent.com/u/105458655?s=460&v=4' width=20 height=20></image> | [:parking: RPI :movie_camera:](README.md#parking-chapter-10--securing-network-connections-vpn) | localhost.hugopo1.tech |
 | 5 | 300124074 - <image src='https://avatars.githubusercontent.com/u/97147101?s=460&v=4' width=20 height=20></image> | [:parking: VPN](README.md#parking-chapter-10--securing-network-connections-vpn) | localhost.ahmadoukoina.tech |
-| 6 | 300124734 - <image src='https://avatars.githubusercontent.com/u/94937145?s=460&v=4' width=20 height=20></image> | [:parking: NextCloud](README.md#parking-chapter-8--building-a-nextcloud-file-sharing-server) | http://localhost.cherkaoui.tech/nextcloud | :tada: |
+| 6 | 300124734 - <image src='https://avatars.githubusercontent.com/u/94937145?s=460&v=4' width=20 height=20></image> | [:parking: NextCloud](README.md#parking-chapter-8--building-a-nextcloud-file-sharing-server) | http://localhost.cherkaoui.tech/nextcloud |
 | 7 | 300124863 - <image src='https://avatars.githubusercontent.com/u/97644305?s=460&v=4' width=20 height=20></image> | [:parking: NextCloud](README.md#parking-chapter-10--securing-network-connections-vpn) | localhost.memedlebleu.studio |
 | 8 | 300124876 - <image src='https://avatars.githubusercontent.com/u/98238582?s=460&v=4' width=20 height=20></image> | [:parking: Secure WebServer](README.md#parking-chapter-9--securing-your-web-server) | localhost.hafsa.tech  |
 | 9 | 300125847 - <image src='https://avatars.githubusercontent.com/u/97644650?s=460&v=4' width=20 height=20></image> | [:parking: NextCloud](README.md#parking-chapter-10--securing-network-connections-vpn) | localhost.chakib.live | :tada: |
