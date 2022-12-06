@@ -33,4 +33,4 @@ Supprimer la base de données de test et y accéder ? [O/n] : O
 Recharger les tables de privilèges maintenant ? [O/n] : O
 Une fois terminé, redémarrez MariaDB.
 
-sudo systemctl redémarrer mariadb.service
+####sudo systemctl redémarrer mariadb.service
