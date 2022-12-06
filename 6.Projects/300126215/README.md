@@ -45,7 +45,7 @@ Connect to a VPN
 sudo cp Downloads/*.ovpn /etc/openvpn/client/client.conf
 Test the connection:
 
-sudo openvpn /etc/openvpn/client/client.conf
+
 
 to test it, open your internet browser and visit any website. You can also check your public IP address and it should be your server address.
 ![Capture 12](https://user-images.githubusercontent.com/97623907/205795521-bbc8e932-7bb5-430d-840a-64b75692f607.PNG)
