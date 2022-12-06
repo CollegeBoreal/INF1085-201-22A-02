@@ -35,9 +35,9 @@ Une fois MariaDB installée, nous sécuriserons notre installation
 
 sudo mysql_secure_installation
 ```
+Vous serez invité à répondre aux questions suivantes. Assurez-vous de définir les options suivantes comme indiqué ci-dessous.
 
 <pre>
-Vous serez invité à répondre aux questions suivantes. Assurez-vous de définir les options suivantes comme indiqué ci-dessous.
 Entrez le mot de passe actuel pour root (entrez pour aucun): Appuyez sur Entrée
 Définir le mot de passe root ? [O/n] : O
 Nouveau mot de passe : Entrez le mot de passe
