@@ -1,12 +1,6 @@
 How to install next cloud on Ubuntu Server 22.04 LTS
 
 
-Teacher Access:
-
-Username: memedlebleu
-
-password: server1
-
 
 <img width="479" alt="Capture d’écran 2022-12-05 221230" src="https://user-images.githubusercontent.com/97644305/206024931-7967b4b3-7889-422c-b9bc-14c9944f79dc.png">
 
@@ -19,6 +13,13 @@ password: server1
 <img width="960" alt="Capture d’écran 2022-12-06 145926" src="https://user-images.githubusercontent.com/97644305/206025229-bedf6e9b-6a66-464e-8b69-7af6ef91b13a.png">
 
 <img width="957" alt="Capture d’écran 2022-12-06 150104" src="https://user-images.githubusercontent.com/97644305/206025258-cbbb08a5-b599-48be-a646-3c41bb39e8c3.png">
+
+
+Teacher Access:
+
+Username: memedlebleu
+
+password: server1
 
 Thank you
 
