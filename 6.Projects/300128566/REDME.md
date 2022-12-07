@@ -1,5 +1,5 @@
 
-# comment installer mediawiki sur un serveur Ubuntu.
+# Comment installer mediawiki sur un serveur Ubuntu.
 
 ## Pour le faire il faudrait paaser par etapes
 #### Installer Apache2
