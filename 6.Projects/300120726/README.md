@@ -18,5 +18,8 @@ Ce logiciel est sous licence GPL, c'est-à-dire que vous pouvez l'utiliser gratu
 ## 1.  Mettre à jour Ubuntu 22.04
 
 La mise à jour permet de vous assurer que vos packages systèmes et le cache 
+``
+sudo apt update && sudo apt upgrade
+``
 
 
