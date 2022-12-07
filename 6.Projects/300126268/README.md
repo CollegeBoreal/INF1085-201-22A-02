@@ -7,7 +7,8 @@ Dans ce Readme, je vais configurer la dernière version de MediaWiki sur un serv
 
 ### A- Installer les composants du serveur
 ### B- Configurer MySQL et créer des identifiants pour MediaWiki
-### E- Installer MediaWiki
+### C- Installer MediaWiki
+### D- Configurer MediaWiki
 
                                                           Let's Start
                                                           
@@ -74,16 +75,55 @@ Créez un utilisateur nommé sedric_wiki avec un nouveau  mot de passe pour la b
 ```
 GRANT index, create, select, insert, update, delete, alter, lock tables on mediawikidb.* TO sedric_wiki@localhost IDENTIFIED BY 'votre mots de passe';
 ```
-Accordez à sedric_wiki un accès complet à la base de données.
+###### Accordez à sedric_wiki un accès complet à la base de données.
 ```
 GRANT ALL ON mediawikidb.* TO 'sedric_wiki'@'localhost' IDENTIFIED BY 'votres mot de passe' WITH GRANT OPTION;
 ```
-Ensuite pour nettoyer le cache utilisé par MySQL et quitter la CLI :
+###### Ensuite pour nettoyer le cache utilisé par MySQL et quitter la CLI :
 ```
 FLUSH PRIVILEGES; exit
 ```
 
 Le $devrait maintenant être de retour comme invite. Maintenant, nous redémarrons MySQL :
-
+```
 sudo service mysql restart
+```
 
+### C- Installer MediaWiki
+Maintenant que nos composants serveur sont en cours d'exécution, nous pouvons télécharger et installer MediaWiki.
+
+MediaWiki est disponible sur le référentiel apt-get d'Ubuntu, mais il est obsolète et n'inclura pas les dernières fonctionnalités et mises à jour de sécurité. Il est donc préférable de télécharger MediaWiki à partir de la source.
+
+```
+cd /tmp && wget https://releases.wikimedia.org/mediawiki/1.38/mediawiki-core-1.38.4.tar.gz
+```
+
+Une fois le téléchargement terminé, extrayez le package :
+
+```
+sudo tar -zxvf mediawiki*.tar.gz
+```
+
+###### Creer un repertoire
+
+```
+sudo mkdir -p /var/www/html/mediawiki
+```
+
+###### Ensuite, nous allons déplacer le répertoire MediaWiki à la racine du document :
+
+```
+sudo mv mediawiki-1.38.4/* /var/www/html/mediawiki
+```
+![image](https://user-images.githubusercontent.com/97314948/206119635-d9020350-f310-42d6-b4d4-f7034de83fbf.png)
+
+
+###### Modifiez la propriété et les autorisations des répertoires.
+
+```
+sudo chown -R www-data:www-data /var/www/html/mediawiki/ && sudo chmod -R 777 /var/www/html/mediawiki/
+```
+### D- Configurer MediaWiki
+Maintenant, nous allons mettre MediaWiki en marche. Dirigez votre navigateur vers :
+http://10.13.237.36
+Cliquez ensuite sur set up the wikile lien.
