@@ -171,3 +171,5 @@ User : brice.robert
 
 Mot de passe : 30012680022
 
+
+![MediaWiki](https://user-images.githubusercontent.com/105135304/206311395-af4f9cf1-c42a-477e-900c-6b4840b06495.png)
