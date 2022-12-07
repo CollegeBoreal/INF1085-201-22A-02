@@ -39,7 +39,8 @@ Pour verifier l'état:
 systemctl status apache2 --no-page -l
 ```
 
-![Screenshot 2022-12-07 132433](https://user-images.githubusercontent.com/105461057/206270854-ab0b12c8-ce52-4a9a-ba73-73f0edc58684.png)
+![Screenshot 2022-12-07 132433](https://user-images.githubusercontent.com/105461057/206271420-b3754ce0-bf85-4d93-85d6-0f8adb519614.png)
+
 
 
 
