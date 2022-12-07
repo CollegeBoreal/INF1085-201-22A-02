@@ -14,7 +14,20 @@ sudo apt install apache2.
 ensuite verifier le status de apache a l'aide de la commande: 
 sudo systemct1 status apache2
 ![image](https://user-images.githubusercontent.com/105463700/206290063-110d98ba-d4a6-4d02-82ab-9323123f9b6b.png)
+Nextcloud est écrit en langage de programmation PHP, donc PHP est une exigence essentielle pour le code Nextcloud. Exécutez les commandes suivantes pour installer les modules PHP requis ou recommandés par Nextcloud.
+sudo apt install php libapache2-mod-php php-imagick php-common php-mysql php-gd php-json php-curl php-zip php-xml php-mbstring php-bz2 php-intl php-bcmath php-gmp php-dom unzip
+ensuite faire php -v pour confirmer l'installation
 
+Rechargez Apache pour que les modifications prennent effet a l'aide de la commande 
+sudo systemctl reload apache2
+
+Nextcloud peut utiliser la base de données MySQL, MariaDB, PostgreSQL ou SQLite pour stocker ses données. Dans ce guide, nous utiliserons MariaDB, alors installons-le.
+
+sudo apt installer mariadb-server
+Une fois les serveurs MariaDB installés, nous devons définir un mot de passe pour l'utilisateur administrateur MariaDB :
+
+sudo mysql_secure_installation
+Lorsqu'il vous demande d'entrer le mot de passe root MariaDB, appuyez sur la touche Entrée car le mot de passe root n'est pas encore défini. Entrez ensuite Y pour définir le mot de passe root du serveur MariaDB. N'oubliez pas de donner à l'utilisateur root de MariaDB un mot de passe fort.
 
 ![image](https://user-images.githubusercontent.com/105463700/206200845-169f40e1-cd22-4d26-938e-501add5d47aa.png)
 Dézipper tout ça avec la commande suivante : 
@@ -56,6 +69,6 @@ sudo unzip nextcloud-23.0.0.zip -d /var/www/html/
 sudo mkdir /var/www/html/nextcloud/data
 sudo chown -R www-data:www-data /var/www/html/nextcloud/
 
-
+Nextcloud est maintenant installé avec succès. Ensuite, ouvrez un navigateur Web et pointez-le sur http://server-ip/nextcloud/ pour terminer les dernières étapes.
 ![image](https://user-images.githubusercontent.com/105463700/206204549-f2e4a4fa-7a26-4919-a701-9a504e08976f.png)
 
