@@ -70,4 +70,30 @@ sudo tar -zxvf mediawiki*.tar.gz
 sudo mv mediawiki-1.34.0/* /var/www/html/mediawiki``
 #### Modifiez la propriété et les autorisations des répertoires.
 ``sudo chown -R www-data:www-data /var/www/html/mediawiki/ && sudo chmod -R 755 /var/www/html/mediawiki/``
+# Configurer les fichiers de configuration Apache2 et MediaWiki
+#### Maintenant que MediaWiki a été installé et placé dans son nouveau répertoire, nous devons créer un fichier de configuration dans Apache2.
+``sudo vim /etc/apache2/sites-available/mediawiki.conf``
+#### Vous pouvez maintenant configurer votre fichier mediawiki.conf comme indiqué ci-dessous.
+``<VirtualHost *:80>
+  ServerAdmin email@email.com
+  DocumentRoot /var/www/html/mediawiki
+  ServerName wikiserver
+  
+  <Directory /var/www/html/mediawiki/>
+    Options +FollowSymlinks
+    AllowOverride All
+    Require all granted
+  </Directory>
+
+  ErrorLog ${APACHE_LOG_DIR}/error.log
+  CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+  <Directory /var/www/html/mediawiki/images/>
+    AllowOverride None
+    AddType text/plain .html .htm .shtml .phtml
+    php_admin_flag engine off
+  </Directory>
+</virtualhost>``
+#### Maintenant sauvegarde le, puis quitter 
+``:wq!``
 
