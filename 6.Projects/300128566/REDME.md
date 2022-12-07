@@ -78,7 +78,6 @@ sudo mv mediawiki-1.34.0/* /var/www/html/mediawiki``
   ServerAdmin email@email.com
   DocumentRoot /var/www/html/mediawiki
   ServerName wikiserver
-  
   <Directory /var/www/html/mediawiki/>
     Options +FollowSymlinks
     AllowOverride All
