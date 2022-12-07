@@ -13,6 +13,8 @@ La premiere chose a faire est d'installer Apache a l'aide de:
 sudo apt install apache2.
 ensuite verifier le status de apache a l'aide de la commande: 
 sudo systemct1 status apache2
+![image](https://user-images.githubusercontent.com/105463700/206290063-110d98ba-d4a6-4d02-82ab-9323123f9b6b.png)
+
 
 ![image](https://user-images.githubusercontent.com/105463700/206200845-169f40e1-cd22-4d26-938e-501add5d47aa.png)
 Dézipper tout ça avec la commande suivante : 
