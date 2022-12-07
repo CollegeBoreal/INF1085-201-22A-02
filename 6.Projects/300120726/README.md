@@ -109,11 +109,19 @@ flush privileges;
  ```
 ## 6. Télechargez le fichier mediawiki
 
-Rendez-vous dans les sites officiels mediawiki pour copier le lien de télechargement
+Rendez-vous dans les sites officiels mediawiki pour copier le lien de télechargement.Ouvrez le terminal  à partir duquel vous accédez au serveur Ubuntu 22.04 et utilisez la ```wget``` commande pour télécharger les fichiers MediaWiki.
+
+```
+cd /tmp
+```
 ```
 wget https://releases.wikimedia.org/mediawiki/1.30/\
 mediawiki-1.30.0.tar.gz
 ```
 
 .Déziper le fichier avec la commande
+```
+tar xzvf mediawiki-1.30.0.tar.gz
+```
+
 
