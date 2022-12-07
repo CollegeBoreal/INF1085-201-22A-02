@@ -40,7 +40,7 @@ do
    docker context create ${id} \
                   --docker "host=ssh://${SERVERS[${i}]}" > /dev/null 2>&1
    docker context use ${id} > /dev/null 2>&1
-   DOCKER_STATUS=`docker container ls --quiet 2> /dev/null`
+   DOCKER_STATUS=`docker container ls --quiet --all 2> /dev/null`
    OK="| ${i} | ${id} - <image src='https://avatars.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :heavy_check_mark: | "
    KO="| ${i} | ${id} - <image src='https://avatars.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :x: | "
    if [ -z "$DOCKER_STATUS" ]; then
