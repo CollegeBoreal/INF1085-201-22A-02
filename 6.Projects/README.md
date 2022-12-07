@@ -20,7 +20,7 @@
 - [ ] Mariode - NextCloud
 - [ ] Walid - NextCloud
 - [ ] Hafsa - SecureWeb
-- [ ] Tazere- Mediawiki
+
 ## :ab: Projets
 
 
