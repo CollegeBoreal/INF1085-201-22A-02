@@ -25,28 +25,16 @@ Une fois MariaDB installée, nous sécuriserons notre installation.
 
 Vous serez invité à répondre aux questions suivantes. Assurez-vous de définir les options suivantes comme indiqué ci-dessous.
 
-````Enter current password for root (enter for none): Press Enter````
-
-
-````Set root password? [Y/n]: Y````
-
-
-````New password: Enter Password````
-
-
-````Re-enter new password: Confirm Password````
-
-
-````Remove anonymous users? [Y/n]: Y````
-
-
-````Disallow root login remotely? [Y/n]: Y````
-
-
-````Remove test database and access to it? [Y/n]:  Y````
-
-
-````Reload privilege tables now? [Y/n]:  Y````
+````
+Enter current password for root (enter for none): Press Enter
+Set root password? [Y/n]: Y
+New password: Enter Password
+Re-enter new password: Confirm Password
+Remove anonymous users? [Y/n]: Y
+Disallow root login remotely? [Y/n]: Y
+Remove test database and access to it? [Y/n]:  Y
+Reload privilege tables now? [Y/n]:  Y
+````
 
 
 
@@ -66,17 +54,14 @@ Ouvrez le fichier d'initialisation PHP.
 
 Définissez les paramètres suivants dans le fichier PHP.
 
-````file_uploads = On````
-
-````allow_url_fopen = On````
-
-````memory_limit = 256M````
-
-````upload_max_filesize = 100M````
-
-````max_execution_time = 360````
-
-````date.timezone = America/East````
+````
+file_uploads = On
+allow_url_fopen = On
+memory_limit = 256M
+upload_max_filesize = 100M
+max_execution_time = 360
+date.timezone = America/East
+````
 
 Créer une base de données MediaWiki
 Une fois toutes les étapes précédentes terminées, vous pouvez maintenant créer votre base de données MediaWiki. Suivez les étapes ci-dessous pour créer votre base de données MediaWiki.
@@ -125,40 +110,28 @@ Maintenant que MediaWiki a été installé et placé dans son nouveau répertoir
 
 Vous pouvez maintenant configurer votre fichier mediawiki.conf comme indiqué ci-dessous.
 
-````<VirtualHost *:80>````
-
-````  ServerAdmin email@email.com````
-
-````  DocumentRoot /var/www/html/mediawiki````
-
-````  ServerName wikiserver````
+````
+<VirtualHost *:80>
+  ServerAdmin email@email.com
+  DocumentRoot /var/www/html/mediawiki
+  ServerName wikiserver
   
-````  <Directory /var/www/html/mediawiki/>````
+  <Directory /var/www/html/mediawiki/>
+    Options +FollowSymlinks
+    AllowOverride All
+    Require all granted
+  </Directory>
 
-````    Options +FollowSymlinks````
+  ErrorLog ${APACHE_LOG_DIR}/error.log
+  CustomLog ${APACHE_LOG_DIR}/access.log combined
 
-````    AllowOverride All````
-
-````    Require all granted````
-
-````  </Directory>````
-
-
-````  ErrorLog ${APACHE_LOG_DIR}/error.log````
-
-````  CustomLog ${APACHE_LOG_DIR}/access.log combined````
-
-```` <Directory /var/www/html/mediawiki/images/>````
-
-````   AllowOverride None````
-
-````  AddType text/plain .html .htm .shtml .phtml````
-
-```` php_admin_flag engine off````
-
-````</Directory>````
-
-````</virtualhost>````
+  <Directory /var/www/html/mediawiki/images/>
+    AllowOverride None
+    AddType text/plain .html .htm .shtml .phtml
+    php_admin_flag engine off
+  </Directory>
+</virtualhost>
+````
 
 Maintenant, enregistrez votre fichier et quittez.
 
