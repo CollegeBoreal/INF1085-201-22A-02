@@ -1,7 +1,7 @@
 
 #### comment installer mariadb sur un serveur Ubuntu.
 
-#### Pour le faire il faudrait paaser par etapes
+# Pour le faire il faudrait paaser par etapes
 #### Installer Apache2
 #### Installer MariaBD
 #### Installer PHP et ses dépendances
