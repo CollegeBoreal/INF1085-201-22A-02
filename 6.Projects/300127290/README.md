@@ -1,11 +1,6 @@
 
                                                   Comment installer Nextcloud sur Ubuntu 22.04 LTS
-                                                  
-                                                  
-                                                ![image](https://user-images.githubusercontent.com/105463700/206292878-42243301-0fa8-4c30-89d5-8c40c9bcb655.png)
-
-
-
+                                              
 
 Next cloud est une application Web qui nous permet d'héberger des fichiers dans le Cloud . ILs  nous permet aussi de  visualiser directement depuis un site Web ou des applications, de les partager.
 
