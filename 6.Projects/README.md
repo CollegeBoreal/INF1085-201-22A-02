@@ -17,6 +17,9 @@
 - [ ] Mohammed Cherkaoui - NextCloud
 - [ ] Ahmed - Nextcloud
 - [ ] Salimata - MediaWiki
+- [ ] Mariode - NextCloud
+- [ ] Walid - NextCloud
+- [ ] Hafsa - SecureWeb
 
 ## :ab: Projets
 
