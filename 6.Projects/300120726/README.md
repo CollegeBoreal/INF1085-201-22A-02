@@ -27,6 +27,10 @@ sudo apt update && sudo apt upgrade
 ```
 sudo apt install apache2
 ```
+saisir localhost ou l'adress ip de ton server
+
+![Screenshot 2022-12-07 162323](https://user-images.githubusercontent.com/105461057/206299690-6f192ed7-7e3e-4e60-a701-939d7e103927.png)
+
 
 Assurez-vous que le service web est activé en arrière-plan.
 
