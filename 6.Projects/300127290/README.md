@@ -8,124 +8,33 @@ Next cloud est une application Web qui nous permet d'héberger des fichiers dans
 
 Nextcloud est une application Web qui nécessite une certaine configuration sur le serveur pour pouvoir fonctionner. Il nécessite également PHP avec plusieurs de ses modules et un gestionnaire de base de données tel que MariaDB.
 
-Installer LAMP sur Ubuntu 22.04
-La première chose que vous devez faire est d'installer la pile LAMP sur Ubuntu 22.04 car dans ce guide, j'utiliserai Apache et MariaDB.
+Depuis votre serveur, télécharger l’archive zip NextCloud. La dernière version stable est la 19.0.1 au moment de la rédaction de cet article. Allez sur https://nextcloud.com/install pour récupérer le lien de téléchargement et depuis votre terminal, exécuter la commande suivante (à adapter en fonction de la version) 
+![image](https://user-images.githubusercontent.com/105463700/206200845-169f40e1-cd22-4d26-938e-501add5d47aa.png)
+Dézipper tout ça avec la commande suivante : 
+![image](https://user-images.githubusercontent.com/105463700/206200991-3fb9aa8a-45f2-49bd-b65b-6e1bf6f1e66c.png)
+Ici on balance le tout directement dans le répertoire /var/www/ qui est notre serveur web. On change les droits pour qu’Apache puisse écrire dans le répertoire :
+![image](https://user-images.githubusercontent.com/105463700/206201148-fb5c10ce-6289-421a-a63f-3f5349daa76a.png)
+Créer une base de données et un utilisateur spécifique pour Nextcloud sur MariaDB
+Si vous avez suivi mes précédents guides, alors vous avez vu que j’utilise MariaDB pour la partie SQL. 
+![image](https://user-images.githubusercontent.com/105463700/206201408-ac1042c0-59a5-4208-9e2f-bb8565733388.png)
 
-Pour installer Apache, PHP et ses modules requis, et MariaDB, vous devrez exécuter cette commande :
-
-sudo apt install apache2 libapache2-mod-php php-cli php-fpm php-json php-intl php-imagick php-pdo php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath mariadb-server
-
-![image](https://user-images.githubusercontent.com/105463700/206199157-0c3faf87-b0eb-43d8-9ce0-e4113d0989e3.png)
-
-Lorsque tout le processus est terminé, assurez-vous que dans le pare-feu, vous avez des ports ouverts 80et 443.
-
-sudo ufw allow 80
-sudo ufw allow 443
-Vous devez maintenant configurer MariaDB, en définissant un mot de passe root. Pour y parvenir, courez.
-
-sudo mysql_secure_installation
-
-Dès que vous le démarrez, vous serez invité à vous connecter en appuyant sur Entrée. Ensuite, vous pourrez changer le mot de passe root et enfin, répondre aux questions de configuration suivantes.
-
-Remove anonymous users [Y/n]
-Disallow root login remotely [Y/n] 
-Remove test database and access to it [Y/n]
-Reload privilege tables now [Y/n] 
-Une configuration optimale serait de répondre Y à toutes ces questions.
-
-Une fois que vous avez terminé avec MariaDB, il est temps de peaufiner PHP.
-
-sudo nano /etc/php/8.0/apache2/php.ini
-Et merci à l'éditeur de modifier ces valeurs
-
-date.timezone = [your-timezone].
-memory_limit = 512M
-upload_max_filesize = 500M
-post_max_size = 500M
-max_execution_time = 300
-Vous pouvez augmenter ces valeurs en fonction de la puissance de votre serveur.
-
-Enregistrez les modifications et fermez l'éditeur. Appliquez ensuite les modifications.
-
-sudo systemctl restart apache2
-Créer une nouvelle base de données sur MariaDB pour Nextcloud
-L'étape suivante consiste à créer une nouvelle base de données et un nouvel utilisateur pour Nextcloud.
-
-Alors, accédez à la console MariaDB :
-
-sudo mysql -u root -p
-Créez le nouvel utilisateur pour éviter de travailler avec l'utilisateur root.
-
-CREATE USER 'nextcloud'@'localhost' identified by 'passw';
-Bien sûr, vous pouvez modifier le nom d'utilisateur et la valeur du mot de passe.
-
-Maintenant, créez la nouvelle base de données :
-
-CREATE DATABASE nextclouddb;
-Vous pouvez également lui attribuer un autre nom.
-Actualiser les autorisations.
-
-FLUSH PRIVILEGES;
-Et quittez la console :
-
-quit;
-Définissez les autorisations appropriées sur la nouvelle base de données pour l'utilisateur.
-
-GRANT ALL PRIVILEGES ON nextclouddb.* TO 'nextcloud'@'localhost'; 
-
-Ensuite installez les packages unzipet wgetpour pouvoir télécharger et décompresser Nextcloud.
-sudo apt install wget unzip
-Maintenant, effectuez le téléchargement :
-
-cd /tmp/
-wget https://download.nextcloud.com/server/releases/latest.zip
-Décompressez maintenant le fichier que vous avez téléchargé :
-
-unzip latest.zip
-Déplacez-le vers un emplacement à l'intérieur du /var/www/html/dossier, qui est le chemin par défaut d'Apache DocumentRoot.
-
-sudo mv nextcloud/ /var/www/html/`.
-Faites de l'utilisateur www:datale propriétaire du dossier et définissez les autorisations appropriées.
-
-sudo chown -R www-data:www-data /var/www/html/nextcloud
-sudo chmod -R 755 /var/www/html/nextcloud
-Créez un nouveau VirtualHost pour la configuration Nextlcoud.
-
-sudo nano /etc/apache2/conf-enabled/nextcloud.conf
-Et ajoutez le contenu suivant 
-
-<VirtualHost *:80>
-     ServerAdmin admin@example.com
-     DocumentRoot /var/www/html/nextcloud
-     ServerName example.com
-     ServerAlias www.example.com
-     ErrorLog /var/log/apache2/nextcloud-error.log
-     CustomLog /var/log/apache2/nextcloud-access.log combined
-
-    <Directory /var/www/html/nextcloud/>
-    Options +FollowSymlinks
-    AllowOverride All
-        Require all granted
-     SetEnv HOME /var/www/html/nextcloud
-     SetEnv HTTP_HOME /var/www/html/nextcloud
-     <IfModule mod_dav.c>
-        Dav off
-        </IfModule>
-    </Directory>
-</VirtualHost>
-
-Enregistrez les modifications, fermez l'éditeur et appliquez les modifications en activant les modules Apache et en les redémarrant.
-
-sudo a2enmod rewrite dir mime env headers
-sudo systemctl restart apache2
-
-Vous pouvez maintenant ouvrir un navigateur Web et vous connecter via http://your-domainet vous verrez cet écran.
+On va ici créer l’utilisateur et la base de données que nous utiliserons pour Nextcloud.
+Depuis votre terminal, lancer mysql en admin : 
+Créez ensuite une base de données pour Nextcloud. Sur ce tutoriel j’appelle la base de données nextcloud. Vous pouvez utiliser le nom de votre choix.
+create database nextcloud;
+Créez l’utilisateur de la base de données. Encore une fois, vous pouvez utiliser votre nom préféré pour cet utilisateur. Remplacez votre_mot_de_passepar votre mot de passe préféré.
+create user nextclouduser@localhost identified by 'votre_mot_de_passe';
+Accordez à cet utilisateur tous les privilèges sur la base de données nextcloud :
+![image](https://user-images.githubusercontent.com/105463700/206201614-dcb4df2c-1139-4ff1-8e14-39a6fd7a79ac.png)
+Un petit « Flush Privileges » pour appliquer les changements 
+![image](https://user-images.githubusercontent.com/105463700/206201709-8ba3c976-95e3-4b75-84d6-ed4cbe9c8f7d.png)
+Confirmez si l'utilisateur peut se connecter à la base de données avec le mot de passe fourni :
 
 
-Merci
+![image](https://user-images.githubusercontent.com/105463700/206201994-6db55197-968b-4fc4-888d-d22c08b05707.png)
 
-Fait par l'etudiante sara
-
-
-
+C’est le moment de télécharger next cloud a l’aide de la commande suivante : 
+wget https://download.nextcloud.com/server/releases/nextcloud-23.0.0.zip
+![image](https://user-images.githubusercontent.com/105463700/206202141-dd6354a5-75e4-424e-b135-a88c569948a7.png)
+![image](https://user-images.githubusercontent.com/105463700/206202191-f090e71c-ebca-403d-b8fe-fa7c92ae6d3c.png)
 
