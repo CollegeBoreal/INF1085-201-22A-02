@@ -18,8 +18,13 @@ cette commande nous permet de faire une mise a jour de systeme.
 
 
 ## 3 Troisième etape 
-Sudo ufw allow 80  
+```
+sudo ufw allow 80  
+```
+
+```
 sudo ufw allow 443
+```
 
 ## 4 quatrième etape Configuration de mariaDB
 ![WhatsApp Image 2022-12-07 at 14 32 30](https://user-images.githubusercontent.com/105947276/206283121-9333951a-b48f-4983-9e7e-5005b5adc193.jpeg)
