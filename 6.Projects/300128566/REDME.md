@@ -50,4 +50,8 @@ upload_max_filesize = 100M
 max_execution_time = 360
 date.timezone = Canada\Toronto``
 # Creer une base de données 
+#### Une fois toutes les étapes précédentes terminées, vous pouvez maintenant créer votre base de données MediaWiki. Suivez les étapes ci-dessous pour créer votre base de données MediaWiki.
+``sudo mysql -u root -p``
+#### Créer votre base de donnée avec la commande 
+``CREATE DATABASE "le nom de base de donnée";``
 
