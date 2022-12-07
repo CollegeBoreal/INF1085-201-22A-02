@@ -132,10 +132,20 @@ Pour cela, ouvrez votre navigateur local et pointez-le vers le domaine ou l'adre
 http://ip-serveuradresse/wiki
 ```
 
-![Screenshot 2022-12-06 134757](https://user-images.githubusercontent.com/105461057/206286182-3eabd229-fc0a-4db9-ae6b-eec7e482f644.png)
-
 Appuyer sur ```complete the instalation```
 
+![Screenshot 2022-12-06 134757](https://user-images.githubusercontent.com/105461057/206286182-3eabd229-fc0a-4db9-ae6b-eec7e482f644.png)
+
+choisir la langue 
+
 ![Screenshot 2022-12-06 162121](https://user-images.githubusercontent.com/105461057/206286615-ba3cb07b-5ab9-41a3-a522-6284c170ee5d.png)
+
+Appuyer sur continuer . choisir le nom de la base de donner , l'utilisateur et son mot de passe
+![Screenshot 2022-12-06 193932](https://user-images.githubusercontent.com/105461057/206287558-bd74fff6-6d02-4d26-8d27-dc64f439deeb.png)
+
+Continuer avec l'installation
+
+![Screenshot 2022-12-06 195624](https://user-images.githubusercontent.com/105461057/206287234-f115ee8f-67b8-49f4-a6ed-3e4e50cd2c81.png)
+
 
 
