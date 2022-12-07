@@ -18,6 +18,7 @@ Enabling ufw first
 Blocking ALL incoming and outgoing traffic to tour server by two commands
 
 --sudo ufw default deny outgoing
+
 --sudo ufw default deny incoming
 
 We test this by opening an other tap and try accessing to the server
