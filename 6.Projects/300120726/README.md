@@ -114,6 +114,7 @@ Rendez-vous dans les sites officiels mediawiki pour copier le lien de télecharg
 ```
 cd /tmp
 ```
+
 ```
 wget https://releases.wikimedia.org/mediawiki/1.30/\
 mediawiki-1.30.0.tar.gz
@@ -123,9 +124,11 @@ mediawiki-1.30.0.tar.gz
 ```
 tar xzvf mediawiki-1.30.0.tar.gz
 ```
+
 ![Screenshot 2022-12-06 125846](https://user-images.githubusercontent.com/105461057/206285620-359b088b-403b-4f78-bf48-262df409172d.png)
 
 7. Installer mediawiki
+
 Pour cela, ouvrez votre navigateur local et pointez-le vers le domaine ou l'adresse IP du serveur Ubuntu sur lequel vous installez MediaWiki de la manière suivante :
 
 ```
