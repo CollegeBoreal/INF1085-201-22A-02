@@ -41,6 +41,50 @@ systemctl status apache2 --no-page -l
 
 ![Screenshot 2022-12-07 132433](https://user-images.githubusercontent.com/105461057/206271420-b3754ce0-bf85-4d93-85d6-0f8adb519614.png)
 
+## 3. Installez PHP et les extentions requises
+
+```
+sudo apt install php php-common php-mbstring php-xmlrpc php-soap php-gd php-xml php-intl php-mysql php-cli php-ldap php-zip php-curl
+```
+Restart Apache avec la commande:
+```
+systemctl restart apache2
+```
+. Tester votre PHP avec
+```
+# nano /var/ www/html/testmyphp.php
+<?php
+phpinfo();
+?>
+```
+Entrer votre ipadress/testmyphp.php dans URL pour voir votre page Apache
+
+![Screenshot 2022-12-06 102511](https://user-images.githubusercontent.com/105461057/206275725-bcdafa5d-1b4a-46ec-916e-86a49349f914.png)
+
+
+## 4 Installez MariaDB et Créer une nouvelles base de donées
+Nous utilisons ici le MariaDB de MySQL pour établir un serveur de base de données pour MediaWiki
+Suivez les commandes données pour configurer MariaDB et créer une base de données pour cette plate-forme Wiki.
+
+```
+sudo apt install mariadb-server
+```
+Une fois l'installation terminée, sécurisez votre base de données en définissant un mot de passe root et en supprimant les accès inutiles:
+```
+sudo mysql_secure_installation
+```
+Une fois appuyer sur ENTER vous aurez une suite des question suivantes:
+
+```
+Enter current password for root (enter for none): Press ENTER
+Set root password? [Y/n]: Y
+New password: Set-your-new-password
+Re-enter new password: Set-your-new-password
+Remove anonymous users? [Y/n] Y
+Disallow root login remotely? [Y/n] Y
+Remove test database and access to it? [Y/n] Y
+Reload privilege tables now? [Y/n] Y
+```
 
 
 
