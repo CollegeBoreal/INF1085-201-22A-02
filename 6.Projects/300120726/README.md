@@ -4,7 +4,7 @@ MediaWiki est un logiciel permettant de réaliser des sites Internet de type wik
 
 Ce logiciel est sous licence GPL, c'est-à-dire que vous pouvez l'utiliser gratuitement, que vous avez accès au code et que vous pouvez le modifier.
 
-#les étapes à suivre pour l'installation
+## les étapes à suivre pour l'installation
 
 
 1. Mettre à jour Ubuntu 22.04
@@ -14,5 +14,9 @@ Ce logiciel est sous licence GPL, c'est-à-dire que vous pouvez l'utiliser gratu
 5. Créer une base de donné pour Mediawiki
 6. Télechargez le fichier mediawiki
 7. installez MediaWiki sur Ubuntu
+
+## 1.  Mettre à jour Ubuntu 22.04
+
+La mise à jour permet de vous assurer que vos packages systèmes et le cache 
 
 
