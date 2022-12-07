@@ -72,8 +72,9 @@ Exécutez les commandes ci-dessous pour décompresser le package dans /var/www/h
 sudo unzip nextcloud-23.0.0.zip -d /var/www/html/
 sudo mkdir /var/www/html/nextcloud/data
 sudo chown -R www-data:www-data /var/www/html/nextcloud/
-![image](https://user-images.githubusercontent.com/105463700/206293969-0201d106-4ceb-46fa-9ced-212d39a7e1bd.png)
+![image]
 
 Nextcloud est maintenant installé avec succès. Ensuite, ouvrez un navigateur Web et pointez-le sur http://server-ip/nextcloud/ pour terminer les dernières étapes.
-![image](https://user-images.githubusercontent.com/105463700/206204549-f2e4a4fa-7a26-4919-a701-9a504e08976f.png)
+![image]![image](https://user-images.githubusercontent.com/105463700/206294984-2ff9874a-23c1-42c7-b831-6af8a185d18c.png)
+
 
