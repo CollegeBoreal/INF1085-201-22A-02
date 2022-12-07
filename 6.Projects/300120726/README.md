@@ -22,5 +22,25 @@ La mise à jour permet de vous assurer que vos packages systèmes et le cache
 ```
 sudo apt update && sudo apt upgrade
 ```
+## 2.  Installez Apache
+
+```
+sudo apt install apache2
+```
+
+Assurez-vous que le service web est activé en arrière-plan.
+
+```
+sudo systemctl enable --now apache2
+```
+Pour verifier l'état:
+
+```
+systemctl status apache2 --no-page -l
+```
+
+![Screenshot 2022-12-07 132433](https://user-images.githubusercontent.com/105461057/206270854-ab0b12c8-ce52-4a9a-ba73-73f0edc58684.png)
+
+
 
 
