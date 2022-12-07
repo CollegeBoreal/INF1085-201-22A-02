@@ -84,10 +84,8 @@ sudo mv mediawiki-1.34.0/* /var/www/html/mediawiki``
     AllowOverride All
     Require all granted
   </Directory>
-
   ErrorLog ${APACHE_LOG_DIR}/error.log
   CustomLog ${APACHE_LOG_DIR}/access.log combined
-
   <Directory /var/www/html/mediawiki/images/>
     AllowOverride None
     AddType text/plain .html .htm .shtml .phtml
