@@ -1,6 +1,9 @@
 
                                                   Comment installer Nextcloud sur Ubuntu 22.04 LTS
-                                                
+                                                  
+                                                  
+                                                ![image](https://user-images.githubusercontent.com/105463700/206292878-42243301-0fa8-4c30-89d5-8c40c9bcb655.png)
+
 
 
 
@@ -17,6 +20,7 @@ sudo systemct1 status apache2
 Nextcloud est écrit en langage de programmation PHP, donc PHP est une exigence essentielle pour le code Nextcloud. Exécutez les commandes suivantes pour installer les modules PHP requis ou recommandés par Nextcloud.
 sudo apt install php libapache2-mod-php php-imagick php-common php-mysql php-gd php-json php-curl php-zip php-xml php-mbstring php-bz2 php-intl php-bcmath php-gmp php-dom unzip
 ensuite faire php -v pour confirmer l'installation
+![image](https://user-images.githubusercontent.com/105463700/206293203-39907a5e-b35e-4743-be6e-da474f6cd156.png)
 
 Rechargez Apache pour que les modifications prennent effet a l'aide de la commande 
 sudo systemctl reload apache2
@@ -68,6 +72,7 @@ Exécutez les commandes ci-dessous pour décompresser le package dans /var/www/h
 sudo unzip nextcloud-23.0.0.zip -d /var/www/html/
 sudo mkdir /var/www/html/nextcloud/data
 sudo chown -R www-data:www-data /var/www/html/nextcloud/
+![image](https://user-images.githubusercontent.com/105463700/206293969-0201d106-4ceb-46fa-9ced-212d39a7e1bd.png)
 
 Nextcloud est maintenant installé avec succès. Ensuite, ouvrez un navigateur Web et pointez-le sur http://server-ip/nextcloud/ pour terminer les dernières étapes.
 ![image](https://user-images.githubusercontent.com/105463700/206204549-f2e4a4fa-7a26-4919-a701-9a504e08976f.png)
