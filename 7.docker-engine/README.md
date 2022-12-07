@@ -9,7 +9,7 @@ https://github.com/CollegeBoreal/Tutoriels/tree/main/2.MicroServices/1.Container
 
 <img src="images/docker-engine.png" width=462 height=281 > </img>
 
-
+## :b: Sur la machine client (ton PC - git bash ou ton Mac - Terminal)
 
 - [ ] Creer un contexte
 
