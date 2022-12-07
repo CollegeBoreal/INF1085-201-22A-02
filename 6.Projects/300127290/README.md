@@ -13,7 +13,9 @@ ensuite verifier le status de apache a l'aide de la commande:
 sudo systemct1 status apache2
 ![image](https://user-images.githubusercontent.com/105463700/206290063-110d98ba-d4a6-4d02-82ab-9323123f9b6b.png)
 Nextcloud est écrit en langage de programmation PHP, donc PHP est une exigence essentielle pour le code Nextcloud. Exécutez les commandes suivantes pour installer les modules PHP requis ou recommandés par Nextcloud.
+```
 sudo apt install php libapache2-mod-php php-imagick php-common php-mysql php-gd php-json php-curl php-zip php-xml php-mbstring php-bz2 php-intl php-bcmath php-gmp php-dom unzip
+```
 ensuite faire php -v pour confirmer l'installation
 ![image](https://user-images.githubusercontent.com/105463700/206293203-39907a5e-b35e-4743-be6e-da474f6cd156.png)
 
