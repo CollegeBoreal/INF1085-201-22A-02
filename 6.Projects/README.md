@@ -20,6 +20,9 @@
 - [ ] Mariode - NextCloud
 - [ ] Walid - NextCloud
 - [ ] Hafsa - SecureWeb
+- [ ] Sara - NextCloud
+- [ ] Franklin - NextCloud
+- [ ] Rafik - WikiMedia :tada:
 
 ## :ab: Projets
 
