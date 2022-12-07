@@ -103,5 +103,17 @@ GRANT ALL PRIVILEGES ON wikidb.* TO 'wikiuser'@'localhost' WITH GRANT OPTION;
 ```
 flush privileges;
 ```
-5. Sorter de la passe avec : ``` quit;```
+5. Sorter de la passe avec :
+ ```
+  quit;
+ ```
+## 6. Télechargez le fichier mediawiki
+
+Rendez-vous dans les sites officiels mediawiki pour copier le lien de télechargement
+```
+wget https://releases.wikimedia.org/mediawiki/1.30/\
+mediawiki-1.30.0.tar.gz
+```
+
+.Déziper le fichier avec la commande
 
