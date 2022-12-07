@@ -27,7 +27,7 @@ sudo ufw allow 443
 ![WhatsApp Image 2022-12-07 at 14 32 30 (5)](https://user-images.githubusercontent.com/105947276/206283953-5f9d2756-c46c-4997-88b5-6d17011fbc57.jpeg)
 
 ![WhatsApp Image 2022-12-07 at 14 32 30 (6)](https://user-images.githubusercontent.com/105947276/206284605-82fdd9cd-93e1-4ecc-9459-02cb64e11c24.jpeg)
-   on a utiliser laa 'commande chmod -r775 /var/www/html/nextcloud' pour donner tous les permission 
+   on a utiliser laa 'commande chmod -r775 /var/www/html/nextcloud' pour donner tous les permission .
 la commande 'Service apache2 restart' pour redémarrer apache2
 et apres on ouvre le navigateur et enregistrer notre hote serverveur et on va voir que notre page d installation S'affiche 
 ## 6 sixième etape 
