@@ -1,5 +1,5 @@
 
-# comment installer mariadb sur un serveur Ubuntu.
+# comment installer mediawiki sur un serveur Ubuntu.
 
 ## Pour le faire il faudrait paaser par etapes
 #### Installer Apache2
@@ -13,6 +13,6 @@
 ####
 
 #### Installation Apache2
-# Tout d'abord il est recommandé de faire la mise en jour de de ton serveur
+# Tout d'abord il est recommandé de faire la mise en jour de de ton serveur avec la commande ``sudo ``
 ``sudo apt -y install apache2
 ``
