@@ -28,9 +28,7 @@ Une fois les serveurs MariaDB installés, nous devons définir un mot de passe p
 sudo mysql_secure_installation
 Lorsqu'il vous demande d'entrer le mot de passe root MariaDB, appuyez sur la touche Entrée car le mot de passe root n'est pas encore défini. Entrez ensuite Y pour définir le mot de passe root du serveur MariaDB. N'oubliez pas de donner à l'utilisateur root de MariaDB un mot de passe fort.
 
-![image](https://user-images.githubusercontent.com/105463700/206200845-169f40e1-cd22-4d26-938e-501add5d47aa.png)
-Dézipper tout ça avec la commande suivante : 
-![image](https://user-images.githubusercontent.com/105463700/206200991-3fb9aa8a-45f2-49bd-b65b-6e1bf6f1e66c.png)
+
 Ici on balance le tout directement dans le répertoire /var/www/ qui est notre serveur web. On change les droits pour qu’Apache puisse écrire dans le répertoire :
 ![image](https://user-images.githubusercontent.com/105463700/206201148-fb5c10ce-6289-421a-a63f-3f5349daa76a.png)
 Créer une base de données et un utilisateur spécifique pour Nextcloud sur MariaDB
