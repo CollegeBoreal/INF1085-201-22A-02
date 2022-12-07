@@ -61,4 +61,13 @@ date.timezone = Canada\Toronto``
 #### Sauvegarde le, puis quitter 
 ``FLUSH PRIVILEGES;
 EXIT;``
+# Télécharger et installer médiawiki
+#### Changez de répertoire en /tmp et téléchargez la dernière version.
+``cd /tmp && wget https://releases.wikimedia.org/mediawiki/1.34/mediawiki-core-1.34.0.tar.gz``
+#### Créez un répertoire et extrayez les fichiers dans le nouveau répertoire avec les commandes suivantes l'un après l'autre.
+``sudo mkdir -p /var/www/html/mediawiki
+sudo tar -zxvf mediawiki*.tar.gz
+sudo mv mediawiki-1.34.0/* /var/www/html/mediawiki``
+#### Modifiez la propriété et les autorisations des répertoires.
+``sudo chown -R www-data:www-data /var/www/html/mediawiki/ && sudo chmod -R 755 /var/www/html/mediawiki/``
 
