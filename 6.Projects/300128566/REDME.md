@@ -93,4 +93,10 @@ sudo mv mediawiki-1.34.0/* /var/www/html/mediawiki``
 </virtualhost>``
 #### Maintenant sauvegarder le fichier puis exit.
 ``:wq!``
-
+# Activer et configurer MediaWiki
+#### Activez votre nouveau fichier de configuration et activez la réécriture.
+``sudo a2dissite 000-default.conf
+sudo a2ensite mediawiki.conf
+sudo a2enmod rewrite``
+#### Redémarrez Apache2 pour recharger tous les paramètres et configurations.
+``sudo systemctl restart apache2.service``
