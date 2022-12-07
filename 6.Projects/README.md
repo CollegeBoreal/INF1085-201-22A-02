@@ -50,8 +50,7 @@
 | 17 | 300127065 - <image src='https://avatars.githubusercontent.com/u/97314712?s=460&v=4' width=20 height=20></image> | [:parking: MediaWiki](README.md#parking-chapter-10--securing-network-connections-vpn) | localhost.salimatap.live |
 | 18 | 300127290 - <image src='https://avatars.githubusercontent.com/u/105463700?s=460&v=4' width=20 height=20></image> | [:parking: NextCloud](README.md#parking-chapter-10--securing-network-connections-vpn) | localhost.altayasara.tech |
 | 19 | 300127868 - <image src='https://avatars.githubusercontent.com/u/113466237?s=460&v=4' width=20 height=20></image> | [:parking: NextCloud](README.md#parking-chapter-10--securing-network-connections-vpn) | :x: |
-| 20 | 300127921 - <image src='https://avatars.githubusercontent.com/u/106841177?s=460&v=4' width=20 height=20></image> | [:parking: Wikimedia](README.md#parking-
-chapter-10--securing-network-connections-vpn) | :x: |
+| 20 | 300127921 - <image src='https://avatars.githubusercontent.com/u/106841177?s=460&v=4' width=20 height=20></image> | [:parking: WikiMedia](README.md#parking-chapter-10--securing-network-connections-vpn) | :x: |
 | 21 | 300128276 - <image src='https://avatars.githubusercontent.com/u/113144317?s=460&v=4' width=20 height=20></image> | [:parking: WikiMedia](README.md#parking-chapter-10--securing-network-connections-vpn) | :x: |
 | 22 | 300128326 - <image src='https://avatars.githubusercontent.com/u/105472970?s=460&v=4' width=20 height=20></image> | [:parking: WikiMedia](README.md#parking-chapter-10--securing-network-connections-vpn) | http://localhost.mamadou.tech/mediawiki |
 | 23 | 300128566 - <image src='https://avatars.githubusercontent.com/u/101542761?s=460&v=4' width=20 height=20></image> | [:parking: WikiMedia](README.md#parking-chapter-10--securing-network-connections-vpn) | :x: |
