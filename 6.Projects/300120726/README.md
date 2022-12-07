@@ -85,7 +85,23 @@ Disallow root login remotely? [Y/n] Y
 Remove test database and access to it? [Y/n] Y
 Reload privilege tables now? [Y/n] Y
 ```
+## 5. Créer une base de donné pour Mediawiki
 
-
-
+1. comment par créer votre base de donnée(finisser toujour avec un point virgule à la fin de votre recquête)
+```
+CREATE DATABASE Name-database;
+```
+2. Créer votre utilisateur et son mot de passe
+```
+CREATE USER 'name-user'@'localhost' IDENTIFIED BY 'yourpassword';
+```
+3. Attribuyer toutes les permissions à l'utisisateur et le droit de l'attrbuer à un autre utilisateur
+```
+GRANT ALL PRIVILEGES ON wikidb.* TO 'wikiuser'@'localhost' WITH GRANT OPTION;
+```
+4. Terminer
+```
+flush privileges;
+```
+5. Sorter de la passe avec : ``` quit;```
 
