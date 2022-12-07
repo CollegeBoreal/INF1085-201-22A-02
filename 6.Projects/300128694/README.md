@@ -5,7 +5,7 @@
 cette commande nous permets de ne pas utiliser Sudo et ecrire le mot de passe a chaque fois,
 # apt update
 cette commande nous permet de faire une mise a jour de systeme.
-## 2 Deuxieme Etape/ Insalation de Apache,PHP Serveur Web et MariaDB SQL server.
+## 2 Deuxieme Etape/ Installation de Apache,PHP Serveur Web et MariaDB SQL server.
 
 
 
