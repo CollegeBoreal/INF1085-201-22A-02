@@ -30,3 +30,10 @@ Now what we are going to re open the access by tapping:
 
 now we should be able to access to the server from the other tab
 <img width="1440" alt="3" src="https://user-images.githubusercontent.com/98238582/206088120-5365e3b5-23ea-461f-9567-8777179d7b5b.png">
+
+Blocking any access except for a client from our choice
+
+--sudo ufw allow from adresse-client to any port 22
+
+<img width="1440" alt="5" src="https://user-images.githubusercontent.com/98238582/206305646-63021e34-4863-428a-ac48-6e586be2bf69.png">
+
