@@ -16,12 +16,16 @@ Enabling ufw first
 
 <img width="1440" alt="1" src="https://user-images.githubusercontent.com/98238582/206087388-51e84c29-93b6-4872-bfa8-b243314dcfad.png">
 Blocking ALL incoming and outgoing traffic to tour server by two commands
+
 --sudo ufw default deny outgoing
 --sudo ufw default deny incoming
+
 We test this by opening an other tap and try accessing to the server
 <img width="1440" alt="2" src="https://user-images.githubusercontent.com/98238582/206087820-631e4c3c-4d6f-4a78-aac3-c9f87a9e8134.png">
 access denied as expected
 Now what we are going to re open the access by tapping:
+
 --sudo ufw allow ssh
+
 now we should be able to access to the server from the other tab
 <img width="1440" alt="3" src="https://user-images.githubusercontent.com/98238582/206088120-5365e3b5-23ea-461f-9567-8777179d7b5b.png">
