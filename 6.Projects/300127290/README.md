@@ -9,6 +9,11 @@ Next cloud est une application Web qui nous permet d'héberger des fichiers dans
 Nextcloud est une application Web qui nécessite une certaine configuration sur le serveur pour pouvoir fonctionner. Il nécessite également PHP avec plusieurs de ses modules et un gestionnaire de base de données tel que MariaDB.
 
 Depuis votre serveur, télécharger l’archive zip NextCloud. La dernière version stable est la 19.0.1 au moment de la rédaction de cet article. Allez sur https://nextcloud.com/install pour récupérer le lien de téléchargement et depuis votre terminal, exécuter la commande suivante (à adapter en fonction de la version) 
+La premiere chose a faire est d'installer Apache a l'aide de:
+sudo apt install apache2.
+ensuite verifier le status de apache a l'aide de la commande: 
+sudo systemct1 status apache2
+
 ![image](https://user-images.githubusercontent.com/105463700/206200845-169f40e1-cd22-4d26-938e-501add5d47aa.png)
 Dézipper tout ça avec la commande suivante : 
 ![image](https://user-images.githubusercontent.com/105463700/206200991-3fb9aa8a-45f2-49bd-b65b-6e1bf6f1e66c.png)
