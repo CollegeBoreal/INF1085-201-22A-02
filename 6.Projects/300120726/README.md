@@ -57,7 +57,7 @@ systemctl restart apache2
 phpinfo();
 ?>
 ```
-Entrer votre ipadress/testmyphp.php dans URL pour voir votre page Apache
+Entrer votre ipadress/testmyphp.php dans URL pour voir votre page php
 
 ![Screenshot 2022-12-06 102511](https://user-images.githubusercontent.com/105461057/206275725-bcdafa5d-1b4a-46ec-916e-86a49349f914.png)
 
