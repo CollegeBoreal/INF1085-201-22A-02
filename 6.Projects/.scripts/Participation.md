@@ -31,7 +31,7 @@
 | 12 | [300126215](../300126215) - <image src='https://avatars0.githubusercontent.com/u/97623907?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300126215/README.md) | :tada: - ssh ziko@localhost.zacklafhel.live |
 | 13 | [300126268](../300126268) - <image src='https://avatars0.githubusercontent.com/u/97314948?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300126268/README.md) | :tada: - ssh sedric_g@localhost.sedricgo.live |
 | 14 | [300126634](../300126634) - <image src='https://avatars0.githubusercontent.com/u/97324827?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300126634/README.md) | :x: - ssh frank_uranus@localhost.frankuranus.tech |
-| 15 | [300126800](../300126800) - <image src='https://avatars0.githubusercontent.com/u/105135304?s=460&v=4' width=20 height=20></image> | :x: | :x: - ssh rafik952@hostme.rafik952.live |
+| 15 | [300126800](../300126800) - <image src='https://avatars0.githubusercontent.com/u/105135304?s=460&v=4' width=20 height=20></image> | :x: | :x: - ssh rafik952@localhost.rafiik.tech |
 | 16 | [300126966](../300126966) - <image src='https://avatars0.githubusercontent.com/u/94937166?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300126966/README.md) | :tada: - ssh bakmomo@localhost.mbtechno.tech |
 | 17 | [300127065](../300127065) - <image src='https://avatars0.githubusercontent.com/u/97314712?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300127065/README.md) | :x: - ssh salimata1@localhost.salimatap.live |
 | 18 | [300127290](../300127290) - <image src='https://avatars0.githubusercontent.com/u/105463700?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300127290/README.md) | :tada: - ssh sara@localhost.altayasara.tech |
