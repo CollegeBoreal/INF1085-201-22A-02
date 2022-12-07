@@ -63,18 +63,14 @@ Confirmez si l'utilisateur peut se connecter à la base de données avec le mot 
 C’est le moment de télécharger next cloud a l’aide de la commande suivante : 
 wget https://download.nextcloud.com/server/releases/nextcloud-23.0.0.zip
 ![image](https://user-images.githubusercontent.com/105463700/206202141-dd6354a5-75e4-424e-b135-a88c569948a7.png)
-![image](https://user-images.githubusercontent.com/105463700/206202191-f090e71c-ebca-403d-b8fe-fa7c92ae6d3c.png)
-se connecter maintenant sur un serveur web a l'aide de son addresse
-Ensuite remplir les differents champs
-
-![image](https://user-images.githubusercontent.com/105463700/206204060-3e64869d-7127-4449-adba-20a5160af618.png)
 Exécutez les commandes ci-dessous pour décompresser le package dans /var/www/html, créez un répertoire de données dans lequel Nextcloud stockera les données utilisateur et définissez les autorisations de répertoire appropriées :
 sudo unzip nextcloud-23.0.0.zip -d /var/www/html/
 sudo mkdir /var/www/html/nextcloud/data
 sudo chown -R www-data:www-data /var/www/html/nextcloud/
 ![image]
+![image](https://user-images.githubusercontent.com/105463700/206202191-f090e71c-ebca-403d-b8fe-fa7c92ae6d3c.png)
+se connecter maintenant sur un serveur web a l'aide de son addresse
+Ensuite remplir les differents champs
 
-Nextcloud est maintenant installé avec succès. Ensuite, ouvrez un navigateur Web et pointez-le sur http://server-ip/nextcloud/ pour terminer les dernières étapes.
-![image]![image](https://user-images.githubusercontent.com/105463700/206294984-2ff9874a-23c1-42c7-b831-6af8a185d18c.png)
-
+![image](https://user-images.githubusercontent.com/105463700/206204060-3e64869d-7127-4449-adba-20a5160af618.png)
 
