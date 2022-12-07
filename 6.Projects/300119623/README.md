@@ -53,6 +53,7 @@ service apache2 restart
 ```
 ![IMG-6378](https://user-images.githubusercontent.com/97314467/206089180-02317d16-eea4-4647-9d61-0f7ca2f03696.jpg)
 ![IMG-6384](https://user-images.githubusercontent.com/97314467/206089215-20decd2f-f781-45ca-a563-b7aec7b053a3.jpg)
+http://10.13.237.13/nextcloud/index.php/login?clear=1
 ## Step 6. Final Step - Set up nextcloud.
 Here is the link that shows how to install nextcloud 
 https://youtu.be/IXmeqdLOlPc 
