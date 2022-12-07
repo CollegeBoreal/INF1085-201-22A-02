@@ -103,4 +103,6 @@ sudo a2enmod rewrite``
 #### Redémarrez Apache2 pour recharger tous les paramètres et configurations
 ``sudo systemctl restart apache2.service``
 
+#
+
 ## Et c'est tout pour l'installation et la comfiguration d'apache2
