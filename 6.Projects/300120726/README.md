@@ -63,6 +63,7 @@ Entrer votre ipadress/testmyphp.php dans URL pour voir votre page php
 
 
 ## 4 Installez MariaDB et Créer une nouvelles base de donées
+
 Nous utilisons ici le MariaDB de MySQL pour établir un serveur de base de données pour MediaWiki
 Suivez les commandes données pour configurer MariaDB et créer une base de données pour cette plate-forme Wiki.
 
