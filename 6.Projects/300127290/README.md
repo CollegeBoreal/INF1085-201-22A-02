@@ -31,10 +31,16 @@ Un petit « Flush Privileges » pour appliquer les changements
 Confirmez si l'utilisateur peut se connecter à la base de données avec le mot de passe fourni :
 
 
+
+
+
 ![image](https://user-images.githubusercontent.com/105463700/206201994-6db55197-968b-4fc4-888d-d22c08b05707.png)
 
 C’est le moment de télécharger next cloud a l’aide de la commande suivante : 
 wget https://download.nextcloud.com/server/releases/nextcloud-23.0.0.zip
 ![image](https://user-images.githubusercontent.com/105463700/206202141-dd6354a5-75e4-424e-b135-a88c569948a7.png)
 ![image](https://user-images.githubusercontent.com/105463700/206202191-f090e71c-ebca-403d-b8fe-fa7c92ae6d3c.png)
+se connecter maintenant sur un serveur web a l'aide de son addresse
+Ensuite remplir les differents champs
 
+![image](https://user-images.githubusercontent.com/105463700/206204060-3e64869d-7127-4449-adba-20a5160af618.png)
