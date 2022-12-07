@@ -100,3 +100,5 @@ sudo a2ensite mediawiki.conf
 sudo a2enmod rewrite``
 #### Redémarrez Apache2 pour recharger tous les paramètres et configurations.
 ``sudo systemctl restart apache2.service``
+#
+# C'est tout l'installation et la configuration d'apache2
