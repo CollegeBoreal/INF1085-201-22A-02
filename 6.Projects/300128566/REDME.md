@@ -54,4 +54,11 @@ date.timezone = Canada\Toronto``
 ``sudo mysql -u root -p``
 #### Créer votre base de donnée avec la commande 
 ``CREATE DATABASE "le nom de base de donnée";``
+#### Créer un utilisateur de bd avec un mot de passe
+``CREATE USER 'mon d'utilisateur'@'localhost' IDENTIFIED BY 'votre mot de passe';``
+#### Accorder a votre utilisateur un accès complet a la bd.
+``GRANT ALL ON mediawiki.* TO 'nom d'utilisateur'@'localhost' IDENTIFIED BY 'Mot de passe' WITH GRANT OPTION;
+#### Sauvegarde le, puis quitter 
+``FLUSH PRIVILEGES;
+EXIT;``
 
