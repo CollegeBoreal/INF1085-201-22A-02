@@ -9,10 +9,10 @@
 #### Télécharger et installer médiawiki
 #### Configurer les fichiers de configuration Apache2 et MediaWiki
 #### Activer et configurer MediaWiki
-####
-####
-
+#
+#
+# Tout d'abord il est recommandé de faire la mise en jour de de ton serveur avec la commande 
+``sudo apt update``
 #### Installation Apache2
-# Tout d'abord il est recommandé de faire la mise en jour de de ton serveur avec la commande ``sudo ``
 ``sudo apt -y install apache2
 ``
