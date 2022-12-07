@@ -44,3 +44,5 @@ se connecter maintenant sur un serveur web a l'aide de son addresse
 Ensuite remplir les differents champs
 
 ![image](https://user-images.githubusercontent.com/105463700/206204060-3e64869d-7127-4449-adba-20a5160af618.png)
+![image](https://user-images.githubusercontent.com/105463700/206204549-f2e4a4fa-7a26-4919-a701-9a504e08976f.png)
+
