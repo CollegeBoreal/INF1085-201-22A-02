@@ -15,6 +15,8 @@ Pour installer Apache, PHP et ses modules requis, et MariaDB, vous devrez exécu
 
 sudo apt install apache2 libapache2-mod-php php-cli php-fpm php-json php-intl php-imagick php-pdo php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath mariadb-server
 
+![image](https://user-images.githubusercontent.com/105463700/206199157-0c3faf87-b0eb-43d8-9ce0-e4113d0989e3.png)
+
 Lorsque tout le processus est terminé, assurez-vous que dans le pare-feu, vous avez des ports ouverts 80et 443.
 
 sudo ufw allow 80
