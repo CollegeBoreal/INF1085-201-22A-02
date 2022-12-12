@@ -34,7 +34,7 @@ Quels sont les instructions pour créer sa propre image?
 
 ## :tv: Vidéos de cours
 
-- [ ] [Cycle de vie](https://www.linkedin.com/learning/decouvrir-docker/decouvrir-le-cycle-de-vie-d-un-conteneur?u=56968449)
+- [ ] [:wheel_of_dharma: Cycle de vie](https://www.linkedin.com/learning/decouvrir-docker/decouvrir-le-cycle-de-vie-d-un-conteneur?u=56968449)
 
 * Created: A container that has been created but not started
 * Running: A container running with all its processes
