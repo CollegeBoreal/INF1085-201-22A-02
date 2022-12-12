@@ -2,9 +2,13 @@
 
 [:tada: Participation ](.scripts/Participation.md)
 
-## :o: Docker Cycle de Vie
+## :o: Docker - Leçon du cours
 
-[:whale: Cours Docker](../D.Docker)
+[:whale: Cours Docker](../D.Docker) 
+
+- [ ] Qu´est ce que Docker?
+- [ ] son cycle de vie
+- [ ] son histoire
 
 ## :a: Installer une machine Générique
 
