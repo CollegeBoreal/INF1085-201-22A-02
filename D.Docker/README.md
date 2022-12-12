@@ -32,7 +32,7 @@ Quels sont les instructions pour créer sa propre image?
 <img src="images/Docker-In-Action_Figure-1.4.png" width=500 height=500 ></img>
 
 
-## :tv: Vidéos de cours
+## :tv: Cycle de vie et Image - Vidéos de cours
 
 - [ ] [:wheel_of_dharma: Cycle de vie](https://www.linkedin.com/learning/decouvrir-docker/decouvrir-le-cycle-de-vie-d-un-conteneur?u=56968449)
 
