@@ -128,7 +128,7 @@ mediawiki-1.30.0.tar.gz
 
 .Déziper le fichier avec la commande
 ```
-tar xzvf mediawiki-1.30.0.tar.gz
+tar xzvf mediawiki-1.39.0.tar.gz
 ```
 
 ![Screenshot 2022-12-06 125846](https://user-images.githubusercontent.com/105461057/206285620-359b088b-403b-4f78-bf48-262df409172d.png)
