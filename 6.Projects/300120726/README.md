@@ -159,7 +159,8 @@ Appuyer sur continuer . choisir le nom de la base de donner , l'utilisateur et s
 
 Continuer avec l'installation
 
-![Screenshot 2022-12-06 195624](https://user-images.githubusercontent.com/105461057/206287234-f115ee8f-67b8-49f4-a6ed-3e4e50cd2c81.png)
+![Screenshot 2022-12-12 213602](https://user-images.githubusercontent.com/105461057/207217103-5344aab0-0d86-4d8c-a949-283df14ae1c7.png)
+
 
 
 
