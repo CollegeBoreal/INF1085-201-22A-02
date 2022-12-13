@@ -25,7 +25,7 @@ sudo apt update && sudo apt upgrade
 ## 2.  Installez Apache
 
 ```
-sudo apt install apache2
+sudo apt -y install apache2
 ```
 saisir localhost ou l'adress ip de ton server
  
@@ -49,7 +49,11 @@ systemctl status apache2 --no-page -l
 ## 3. Installez PHP et les extentions requises
 
 ```
-sudo apt install php php-common php-mbstring php-xmlrpc php-soap php-gd php-xml php-intl php-mysql php-cli php-ldap php-zip php-curl
+sudo apt -y install php php-common php-mbstring php-xmlrpc php-soap php-gd php-xml php-intl php-mysql php-cli php-ldap php-zip php-curl
+```
+Ouvrez le fichier d'initialisation PHP
+```
+sudo vim /etc/php/8.0/apache2/php.ini
 ```
 Restart Apache avec la commande:
 ```
@@ -73,8 +77,14 @@ Nous utilisons ici le MariaDB de MySQL pour établir un serveur de base de donn�
 Suivez les commandes données pour configurer MariaDB et créer une base de données pour cette plate-forme Wiki.
 
 ```
-sudo apt install mariadb-server
+sudo apt install mariadb-server mariadb-client
 ```
+Nous allons maintenant arrêter le service (s'il était précédemment activé), le démarrer et l'activer pour qu'il démarre après un redémarrage du système.
+
+```
+sudo systemctl restart mariadb.service && sudo systemctl enable mariadb.service
+```
+
 Une fois l'installation terminée, sécurisez votre base de données en définissant un mot de passe root et en supprimant les accès inutiles:
 ```
 sudo mysql_secure_installation
@@ -92,6 +102,12 @@ Remove test database and access to it? [Y/n] Y
 Reload privilege tables now? [Y/n] Y
 ```
 ## 5. Créer une base de donné pour Mediawiki
+
+Tapez la comment suivante pour acceder à msql
+
+```
+sudo mysql -u root -p
+```
 
 1. comment par créer votre base de donnée(finisser toujour avec un point virgule à la fin de votre recquête)
 ```
@@ -115,20 +131,19 @@ flush privileges;
  ```
 ## 6. Télechargez le fichier mediawiki
 
-Rendez-vous dans les sites officiels mediawiki pour copier le lien de télechargement.Ouvrez le terminal  à partir duquel vous accédez au serveur Ubuntu 22.04 et utilisez la ```wget``` commande pour télécharger les fichiers MediaWiki.
+Rendez-vous dans les sites officiels mediawiki(https://www.mediawiki.org/wiki/Download) pour copier le lien de télechargement.Ouvrez le terminal  à partir duquel vous accédez au serveur Ubuntu 22.04 et utilisez la ```wget``` commande pour télécharger les fichiers MediaWiki.
 
 ```
 cd /tmp
 ```
 
 ```
-wget https://releases.wikimedia.org/mediawiki/1.30/\
-mediawiki-1.30.0.tar.gz
+wget https://releases.wikimedia.org/mediawiki/1.39/mediawiki-1.39.0.tar.gz
 ```
 
 .Déziper le fichier avec la commande
 ```
-tar xzvf mediawiki-1.39.0.tar.gz
+ sudo tar xzvf mediawiki-1.39.0.tar.gz
 ```
 
 ![Screenshot 2022-12-06 125846](https://user-images.githubusercontent.com/105461057/206285620-359b088b-403b-4f78-bf48-262df409172d.png)
@@ -138,7 +153,7 @@ tar xzvf mediawiki-1.39.0.tar.gz
 Pour cela, ouvrez votre navigateur local et pointez-le vers le domaine ou l'adresse IP du serveur Ubuntu sur lequel vous installez MediaWiki de la manière suivante :
 
 ```
-http://ip-serveuradresse/wiki
+10.13.237.17/mediawiki-1.39.0
 ```
 
 Appuyer sur ```complete the instalation```
