@@ -143,7 +143,8 @@ http://ip-serveuradresse/wiki
 
 Appuyer sur ```complete the instalation```
 
-![Screenshot 2022-12-12 213227](https://user-images.githubusercontent.com/105461057/207215972-ccd9c4d8-5368-430f-b10a-7db3a2f13239.png)
+![Screenshot 2022-12-12 213227](https://user-images.githubusercontent.com/105461057/207216615-10cffbed-4b8a-4ab4-b4c2-94ea7c1d6b23.png)
+
 
 
 choisir la langue 
