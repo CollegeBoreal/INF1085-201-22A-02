@@ -1,4 +1,5 @@
-                                                                     Nextcloud Install
+                                                                    ![image](https://user-images.githubusercontent.com/97314874/207252851-ca7f3666-7f28-4038-b98a-71ddea1d5cc0.png)
+
 
 # How to Install NextCloud on Ubuntu 22.04
 ## Step 1. Update the System
