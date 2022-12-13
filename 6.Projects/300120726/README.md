@@ -153,7 +153,9 @@ choisir la langue
 
 
 Appuyer sur continuer . choisir le nom de la base de donner , l'utilisateur et son mot de passe
-![Screenshot 2022-12-06 193932](https://user-images.githubusercontent.com/105461057/206287558-bd74fff6-6d02-4d26-8d27-dc64f439deeb.png)
+
+![Screenshot 2022-12-12 213449](https://user-images.githubusercontent.com/105461057/207216992-533b5af0-a55d-48d2-bd52-ae3a1ec3451b.png)
+
 
 Continuer avec l'installation
 
