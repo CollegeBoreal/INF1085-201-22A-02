@@ -3,7 +3,8 @@
 
 # Few steps in order to Install NextCloud on Ubuntu
 
-## Right-click here and save the file to your computer.
+##
+Right-click here and save the file to your computer.
 Upload setup-nextcloud.php to your web space.
 Point your web browser to setup-nextcloud.php on your webspace.
 Follow the instructions and configure Nextcloud.
