@@ -161,6 +161,20 @@ Continuer avec l'installation
 
 ![Screenshot 2022-12-12 213602](https://user-images.githubusercontent.com/105461057/207217103-5344aab0-0d86-4d8c-a949-283df14ae1c7.png)
 
+![Screenshot 2022-12-12 213844](https://user-images.githubusercontent.com/105461057/207217264-a5ccbef8-4edd-4ffa-9193-4e1f8d259ee4.png)
+
+
+Telecharger le fichier LocalSetting.php
+
+![Screenshot 2022-12-12 214312](https://user-images.githubusercontent.com/105461057/207217502-3e1595c9-0ead-42d1-9051-a876aefcfac0.png)
+
+Welcome 
+
+![Screenshot 2022-12-12 215430](https://user-images.githubusercontent.com/105461057/207217749-e108179d-cdd6-4fdc-816c-13d2251d2bac.png)
+
+
+
+
 
 
 
