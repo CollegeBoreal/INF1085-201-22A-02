@@ -1,4 +1,4 @@
-                                                                    ![image](https://user-images.githubusercontent.com/97314874/207252851-ca7f3666-7f28-4038-b98a-71ddea1d5cc0.png)
+![Screenshot_20221213_022827](https://user-images.githubusercontent.com/97314874/207253092-cc0660ea-400a-4aa9-8b35-c8b31fc07354.png)
 
 
 # How to Install NextCloud on Ubuntu 22.04
