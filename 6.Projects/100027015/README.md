@@ -13,6 +13,9 @@ Follow the instructions and configure Nextcloud.
 
 Login to your newly created Nextcloud instance!
 
+![image](https://user-images.githubusercontent.com/97314874/207274334-c2784f74-0998-473a-ac9a-04c65aa33cbb.png)
+
+
 ## Step 2 – Configuring an Administrative Account
 
 There are a few different ways you can configure the Nextcloud snap
