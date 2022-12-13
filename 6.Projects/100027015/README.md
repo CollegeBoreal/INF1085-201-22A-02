@@ -1,8 +1,6 @@
 ## NextCloud
-![image](https://user-images.githubusercontent.com/97314874/207247566-80129a5a-a3ba-495e-a9c4-23c061e9e69b.png)
-### Telecharger Raspberry Pi Imager au lien suivant:
-```
-https://www.raspberrypi.com/software/
+Connecting to your Server
+![image](https://user-images.githubusercontent.com/97314874/207248997-97bf7613-0842-46fc-8231-05f9a54cbd34.png)
 ```
 ### Ensuite télécharger la version du OS voulu sur ce lien:
 ```
