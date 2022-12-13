@@ -1,8 +1,17 @@
 ![Screenshot_20221213_022827](https://user-images.githubusercontent.com/97314874/207253092-cc0660ea-400a-4aa9-8b35-c8b31fc07354.png)
 
 
-# How to Install NextCloud on Ubuntu 22.04
-## Step 1. Update the System
+# Few steps in order to Install NextCloud on Ubuntu
+
+## Right-click here and save the file to your computer.
+Upload setup-nextcloud.php to your web space.
+Point your web browser to setup-nextcloud.php on your webspace.
+Follow the instructions and configure Nextcloud.
+Login to your newly created Nextcloud instance!
+
+
+
+
 Before we install the NextCloud storage service we will update the system packages to the latest versions available.
 ```
 sudo apt update -y && sudo apt upgrade -y
