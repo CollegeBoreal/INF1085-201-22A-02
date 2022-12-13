@@ -4,7 +4,7 @@ Connecting to your Server
 ```
 ### Ensuite télécharger la version du OS voulu sur ce lien:
 ```
-https://www.raspberrypi.com/software/operating-systems/
+![image](https://user-images.githubusercontent.com/97314874/207250758-ddf60e01-04b8-42c9-98f8-4229189e9758.png)
 ```
 ### Avec Raspberry Pi Imager installer votre systeme sur la carte micro SD
 
