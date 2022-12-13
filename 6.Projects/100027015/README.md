@@ -2,42 +2,55 @@
 
 
 # Few steps in order to Install NextCloud on Ubuntu
- Right-click here and save the file to your computer.
+ 
+Right-click here and save the file to your computer.
+
 Upload setup-nextcloud.php to your web space.
+
 Point your web browser to setup-nextcloud.php on your webspace.
+
 Follow the instructions and configure Nextcloud.
+
 Login to your newly created Nextcloud instance!
 
+## Step 2 – Configuring an Administrative Account
+
+There are a few different ways you can configure the Nextcloud snap
+
+o configure Nextcloud with a new administrator account, use the nextcloud.manual-install command. You must pass in a username and a password as arguments:
+
+![image](https://user-images.githubusercontent.com/97314874/207267884-4cf1c131-32b6-48da-bb3b-d1083186b14a.png)
 
 
 
-Before we install the NextCloud storage service we will update the system packages to the latest versions available.
+##  Update the system packages to the latest versions available with this command.
 ```
 sudo apt update -y && sudo apt upgrade -y
 ```
-## Step 2. Install Apache Web Server
-Install the Apache Web server with the following command:
+## Installing Apache Web Server by using this following command
+
 ```
 sudo apt install apach2
 ```
-## Once installed, start and enable the service.
+## Apache Web server configuration
+Configuring Apache requires the creation of a single configuration file. On Debian, Ubuntu, and their derivatives, this file will be /etc/apache2/sites-available/nextcloud.conf. On Fedora, CentOS, RHEL, and similar systems, the configuration file will be /etc/httpd/conf.d/nextcloud.conf.
+![image](https://user-images.githubusercontent.com/97314874/207264597-fcb206cc-1c3c-4792-a91a-2664b397beeb.png)
+
+## You'll need to enable the service with the following command.
 ```
 sudo systemctl enable apache2 && sudo systemctl start apache2
 ```
-## Check if the service is up and running:
-```
-sudo systemctl status apache2
-```
-## You should receive the following output:
-```
+![image](https://user-images.githubusercontent.com/97314874/207266741-aebc463a-7b4f-4c00-8c8a-cdf1752a91f5.png)
+
+## the following output is what you should probably have on your screen. 
+
 root@host: # sudo systemctl status apache2
-```
-## Step 3. Install [Apache, PHP] Web Server AND MariaDB SQL Server
-I personnaly prefer to use only this one particular command to install Apache web server, MariaDB Sql Server and PHP web server with dependencies.
-```
+
+# Installing [Apache, PHP] Web Server AND MariaDB SQL Server
+
 sudo apt install apache2 libapache2-mod-php php-cli php-fpm php-json php-intl php-imagick php-pdo php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath mariadb-server
-```
-## Step 4. Configure MariaDB
+
+## Configure MariaDB
 ```
 mysql -u root -p
 FLUSH PRIVILEGES;
@@ -45,26 +58,33 @@ CREATE DATABASE nextcloud;
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextcloud'@'localhost' IDENTIFIED BY 'PassForDB';
 quit;
 ```
-## Step 5. Donwload and Install NextCloud
+## Donwload and Install NextCloud
 ```
 cd /var/www/html
 wget https://download.nextcloud.com/server/releases/latest.zip
 ```
-And we should unzip the downloaded file. (In case you don't have unzip installed make sure to install it apt install unzip)
-```
+
 unzip latest.zip
-```
-Now we should give full permission for unzipped folder.
-```
+
+full permission for unzipped folder must be given.
+
 chmod -R 777 /var/www/html/nextcloud
-```
-and finally we restart the apache2 server in order to reaload the new changement.
-```
-service apache2 restart
-```
-![IMG-6378](https://user-images.githubusercontent.com/97314467/206089180-02317d16-eea4-4647-9d61-0f7ca2f03696.jpg)
-![IMG-6384](https://user-images.githubusercontent.com/97314467/206089215-20decd2f-f781-45ca-a563-b7aec7b053a3.jpg)
-http://10.13.237.13/nextcloud/index.php/login?clear=1
-## Step 6. Final Step - Set up nextcloud.
-Here is the link that shows how to install nextcloud 
-https://youtu.be/IXmeqdLOlPc 
+restart the apache2 server.
+
+
+![image](https://user-images.githubusercontent.com/97314874/207270917-e7f01183-b371-44d2-aed6-661533a8717b.png)
+
+## Logging in to the Nextcloud Web Interface
+
+Now that Nextcloud is configured, visit your server’s domain name or IP address in your web browser:
+https://example.com
+
+![Screenshot_20221213_035409](https://user-images.githubusercontent.com/97314874/207273031-13bf9603-6515-48b2-9250-15ed13db2253.png)
+
+![Screenshot_20221213_035459](https://user-images.githubusercontent.com/97314874/207273084-9b559f84-2cdc-4574-a9a1-8ce27cb800a2.png)
+
+## Conclusion
+Nextcloud can replicate the capabilities of popular third-party cloud storage services. Content can be shared between users or externally with public URLs. The advantage of Nextcloud is that the information is stored securely in a place that you control.
+
+
+
