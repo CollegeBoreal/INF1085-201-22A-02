@@ -2,13 +2,12 @@
 Connecting to your Server
 ![image](https://user-images.githubusercontent.com/97314874/207248997-97bf7613-0842-46fc-8231-05f9a54cbd34.png)
 ```
-### Ensuite télécharger la version du OS voulu sur ce lien:
 ```
 ![image](https://user-images.githubusercontent.com/97314874/207250758-ddf60e01-04b8-42c9-98f8-4229189e9758.png)
 ```
 ### Avec Raspberry Pi Imager installer votre systeme sur la carte micro SD
 
-![raspberry imager-](https://user-images.githubusercontent.com/94937166/201798922-fcd07dc3-8e36-4488-bf0f-b6a7610868c4.jpg)
+![Screenshot_20221213_124838](https://user-images.githubusercontent.com/97314874/207251121-86559167-64e7-401c-b2a7-a4f230544524.png)
 
 ### Après le démarrage et l'installation redemarrer votre Raspberry Pi
 ![20221113_170601](https://user-images.githubusercontent.com/94937166/201800605-1b71da08-59c0-4b0c-8b96-835b406cf625.jpg)
