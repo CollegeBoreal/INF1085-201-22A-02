@@ -29,16 +29,19 @@
 sudo mysql_secure_installation
 ```
 #### Nous serons invité à répondre aux questions suivantes. Assurez-vous de définir les options suivantes comme indiqué ci-dessous.
-``Enter current password for root (enter for none): Press Enter
+```
+Enter current password for root (enter for none): Press Enter
 Set root password? [Y/n]: Y
 New password: Enter Password
 Re-enter new password: Confirm Password
 Remove anonymous users? [Y/n]: Y
 Disallow root login remotely? [Y/n]: Y
 Remove test database and access to it? [Y/n]:  Y
-Reload privilege tables now? [Y/n]:  Y``
+Reload privilege tables now? [Y/n]:  Y
+```
 #### Une fois terminé, redémarrez MariaDB.
-``sudo systemctl restart mariadb.service``
+``sudo systemctl restart mariadb.service
+```
 # Installer PHP et ses dépendances
 #### Utilisez les commandes suivantes pour installer PHP et les dépendances requises pour MediaWiki.
 ``sudo apt install php php-common php-mbstring php-xmlrpc php-soap php-gd php-xml php-intl php-mysql php-cli php-ldap php-zip php-curl``
@@ -55,8 +58,9 @@ date.timezone = Canada\Toronto``
 #### Une fois toutes les étapes précédentes terminées, vous pouvez maintenant créer votre base de données MediaWiki. Suivez les étapes ci-dessous pour créer votre base de données MediaWiki.
 ``sudo mysql -u root -p``
 #### Créer votre base de donnée avec la commande 
-``CREATE DATABASE "le 
-nom de base de donnée";``
+```
+CREATE DATABASE "mediawiki";
+```
 #### Créer un nom d'utilisateur de bd avec un mot de passe
 ``CREATE USER 'le nom d'utilisateur'@'localhost' IDENTIFIED BY 'votre mot de passe';``
 #### Accorder à votre utilisateur un accès complet à la base de données avec la commande suivante
