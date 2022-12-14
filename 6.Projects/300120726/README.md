@@ -111,15 +111,15 @@ sudo mysql -u root -p
 
 1. comment par créer votre base de donnée(finisser toujour avec un point virgule à la fin de votre recquête)
 ```
-CREATE DATABASE Name-database;
+CREATE DATABASE wikidb;
 ```
 2. Créer votre utilisateur et son mot de passe
 ```
-CREATE USER 'name-user'@'localhost' IDENTIFIED BY 'yourpassword';
+CREATE USER 'orely'@'localhost' IDENTIFIED BY 'yourpassword';
 ```
 3. Attribuyer toutes les permissions à l'utisisateur et le droit de l'attrbuer à un autre utilisateur
 ```
-GRANT ALL PRIVILEGES ON wikidb.* TO 'wikiuser'@'localhost' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON wikidb.* TO 'orely'@'localhost' WITH GRANT OPTION;
 ```
 4. Terminer
 ```
