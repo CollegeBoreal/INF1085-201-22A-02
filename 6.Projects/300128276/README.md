@@ -1,3 +1,8 @@
+                         #### Comment Installer MediaWiki sur Umbutu
+
+
+
+
 
 I- Définition Médiawiki:
 
