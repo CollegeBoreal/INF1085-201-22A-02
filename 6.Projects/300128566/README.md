@@ -40,13 +40,14 @@ Remove test database and access to it? [Y/n]:  Y
 Reload privilege tables now? [Y/n]:  Y
 ```
 #### Une fois terminé, redémarrez MariaDB.
-``sudo systemctl restart mariadb.service
+```
+sudo systemctl restart mariadb.service
 ```
 # Installer PHP et ses dépendances
 #### Utilisez les commandes suivantes pour installer PHP et les dépendances requises pour MediaWiki.
-``sudo apt install php php-common php-mbstring php-xmlrpc php-soap php-gd php-xml php-intl php-mysql php-cli php-ldap php-zip php-curl``
+```sudo apt install php php-common php-mbstring php-xmlrpc php-soap php-gd php-xml php-intl php-mysql php-cli php-ldap php-zip php-curl```
 #### Ouvrez le fichier d'initialisation PHP.
-``sudo vim /etc/php/7.2/apache2/php.ini``
+```sudo vim /etc/php/7.2/apache2/php.ini``
 #### VDéfinissez les paramètres suivants dans le fichier PHP.
 ``file_uploads = On
 allow_url_fopen = On
