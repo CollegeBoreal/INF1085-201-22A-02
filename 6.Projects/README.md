@@ -24,7 +24,7 @@
 - [ ] Franklin - NextCloud
 - [ ] Rafik - WikiMedia :tada:
 - [ ] Pasmi - Wikimedia :heavy_check_mark:
-- [ ] Sedric - Wikipedia
+- [ ] Sedric - Wikipedia :timer:
 
 ## :ab: Projets
 
