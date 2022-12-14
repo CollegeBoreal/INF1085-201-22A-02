@@ -125,5 +125,5 @@ sudo chown -R www-data:www-data /var/www/html/mediawiki/ && sudo chmod -R 777 /v
 ```
 ### D- Configurer MediaWiki
 Maintenant, nous allons mettre MediaWiki en marche. Dirigez votre navigateur vers :
-http://10.13.237.36
-Cliquez ensuite sur set up the wikile lien.
+http://10.13.237.36/mediawiki
+Cliquez ensuite sur le lien.
