@@ -26,6 +26,7 @@
 - [ ] Pasmi - Wikimedia :heavy_check_mark:
 - [ ] Sedric - Wikipedia :timer_clock:
 - [ ] Steeve - NextCloud :timer_clock:
+- [ ] Bandiougou - MediaWiki :timer_clock:
 
 ## :ab: Projets
 
