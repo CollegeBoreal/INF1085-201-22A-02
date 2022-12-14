@@ -28,65 +28,65 @@ sudo apt -y install apache2
 Apres je desactive les liste de repertoire
 
 
-
+```
 sudo sed -i "s/Options Indexes FollowSymLinks/Options FollowSymLinks/" /etc/apache2/apache2.conf
-
+```
 
 
 Apres j'arrete le service que j'ai activé précedement le démaré apres l.activé
 
 
-
+```
 sudo systemctl restart apache2.service && sudo systemctl enable apache2.service
-
+```
 
 
 Apres j'installe MariaDB
 
 
-
+```
 sudo apt install mariadb-server mariadb-client
-
+```
 
 
 Apres l'installation de MariaDB je securise mon installation
 
 
-
+```
 sudo systemctl restart mariadb.service && sudo systemctl enable mariadb.service
-
+```
 
 
 Apres je vien créer mon Database
 
 
-
+```
 CREATE DATABASE mediawiki;
-
+```
 
 
 et je cree mon nom d'utilisateur et mon mot de passe
 
 
-
+```
 CREATE USER 'mwadmin'@'localhost' IDENTIFIED BY 'enterYourPassword';
-
+```
 
 
 Je change repertoire en /tmp et je telecharge la derniere version
 
 
-
+```
 cd /tmp && wget https://releases.wikimedia.org/mediawiki/1.34/mediawiki-core-1.34.0.tar.gz
-
+```
 
 
 La configuration d'Apache et Mediawiki
 
 
-
+```
 sudo vim /etc/apache2/sites-available/mediawiki.conf
-
+```
 
 III-  QUelque images de l'installation
 
