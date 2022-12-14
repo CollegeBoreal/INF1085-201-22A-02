@@ -25,7 +25,7 @@
 - [ ] Rafik - WikiMedia :tada:
 - [ ] Pasmi - Wikimedia :heavy_check_mark:
 - [ ] Sedric - Wikipedia :timer_clock:
-- [ ] Steeve - NextCloud 
+- [ ] Steeve - NextCloud :timer_clock:
 
 ## :ab: Projets
 
