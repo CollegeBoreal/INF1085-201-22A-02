@@ -27,8 +27,9 @@
 - [ ] Sedric - Wikipedia :timer_clock:
 - [ ] Steeve - NextCloud :timer_clock:
 - [ ] Bandiougou - MediaWiki :timer_clock:
-- [ ] Soumaila - Mediawiki 
-- [ ] Ahmadou - Nextcloud
+- [ ] Soumaila - Mediawiki :timer_clock:
+- [ ] Tazer - MediaWiki :timer_clock:
+- [ ] Ahmadou - Nextcloud :question:
 
 ## :ab: Projets
 
