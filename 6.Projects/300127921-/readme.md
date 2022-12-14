@@ -17,17 +17,17 @@ Pour installer mediawiki suivez les étapes suivantes:
 ...
 
 Tout d'abord mettons à jour la base des donnes des paquets en executant la commande suivante:
-~~~
 
-Sudo apt update
-~~~
+```
+sudo apt update
+```
 
 
 1 Installer Apache2 en executant la commnade suivante:
-~~~
 
-sudo apt -y installer apache2!
-~~~
+```
+sudo apt -y install apache2
+```
 
 
 
