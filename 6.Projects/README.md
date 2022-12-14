@@ -23,6 +23,7 @@
 - [ ] Sara - NextCloud
 - [ ] Franklin - NextCloud
 - [ ] Rafik - WikiMedia :tada:
+- [ ] Pasmi - Wikimedia :heavy_check_mark:
 
 ## :ab: Projets
 
