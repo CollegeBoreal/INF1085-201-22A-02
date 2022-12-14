@@ -3,9 +3,9 @@
 
 
 
-
+```
 I- Définition Médiawiki:
-
+```
 
 Le terme média désigne tout moyen de distribution, de diffusion ou de communication interpersonnelle, de masse ou de groupe, d'œuvres, de documents, ou de messages écrits, visuels, sonores ou audiovisuels (comme la radio, la télévision, le cinéma, Internet, la presse, les télécommunications, etc.) Ce terme est souvent utilisé comme l'abréviation du terme anglais mass-media ou médias de masse en français.
 
