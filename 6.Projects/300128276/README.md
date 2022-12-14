@@ -20,9 +20,9 @@ II-  Les Etape de l'installation:
 Pour l'installation de l'Apache
 
 
-
+```
 sudo apt -y install apache2
-
+```
 
 
 Apres je desactive les liste de repertoire
