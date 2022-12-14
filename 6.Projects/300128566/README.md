@@ -102,3 +102,7 @@ sudo a2enmod rewrite``
 ``sudo systemctl restart apache2.service``
 #
 # C'est tout l'installation et la configuration d'apache2
+#### Après tape ton adresse ip ou le hostname dans le navigateur pour voir ça.
+![image](https://user-images.githubusercontent.com/101542761/207720119-69e1491f-8bec-450d-a9a7-c44c9be2c1f1.png)
+
+
