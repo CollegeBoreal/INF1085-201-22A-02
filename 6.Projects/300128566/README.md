@@ -25,7 +25,9 @@
 #### Nous allons maintenant arrêter le service (s'il était précédemment activé), le démarrer et l'activer pour qu'il démarre après un redémarrage du système.
 ``sudo systemctl restart mariadb.service && sudo systemctl enable mariadb.service``
 #### Une fois MariaDB installée, nous sécuriserons notre installation.
-``sudo mysql_secure_installation``
+```
+sudo mysql_secure_installation
+```
 #### Nous serons invité à répondre aux questions suivantes. Assurez-vous de définir les options suivantes comme indiqué ci-dessous.
 ``Enter current password for root (enter for none): Press Enter
 Set root password? [Y/n]: Y
