@@ -24,7 +24,7 @@ Sudo apt update
 
 1 Installer Apache2 en executant la commnade suivante:
 
-sudo apt -y installer apache2![Screenshot (9)](https://user-images.githubusercontent.com/106841177/207717891-7d4c52e1-8cc4-493f-af33-4c3b7c8b6c69.png)
+sudo apt -y installer apache2!
 
 
 
@@ -140,4 +140,5 @@ Visitez votre nom d'hôte ou votre adresse IP pour démarrer la configuration de
 
 ![Screenshot (10)](https://user-images.githubusercontent.com/106841177/207718096-5ed9a6c0-5107-424b-baed-61f6761a1ba8.png)
 
+![Screenshot (9)](https://user-images.githubusercontent.com/106841177/207720817-5c317a20-8af1-4a79-b379-d3e3cb34821e.png)
 
