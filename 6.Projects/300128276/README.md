@@ -88,7 +88,7 @@ La configuration d'Apache et Mediawiki
 sudo vim /etc/apache2/sites-available/mediawiki.conf
 ```
 
-III-  QUelque images de l'installation
+III-  Quelque images de l'installation
 
 
 
