@@ -163,3 +163,6 @@ Visitez votre nom d'hôte ou votre adresse IP pour démarrer la configuration de
 
 ![Screenshot (9)](https://user-images.githubusercontent.com/106841177/207720817-5c317a20-8af1-4a79-b379-d3e3cb34821e.png)
 
+![Screenshot (7)](https://user-images.githubusercontent.com/106841177/207726191-302ac9d1-9942-4939-96f5-0e62653ae6fe.png)
+![Screenshot (7)](https://user-images.githubusercontent.com/106841177/207726317-3c867335-2d0e-4e67-88a1-5dfe0711659f.png)
+
