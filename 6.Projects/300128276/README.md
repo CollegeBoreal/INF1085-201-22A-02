@@ -76,6 +76,13 @@ cd /tmp && wget https://releases.wikimedia.org/mediawiki/1.34/mediawiki-core-1.3
 
 
 
+La configuration d'Apache et Mediawiki
+
+
+
+sudo vim /etc/apache2/sites-available/mediawiki.conf
+
+
 III-  QUelque images de l'installation
 
 
