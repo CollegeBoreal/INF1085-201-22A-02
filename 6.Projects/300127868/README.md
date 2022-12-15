@@ -52,9 +52,9 @@
 
 
 ```
-CREATE USER 'nextcloud'@'localhost' IDENTIFIED BY 'passw@rd';
+CREATE USER 'mellonassinam'@'localhost' IDENTIFIED BY 'passw@rd';
 CREATE DATABASE IF NOT EXISTS nextcloud CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextcloud'@'localhost';
+GRANT ALL PRIVILEGES ON nextcloud.* TO 'mellonassinam'@'localhost';
 FLUSH PRIVILEGES;
 quit;
 ```
@@ -98,7 +98,7 @@ $CONFIG = array (
   'trusted_domains' =>
   array (
     0 => 'localhost',
-    1 => 'nc.mailserverguru.com', // we added this line
+    1 => 'mellon1', // we added this line
   ),
   'datadirectory' => '/var/www/html/data',
   'dbtype' => 'mysql',
