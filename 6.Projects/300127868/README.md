@@ -7,5 +7,6 @@
 3. Run the Nextcloud Setup From the Command Line.
 
 
-
+```
 # apt update && apt upgrade
+```
