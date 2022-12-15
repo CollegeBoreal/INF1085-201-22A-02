@@ -165,7 +165,7 @@ sudo a2dissite 000-default.conf
 
 ![image](https://user-images.githubusercontent.com/97314948/207788361-0a3dd48d-de46-438c-bfca-a1360b86b49c.png)
 
-J'ai eu quelque probleme avec la configuration car apache n'est pas activer sur mon  serveur..donc ces commandes ne marche pas cheez moi 
+J'ai eu quelque probleme avec la configuration car apache n'est pas activer sur mon  serveur..donc ces commandes ne marche pas chez moi 
 ```
 sudo a2ensite mediawiki.conf
 ```
