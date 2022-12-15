@@ -1,4 +1,4 @@
-##Comment - effacer ou réinitialiser une NVRAM :
+# Comment - effacer ou réinitialiser une NVRAM :
 ```
 
 -éteindre le serveur
