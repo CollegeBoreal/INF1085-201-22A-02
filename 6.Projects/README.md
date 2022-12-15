@@ -30,6 +30,8 @@
 - [ ] Soumaila - Mediawiki :timer_clock:
 - [ ] Tazer - MediaWiki :timer_clock:
 - [ ] Ahmadou - Nextcloud :question:
+- [ ] Chakib - TroubleShooting 
+- [ ] Mouad - TroubleShooting
 
 ## :ab: Projets
 
