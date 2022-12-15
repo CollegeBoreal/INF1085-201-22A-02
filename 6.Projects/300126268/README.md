@@ -124,6 +124,81 @@ sudo mv mediawiki-1.38.4/* /var/www/html/mediawiki
 sudo chown -R www-data:www-data /var/www/html/mediawiki/ && sudo chmod -R 777 /var/www/html/mediawiki/
 ```
 ### D- Configurer MediaWiki
-Maintenant, nous allons mettre MediaWiki en marche. Dirigez votre navigateur vers :
-http://10.13.237.36/mediawiki
-Cliquez ensuite sur le lien.
+Maintenant, nous allons mettre MediaWiki en marche. 
+
+créer un fichier de configuration dans Apache2.
+```
+sudo vim /etc/apache2/sites-available/mediawiki.conf
+```
+Vous pouvez maintenant configurer votre fichier mediawiki.conf comme indiqué ci-dessous.
+```
+<VirtualHost *:80>
+  ServerAdmin email@email.com
+  DocumentRoot /var/www/html/mediawiki
+  ServerName wikiserver
+  
+  <Directory /var/www/html/mediawiki/>
+    Options +FollowSymlinks
+    AllowOverride All
+    Require all granted
+  </Directory>
+
+  ErrorLog ${APACHE_LOG_DIR}/error.log
+  CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+  <Directory /var/www/html/mediawiki/images/>
+    AllowOverride None
+    AddType text/plain .html .htm .shtml .phtml
+    php_admin_flag engine off
+  </Directory>
+</virtualhost>
+```
+
+Maintenant, enregistrez votre fichier et quittez.
+```
+:wq!
+```
+Activez votre nouveau fichier de configuration et activez la réécriture.
+```
+sudo a2dissite 000-default.conf
+```
+
+![image](https://user-images.githubusercontent.com/97314948/207788361-0a3dd48d-de46-438c-bfca-a1360b86b49c.png)
+
+J'ai eu quelque probleme avec la configuration car apache n'est pas activer sur mon  serveur..donc ces commandes ne marche pas cheez moi 
+```
+sudo a2ensite mediawiki.conf
+```
+```
+sudo a2enmod rewrite
+```
+
+Redémarrez Apache2 pour recharger tous les paramètres et configurations.
+```
+sudo systemctl restart apache2.service
+```
+
+![image](https://user-images.githubusercontent.com/97314948/207789074-83348b04-b709-4d0f-9c94-dd7705fb5058.png)
+
+
+![image](https://user-images.githubusercontent.com/97314948/207789204-e3b19f76-a530-4918-8b62-c8225879273d.png)
+
+
+                                              POUR LA SUITE DE LA CONFIGURATION 
+Visitez votre nom d'hôte ou votre adresse IP pour démarrer la configuration de MediaWiki, et appuyez sur "configurer le wiki" pour commencer.
+
+Entrez le nom de votre base de données (mediawiki) et le nom d'utilisateur/mot de passe (mwadmin, mot de passe). Sélectionnez "utiliser le même compte que pour l'installation" (mwadmin). Définissez le nom de votre serveur et créez un compte administrateur. Finalisez votre configuration et téléchargez le fichier LocalSettings.php.
+
+Transférez le fichier LocalSettings.php de votre hôte vers le répertoire racine wikiservers mediawiki en faisant une copie.
+
+```
+scp /Downloads/LocalSettings.php username@IPAddressORHostname:/var/www/html/mediawiki
+```
+
+Ajustez la propriété et les autorisations du fichier LocalSettings.php.
+
+```
+chown www-data:www-data LocalSettings.php && chmod 755 LocalSettings.php
+```
+
+
