@@ -114,14 +114,14 @@ CREATE DATABASE mediawiki;
 
 
 ```
-CREATE USER 'mwadmin'@'localhost' IDENTIFIED BY 'enterYourPassword';
+CREATE USER 'ballo91'@'localhost' IDENTIFIED BY 'maimouna';
 ```
 
 ![12 eme commande](https://user-images.githubusercontent.com/113144317/207781345-998b888d-68b7-4e0a-9507-fbf3d19a82ed.png)
 
 
 ```
-GRANT ALL ON mediawiki.* TO 'mwadmin'@'localhost' IDENTIFIED BY 'YourPassword' WITH GRANT OPTION;
+GRANT ALL ON mediawiki.* TO 'ballo91'@'localhost' IDENTIFIED BY 'maimouna' WITH GRANT OPTION;
 ```
 
 
