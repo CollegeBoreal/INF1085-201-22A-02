@@ -1,4 +1,6 @@
-Comment - effacer ou réinitialiser une NVRAM :
+##Comment - effacer ou réinitialiser une NVRAM :
+```
+
 -éteindre le serveur
 -débrancher les prises d'alimentation
 -ouvrir le serveur
