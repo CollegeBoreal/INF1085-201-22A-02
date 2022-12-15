@@ -1,4 +1,4 @@
-# Participation au 13-12-2022 15:26
+# Participation au 15-12-2022 10:24
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -18,7 +18,7 @@
 |------|----------------------------|-------------|------------------------|
 | 0 | [100027015](../100027015) - <image src='https://avatars0.githubusercontent.com/u/97314874?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../100027015/README.md) | :tada: - ssh steeve@localhost.techstudentguide.software |
 | 1 | [100028762](../100028762) - <image src='https://avatars0.githubusercontent.com/u/96226008?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../100028762/README.md) | :tada: - ssh madmax@localhost.studiopolaris.games |
-| 2 | [300119623](../300119623) - <image src='https://avatars0.githubusercontent.com/u/97314467?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300119623/README.md) | :tada: - ssh mariodeg@localhost.mariode.tech |
+| 2 | [300119623](../300119623) - <image src='https://avatars0.githubusercontent.com/u/97314467?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300119623/README.md) | :x: - ssh mariodeg@localhost.mariode.tech |
 | 3 | [300120726](../300120726) - <image src='https://avatars0.githubusercontent.com/u/105461057?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300120726/README.md) | :x: - ssh pasmibalayi@localhost.pasmibalayi.tech |
 | 4 | [300123679](../300123679) - <image src='https://avatars0.githubusercontent.com/u/105458655?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300123679/README.md) | :tada: - ssh hugopo1@localhost.hugopo1.tech |
 | 5 | [300124074](../300124074) - <image src='https://avatars0.githubusercontent.com/u/97147101?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300124074/README.md) | :x: - ssh koinaag@localhost.ahmadoukoina.tech |
@@ -36,8 +36,8 @@
 | 17 | [300127065](../300127065) - <image src='https://avatars0.githubusercontent.com/u/97314712?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300127065/README.md) | :x: - ssh salimata1@localhost.salimatap.live |
 | 18 | [300127290](../300127290) - <image src='https://avatars0.githubusercontent.com/u/105463700?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300127290/README.md) | :x: - ssh sara@localhost.altayasara.tech |
 | 19 | [300127868](../300127868) - <image src='https://avatars0.githubusercontent.com/u/113466237?s=460&v=4' width=20 height=20></image> | :x: | :x: - ssh mellon1@localhost.nil |
-| 20 | [300127921](../300127921) - <image src='https://avatars0.githubusercontent.com/u/106841177?s=460&v=4' width=20 height=20></image> | :x: | :x: - ssh tazere96@localhost.nil |
+| 20 | [300127921](../300127921) - <image src='https://avatars0.githubusercontent.com/u/106841177?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300127921/README.md) | :x: - ssh tazere96@localhost.nil |
 | 21 | [300128276](../300128276) - <image src='https://avatars0.githubusercontent.com/u/113144317?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300128276/README.md) | :x: - ssh ballo78@localhost.nil |
-| 22 | [300128326](../300128326) - <image src='https://avatars0.githubusercontent.com/u/105472970?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300128326/README.md) | :x: - ssh mamadou@localhost.mamadou.tech |
+| 22 | [300128326](../300128326) - <image src='https://avatars0.githubusercontent.com/u/105472970?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300128326/README.md) | :tada: - ssh mamadou@localhost.mamadou.tech |
 | 23 | [300128566](../300128566) - <image src='https://avatars0.githubusercontent.com/u/101542761?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300128566/README.md) | :x: - ssh diarra1@localhost.nil |
 | 24 | [300128694](../300128694) - <image src='https://avatars0.githubusercontent.com/u/105947276?s=460&v=4' width=20 height=20></image> | [:heavy_check_mark:](../300128694/README.md) | :tada: - ssh walid@localhost.walidue.tech |
