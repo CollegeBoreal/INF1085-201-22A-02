@@ -21,7 +21,7 @@
 | 2 | 300119623 - <image src='https://avatars.githubusercontent.com/u/97314467?s=460&v=4' width=20 height=20></image> | `ssh mariodeg@10.13.237.13` | :tada: |
 | 3 | 300120726 - <image src='https://avatars.githubusercontent.com/u/105461057?s=460&v=4' width=20 height=20></image> | `ssh pasmibalayi@10.13.237.17` | :tada: |
 | 4 | 300123679 - <image src='https://avatars.githubusercontent.com/u/105458655?s=460&v=4' width=20 height=20></image> | `ssh hugopo1@10.13.237.30` | :tada: |
-| 5 | 300124074 - <image src='https://avatars.githubusercontent.com/u/97147101?s=460&v=4' width=20 height=20></image> | `ssh koinaag@10.13.237.32` | :x: |
+| 5 | 300124074 - <image src='https://avatars.githubusercontent.com/u/97147101?s=460&v=4' width=20 height=20></image> | `ssh koinaag@10.13.237.32` | :tada: |
 | 6 | 300124734 - <image src='https://avatars.githubusercontent.com/u/94937145?s=460&v=4' width=20 height=20></image> | `ssh superzaf@10.13.237.45` | :tada: |
 | 7 | 300124863 - <image src='https://avatars.githubusercontent.com/u/97644305?s=460&v=4' width=20 height=20></image> | `ssh memedlebleu@10.13.237.26` | :tada: |
 | 8 | 300124876 - <image src='https://avatars.githubusercontent.com/u/98238582?s=460&v=4' width=20 height=20></image> | `ssh hafsa6@10.13.237.28` | :x: |
